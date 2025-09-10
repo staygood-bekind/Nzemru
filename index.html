@@ -8,46 +8,38 @@
 </head>
 <body class="is-preload">
 
-  <!-- Header / Hamburger Menu -->
-  <header id="header">
-    <h1>Eventually</h1>
-    <p>Welcome to our site.</p>
+  <!-- Sidebar Menu -->
+  <div id="sidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a href="mezmur.html">መዝሙር</a>
+    <a href="xelot.html">ጸሎት</a>
+    <a href="mahlie.html">ማህሌት</a>
+    <a href="settings.html">Settings</a>
+  </div>
 
-    <nav>
-      <div class="hamburger" onclick="toggleMenu()">☰ Menu</div>
-      <ul id="menuList">
-        <li><a href="mezmur.html" target="pageFrame">መዝሙር</a></li>
-        <li><a href="xelot.html" target="pageFrame">ጸሎት</a></li>
-        <li><a href="mahlie.html" target="pageFrame">ማህሌት</a></li>
-        <li><a href="settings.html" target="pageFrame">Settings</a></li>
-      </ul>
-    </nav>
+  <!-- Topbar / Hamburger button -->
+  <div id="topbar">
+    <span class="hamburger" onclick="openNav()">☰ Menu</span>
 
-    <!-- Back & Forward Buttons -->
     <div class="nav-buttons">
-      <button class="button" onclick="goBack()">⟨ Back</button>
-      <button class="button" onclick="goForward()">Forward ⟩</button>
+      <button class="button" onclick="history.back()">⟨ Back</button>
+      <button class="button" onclick="history.forward()">Forward ⟩</button>
     </div>
-  </header>
+  </div>
 
-  <!-- Content Container -->
-  <iframe name="pageFrame" src="mezmur.html" style="width:100%;height:80vh;border:none;"></iframe>
+  <!-- Page Content -->
+  <div id="content">
+    <h1>Welcome!</h1>
+    <p>Choose a section from the menu.</p>
+  </div>
 
   <script>
-    // Hamburger toggle
-    function toggleMenu() {
-      const menu = document.getElementById('menuList');
-      menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+    function openNav() {
+      document.getElementById("sidebar").style.width = "250px";
     }
 
-    // Back & Forward Buttons
-    function goBack() {
-      const iframe = document.querySelector('iframe[name="pageFrame"]');
-      iframe.contentWindow.history.back();
-    }
-    function goForward() {
-      const iframe = document.querySelector('iframe[name="pageFrame"]');
-      iframe.contentWindow.history.forward();
+    function closeNav() {
+      document.getElementById("sidebar").style.width = "0";
     }
   </script>
 
