@@ -202,3 +202,77 @@ body.light-mode .nav-buttons .button:hover {
     font-size: 1em;
   }
 }
+
+/* Sidebar */
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.3s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 10px 25px;
+  text-decoration: none;
+  font-size: 1.25em;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #1cb495;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 36px;
+}
+
+/* Topbar */
+#topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+  background: #1c1c1c;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 998;
+}
+
+.hamburger {
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+/* Page content pushed down below topbar */
+#content {
+  padding: 5em 2em 2em 2em;
+}
+
+/* Nav Buttons styling (back/forward) */
+.nav-buttons .button {
+  background: #1cb495;
+  color: #fff;
+  border-radius: 8px;
+  padding: 0.5em 1em;
+  margin-left: 1em;
+  cursor: pointer;
+  border: none;
+  transition: 0.3s;
+}
+
+.nav-buttons .button:hover {
+  background: #15997d;
+}
+
