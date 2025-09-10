@@ -153,6 +153,34 @@ input:checked + .slider:before {
   vertical-align: middle;
 }
 
+/* Dark Mode */
+body.dark-mode {
+  background-color: #111 !important;
+  color: #fff;
+}
+
+body.dark-mode a {
+  color: #1cb495;
+}
+
+body.dark-mode input,
+body.dark-mode textarea,
+body.dark-mode select {
+  background-color: rgba(255,255,255,0.1);
+  border-color: #1cb495;
+  color: #fff;
+}
+
+body.dark-mode .button {
+  background-color: #1cb495;
+  color: #fff;
+}
+
+body.dark-mode .button:hover {
+  background-color: #15997d;
+}
+
+
 /* ========================
    Back & Forward Buttons
    ======================== */
@@ -275,4 +303,5 @@ body.light-mode .nav-buttons .button:hover {
 .nav-buttons .button:hover {
   background: #15997d;
 }
+
 
