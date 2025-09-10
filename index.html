@@ -12,8 +12,9 @@
         top: 20px;
         right: 20px;
         cursor: pointer;
-        font-size: 24px;
+        font-size: 28px;
         z-index: 1000;
+        color: white;
       }
 
       nav {
@@ -26,12 +27,16 @@
         color: #fff;
         padding-top: 60px;
         transition: right 0.3s ease;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
       }
 
       nav ul {
         list-style: none;
         padding: 0;
         margin: 0;
+        flex-grow: 1;
       }
 
       nav ul li {
@@ -47,6 +52,11 @@
 
       nav.active {
         right: 0;
+      }
+
+      /* Settings stays at bottom */
+      .settings {
+        margin-bottom: 30px;
       }
     </style>
   </head>
@@ -64,10 +74,12 @@
     <!-- Navigation Menu -->
     <nav id="menu">
       <ul>
-        <li><a href="#">Mezmur</a></li>
-        <li><a href="#">Xelot</a></li>
-        <li><a href="#">Mahliet</a></li>
-        <li><a href="#">Settings</a></li>
+        <li><a href="mezmur.html">Mezmur</a></li>
+        <li><a href="xelot.html">Xelot</a></li>
+        <li><a href="mahliet.html">Mahliet</a></li>
+      </ul>
+      <ul class="settings">
+        <li><a href="settings.html">Settings</a></li>
       </ul>
     </nav>
 
