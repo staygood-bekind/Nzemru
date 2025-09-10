@@ -21,22 +21,44 @@
     p {
       font-size: 20px;
     }
+
+    <style>
+  body {
+    font-family: 'Noto Sans Ethiopic', sans-serif;
+    transition: background 0.3s, color 0.3s;
+    background: #fff;
+    color: #000;
+  }
+
+  body.dark-mode {
+    background: #111;
+    color: #fff;
+  }
+</style>
+
   </style>
 </head>
+  <script>
+  // Apply saved theme on page load
+  if (localStorage.getItem("theme") === "dark") {
+    document.body.classList.add("dark-mode");
+  }
+</script>
+
 <body>
   <header id="header">
     <h1>ኣብዚ ዘብጻሕካኒ ንስካ ኢኻ</h1>
-    <p> ኣብዚ ዘብጽሕካኒ ንስኻ ኢኻ አብዚ
-          ኣብዚ ዝበጻሕኩ በኣኻ’ዩ አብዚ
-          ነየናይ ጀሚረ ነየናይ ክገድፎ 
-          ዝገበረካለይ ብዙሕ’ዩ ጸብጺበ ኣይቆጽሮን
-          ምስጋናይ ዘሎኒ ነዓኻ ስለቲ ሰናይ’ካ
+    <p> ኣብዚ ዘብጽሕካኒ ንስኻ ኢኻ አብዚ</p>
+          <p>ኣብዚ ዝበጻሕኩ በኣኻ’ዩ አብዚ</p>
+         <p> ነየናይ ጀሚረ ነየናይ ክገድፎ</p>
+       <p>   ዝገበረካለይ ብዙሕ’ዩ ጸብጺበ ኣይቆጽሮን</p>
+        <p>  ምስጋናይ ዘሎኒ ነዓኻ ስለቲ ሰናይ’ካ</p>
 
-1. ኣበይ ምሃለኹ ተዘይትሓስበኒ
-   ካብ ጎደፍ አልዒልካ
-   ዙፋን ክብሪ ተዘይተውርሰኒ
-   ብሂግካኒ ኢኻ እሞ ኣናጊፍካኒ 
-   ንቁም ነገር ኮይነ ሰብ ጌርካኒ
+<p>1. ኣበይ ምሃለኹ ተዘይትሓስበኒ</p>
+<p>   ካብ ጎደፍ አልዒልካ</p>
+<p>   ዙፋን ክብሪ ተዘይተውርሰኒ</p>
+<p>   ብሂግካኒ ኢኻ እሞ ኣናጊፍካኒ</p>
+<p>   ንቁም ነገር ኮይነ ሰብ ጌርካኒ</p>
 
             2. ኦሮማይ ዝተባህሎ ሓወልቲ ዝተዘርኦ
                  ክንደይ ዘይተሓልፈ በረኽቲ ስምጭሮ
