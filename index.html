@@ -5,6 +5,136 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Eventually</title>
   <link rel="stylesheet" href="assets/css/main.css" />
+  <style>
+    /* Global font (Ge'ez) */
+    body {
+      font-family: 'Noto Sans Ethiopic', sans-serif;
+      margin: 0;
+      padding: 0;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    body.dark-mode {
+      background: #111;
+      color: #fff;
+    }
+
+    /* Sidebar Menu */
+    .sidebar {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1000;
+      top: 0;
+      left: 0;
+      background-color: #111;
+      overflow-x: hidden;
+      transition: 0.3s;
+      padding-top: 60px;
+    }
+
+    .sidebar a {
+      padding: 10px 30px;
+      text-decoration: none;
+      font-size: 18px;
+      color: #fff;
+      display: block;
+      transition: 0.3s;
+    }
+
+    .sidebar a:hover {
+      background-color: #1cb495;
+      color: #fff;
+    }
+
+    .sidebar .closebtn {
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      font-size: 36px;
+    }
+
+    /* Topbar / Hamburger */
+    #topbar {
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      z-index: 1100;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .hamburger {
+      font-size: 28px;
+      cursor: pointer;
+      padding: 8px 12px;
+      background: #1cb495;
+      border-radius: 8px;
+      color: #fff;
+      user-select: none;
+      transition: 0.3s;
+    }
+
+    .hamburger:hover {
+      background: #15997d;
+    }
+
+    .nav-buttons button {
+      margin-left: 5px;
+      padding: 6px 12px;
+      font-size: 14px;
+      border-radius: 6px;
+      border: none;
+      cursor: pointer;
+      background: #1cb495;
+      color: #fff;
+      transition: 0.3s;
+    }
+
+    .nav-buttons button:hover {
+      background: #15997d;
+    }
+
+    body.dark-mode .hamburger,
+    body.dark-mode .nav-buttons button {
+      background: #1fcaa7;
+      color: #111;
+    }
+
+    body.dark-mode .hamburger:hover,
+    body.dark-mode .nav-buttons button:hover {
+      background: #14a689;
+    }
+
+    /* Content */
+    #content {
+      padding: 80px 20px 20px 20px; /* leave space for topbar */
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+
+    @media screen and (max-width: 480px) {
+      .hamburger {
+        font-size: 24px;
+        padding: 6px 10px;
+      }
+      .nav-buttons button {
+        font-size: 12px;
+        padding: 5px 10px;
+      }
+      #content {
+        padding: 100px 15px 15px 15px;
+      }
+    }
+  </style>
 </head>
 <body class="is-preload">
 
@@ -17,13 +147,12 @@
     <a href="settings.html">Settings</a>
   </div>
 
-  <!-- Topbar / Hamburger button -->
+  <!-- Topbar -->
   <div id="topbar">
-    <span class="hamburger" onclick="openNav()">☰ Menu</span>
-
+    <span class="hamburger" onclick="openNav()">☰</span>
     <div class="nav-buttons">
-      <button class="button" onclick="history.back()">⟨ Back</button>
-      <button class="button" onclick="history.forward()">Forward ⟩</button>
+      <button onclick="history.back()">⟨ Back</button>
+      <button onclick="history.forward()">Forward ⟩</button>
     </div>
   </div>
 
@@ -34,6 +163,7 @@
   </div>
 
   <script>
+    // Sidebar open/close
     function openNav() {
       document.getElementById("sidebar").style.width = "250px";
     }
@@ -41,7 +171,11 @@
     function closeNav() {
       document.getElementById("sidebar").style.width = "0";
     }
-  </script>
 
+    // Load dark mode if saved
+    if (localStorage.getItem("theme") === "dark") {
+      document.body.classList.add("dark-mode");
+    }
+  </script>
 </body>
 </html>
