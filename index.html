@@ -1,46 +1,98 @@
 <!DOCTYPE HTML>
-<!--
-	Eventually by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
-	<head>
-		<title>Eventually by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+  <head>
+    <title>Eventually by HTML5 UP</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+      /* Hamburger Menu Styling */
+      .menu-toggle {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;
+        font-size: 24px;
+        z-index: 1000;
+      }
 
-		<!-- Header -->
-			<header id="header">
-				<h1>Eventually</h1>
-				<p>A simple template for telling the world when you'll launch<br />
-				your next big thing. Brought to you by <a href="http://html5up.net">HTML5 UP</a>.</p>
-			</header>
+      nav {
+        position: fixed;
+        top: 0;
+        right: -250px;
+        width: 250px;
+        height: 100%;
+        background: #111;
+        color: #fff;
+        padding-top: 60px;
+        transition: right 0.3s ease;
+      }
 
-		<!-- Signup Form -->
-			<form id="signup-form" method="post" action="#">
-				<input type="email" name="email" id="email" placeholder="Email Address" />
-				<input type="submit" value="Sign Up" />
-			</form>
+      nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
 
-		<!-- Footer -->
-			<footer id="footer">
-				<ul class="icons">
-					<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-					<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-					<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-					<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
-				</ul>
-				<ul class="copyright">
-					<li>&copy; Untitled.</li><li>Credits: <a href="http://html5up.net">HTML5 UP</a></li>
-				</ul>
-			</footer>
+      nav ul li {
+        margin: 20px 0;
+        text-align: center;
+      }
 
-		<!-- Scripts -->
-			<script src="assets/js/main.js"></script>
+      nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 18px;
+      }
 
-	</body>
+      nav.active {
+        right: 0;
+      }
+    </style>
+  </head>
+  <body class="is-preload">
+    <!-- Header -->
+    <header id="header">
+      <h1>Eventually</h1>
+      <p>A simple template to showcase your next big thing.<br />
+      Brought to you by <a href="http://html5up.net">HTML5 UP</a>.</p>
+    </header>
+
+    <!-- Hamburger Icon -->
+    <div class="menu-toggle">&#9776;</div>
+
+    <!-- Navigation Menu -->
+    <nav id="menu">
+      <ul>
+        <li><a href="#">Mezmur</a></li>
+        <li><a href="#">Xelot</a></li>
+        <li><a href="#">Mahliet</a></li>
+        <li><a href="#">Settings</a></li>
+      </ul>
+    </nav>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <ul class="icons">
+        <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+        <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+        <li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+        <li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+      </ul>
+      <ul class="copyright">
+        <li>&copy; Untitled.</li><li>Credits: <a href="http://html5up.net">HTML5 UP</a></li>
+      </ul>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+      const toggle = document.querySelector('.menu-toggle');
+      const menu = document.querySelector('#menu');
+
+      toggle.addEventListener('click', () => {
+        menu.classList.toggle('active');
+      });
+    </script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
