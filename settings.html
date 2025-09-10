@@ -6,12 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
   <link rel="stylesheet" href="assets/css/main.css" />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Ethiopic&display=swap" rel="stylesheet">
-
+  
   <style>
+    /* Base Styles */
     body {
       font-family: 'Noto Sans Ethiopic', sans-serif;
       text-align: center;
-      padding: 40px;
+      padding: 40px 20px;
       transition: background 0.3s, color 0.3s;
       background: #fff;
       color: #000;
@@ -22,17 +23,28 @@
       color: #fff;
     }
 
-    h1 {
+    header h1 {
       font-size: 36px;
+      margin-bottom: 10px;
     }
 
+    header p {
+      font-size: 18px;
+      color: rgba(0,0,0,0.7);
+    }
+
+    body.dark-mode header p {
+      color: rgba(255,255,255,0.7);
+    }
+
+    /* Toggle Button */
     .toggle-container {
       margin-top: 40px;
     }
 
     .toggle-btn {
       cursor: pointer;
-      padding: 10px 20px;
+      padding: 12px 25px;
       border-radius: 25px;
       border: none;
       font-size: 18px;
@@ -46,20 +58,50 @@
       color: #111;
     }
 
-    <style>
-  body {
-    font-family: 'Noto Sans Ethiopic', sans-serif;
-    transition: background 0.3s, color 0.3s;
-    background: #fff;
-    color: #000;
-  }
+    /* Back & Forward Buttons */
+    .nav-buttons {
+      margin-top: 60px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
 
-  body.dark-mode {
-    background: #111;
-    color: #fff;
-  }
-</style>
+    .nav-btn {
+      padding: 10px 25px;
+      font-size: 16px;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+      background: #1cb495;
+      color: #fff;
+      transition: 0.3s;
+    }
 
+    .nav-btn:hover {
+      background: #15997d;
+    }
+
+    body.dark-mode .nav-btn {
+      background: #1fcaa7;
+      color: #111;
+    }
+
+    body.dark-mode .nav-btn:hover {
+      background: #14a689;
+    }
+
+    @media screen and (max-width: 480px) {
+      header h1 {
+        font-size: 28px;
+      }
+      header p {
+        font-size: 16px;
+      }
+      .toggle-btn, .nav-btn {
+        font-size: 16px;
+        padding: 10px 20px;
+      }
+    }
   </style>
 </head>
 <body>
@@ -71,6 +113,12 @@
   <!-- Dark/Light Mode Toggle -->
   <div class="toggle-container">
     <button class="toggle-btn" id="modeToggle">🌙 Dark Mode</button>
+  </div>
+
+  <!-- Back & Forward Buttons -->
+  <div class="nav-buttons">
+    <button onclick="history.back()" class="nav-btn">⬅️ Back</button>
+    <button onclick="history.forward()" class="nav-btn">Forward ➡️</button>
   </div>
 
   <script>
@@ -97,10 +145,3 @@
   </script>
 </body>
 </html>
-
-<!-- Back & Forward Buttons -->
-<div class="nav-buttons">
-  <button onclick="history.back()" class="nav-btn">⬅️ Back</button>
-  <button onclick="history.forward()" class="nav-btn">Forward ➡️</button>
-</div>
-
