@@ -4,7 +4,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <title>Lyric Site — Dark / Light + Sidebar</title>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Caveat&display=swap" rel="stylesheet">
 
 <style>
 :root{
@@ -17,6 +17,8 @@
 }
 html,body{height:100%;margin:0;font-family:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
 background:var(--bg);color:var(--text);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+/* Caveat font for English text */
+.eng-text { font-family: 'Caveat', cursive; }
 .topbar{position:fixed;top:0;left:0;right:0;height:64px;display:flex;align-items:center;justify-content:space-between;
 padding:0 18px;gap:12px;background:linear-gradient(180deg, rgba(0,0,0,0.03), transparent);box-shadow:var(--shadow);z-index:40;backdrop-filter: blur(6px);}
 .brand{display:flex;align-items:center;gap:12px;}
@@ -66,6 +68,7 @@ box-shadow:0 6px 18px rgba(59,130,246,0.12);}
 #closeModal{position:absolute;top:12px;right:12px;border:none;background:transparent;font-size:24px;cursor:pointer;}
 @media (max-width:880px){.sidebar { width:260px; }.main { padding-left:18px; padding-right:18px; }.brand .title { display:none; }}
 @media (max-width:560px){.topbar{padding:0 12px;}}
+
 #modalContent { white-space: pre-wrap; line-height:1.6; }
 </style>
 </head>
@@ -128,7 +131,22 @@ box-shadow:0 6px 18px rgba(59,130,246,0.12);}
   </div>
 </div>
 
-<script src="lyrics.js"></script>
+<script>
+// ===== Sample lyricsData with 64 songs =====
+const lyricsData = {};
+for(let i=1;i<=64;i++){
+  lyricsData['song'+i] = {
+    title: { tig: `ናይ ሶንግ ${i}`, eng: `Song ${i}` },
+    author: { tig: "ሴም ፡ ኣድያም", eng: "Sem Adiam" },
+    album: { tig: "ንስል", eng: "Nsil" },
+    genre: { tig: "ምስጋና", eng: "Praise" },
+    date: `2023-03-${i<10?'0'+i:i}`,
+    tig: `${i}ናይ ሶንግ ${i} ትርጉም ...`,
+    eng: `${i} Song ${i} lyrics ...`
+  };
+}
+</script>
+
 <script>
 (function(){
 const body = document.body;
@@ -193,11 +211,11 @@ updateSongCount();
 cards.forEach(card=>{
   card.addEventListener('click', ()=>{
     currentCard = card;
-    currentLang = primaryLang; // sync with primary
+    currentLang = primaryLang;
     langBtn.textContent=currentLang.toUpperCase();
     const id = card.dataset.id;
-    modalTitle.textContent = lyricsData[id].title[currentLang];
-    modalContent.textContent = lyricsData[id][currentLang];
+    modalTitle.innerHTML = currentLang==='eng'?`<span class="eng-text">${lyricsData[id].title.eng}</span>`:lyricsData[id].title[currentLang];
+    modalContent.innerHTML = currentLang==='eng'?`<span class="eng-text">${lyricsData[id].eng}</span>`:lyricsData[id][currentLang];
     lyricModal.style.display='flex';
     tagBtn.textContent = card.classList.contains('taged')?'Untag':'Tag';
   });
@@ -214,8 +232,8 @@ langBtn.addEventListener('click',()=>{
   if(!currentCard) return;
   const id=currentCard.dataset.id;
   currentLang = currentLang==='tig'?'eng':'tig';
-  modalTitle.textContent = lyricsData[id].title[currentLang];
-  modalContent.textContent = lyricsData[id][currentLang];
+  modalTitle.innerHTML = currentLang==='eng'?`<span class="eng-text">${lyricsData[id].title.eng}</span>`:lyricsData[id].title[currentLang];
+  modalContent.innerHTML = currentLang==='eng'?`<span class="eng-text">${lyricsData[id].eng}</span>`:lyricsData[id][currentLang];
   langBtn.textContent=currentLang.toUpperCase();
 });
 
@@ -229,16 +247,16 @@ primaryAction.addEventListener('click', ()=>{
   cards.forEach(card=>{
     const id = card.dataset.id;
     const song = lyricsData[id];
-    card.querySelector('h3').textContent = song.title[primaryLang];
-    card.querySelector('p:nth-child(2)').textContent = 'Author: '+song.author[primaryLang];
-    card.querySelector('p:nth-child(3)').textContent = 'Album: '+song.album[primaryLang];
-    card.querySelector('p:nth-child(4)').textContent = 'Genre: '+song.genre[primaryLang];
+    card.querySelector('h3').innerHTML = primaryLang==='eng'?`<span class="eng-text">${song.title.eng}</span>`:song.title[primaryLang];
+    card.querySelector('p:nth-child(2)').innerHTML = 'Author: '+(primaryLang==='eng'?`<span class="eng-text">${song.author.eng}</span>`:song.author[primaryLang]);
+    card.querySelector('p:nth-child(3)').innerHTML = 'Album: '+(primaryLang==='eng'?`<span class="eng-text">${song.album.eng}</span>`:song.album[primaryLang]);
+    card.querySelector('p:nth-child(4)').innerHTML = 'Genre: '+(primaryLang==='eng'?`<span class="eng-text">${song.genre.eng}</span>`:song.genre[primaryLang]);
   });
   // Update modal if open
   if(currentCard){
     const id = currentCard.dataset.id;
-    modalTitle.textContent = lyricsData[id].title[primaryLang];
-    modalContent.textContent = lyricsData[id][primaryLang];
+    modalTitle.innerHTML = primaryLang==='eng'?`<span class="eng-text">${lyricsData[id].title.eng}</span>`:lyricsData[id].title[primaryLang];
+    modalContent.innerHTML = primaryLang==='eng'?`<span class="eng-text">${lyricsData[id].eng}</span>`:lyricsData[id][primaryLang];
     langBtn.textContent = primaryLang.toUpperCase();
   }
 });
