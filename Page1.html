@@ -21,8 +21,8 @@ background:var(--bg);color:var(--text);-webkit-font-smoothing:antialiased;-moz-o
 /* Caveat font for English text */
 .eng-text {
   font-family: 'Caveat', cursive;
-  font-size: 130%; /* Increase English font size */
-  font-weight: bold; /* Make text bold */
+  font-size: 130%;
+  font-weight: bold;
 }
 
 .topbar{position:fixed;top:0;left:0;right:0;height:64px;display:flex;align-items:center;justify-content:space-between;
@@ -43,8 +43,35 @@ box-shadow:0 6px 18px rgba(59,130,246,0.12);}
 .top-controls{display:flex;align-items:center;gap:12px;}
 .btn{border:1px solid rgba(0,0,0,0.06);background:var(--card);color:var(--text);padding:8px 12px;border-radius:8px;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;gap:8px;box-shadow:var(--shadow);}
 [data-theme="dark"] .btn{border:1px solid rgba(255,255,255,0.04);}
-.theme-toggle {display: inline-flex;align-items: center;gap: 8px;padding: 8px;border-radius: 8px;background: var(--accent);color: white;border: none;cursor: pointer;box-shadow: 0 4px 12px rgba(0,0,0,0.15);transition: transform 0.2s ease, box-shadow 0.2s ease;}
-.theme-toggle:hover {transform: scale(1.1);box-shadow: 0 6px 16px rgba(0,0,0,0.25);}
+
+/* NEW THEME TOGGLE BUTTON */
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: white;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: background 0.3s ease, transform 0.2s ease;
+  font-size: 18px;
+}
+.theme-toggle:hover {transform: scale(1.1); background: #2563eb;}
+.theme-toggle .icon {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+.theme-toggle .sun { opacity: 1; transform: rotate(0deg) scale(1); }
+[data-theme="dark"] .theme-toggle .sun { opacity: 0; transform: rotate(90deg) scale(0.5); }
+.theme-toggle .moon { opacity: 0; transform: rotate(-90deg) scale(0.5); }
+[data-theme="dark"] .theme-toggle .moon { opacity: 1; transform: rotate(0deg) scale(1); }
+
 .sidebar{position: fixed;top: 64px;left: 0;bottom: 0;width: 280px;transform: translateX(-320px);transition: transform .32s cubic-bezier(.2,.9,.2,1);background: var(--sidebar);padding:20px;box-shadow: 2px 0 18px rgba(2,6,23,0.06);z-index:35;overflow:auto;}
 .sidebar.open{transform: translateX(0);}
 .sidebar .side-brand{display:flex;align-items:center;gap:12px;margin-bottom:18px;}
@@ -83,15 +110,13 @@ box-shadow:0 6px 18px rgba(59,130,246,0.12);}
 <header class="topbar">
   <div class="brand">
     <button class="hamburger" id="hamburgerBtn"><span class="bars"><span></span><span></span><span></span></span></button>
-    <div class="logo"></div>
-    <div class="title">Lyric Site</div>
   </div>
   <div class="top-controls">
     <button class="btn" id="primaryAction">TIG</button>
+    <!-- NEW THEME TOGGLE -->
     <button class="theme-toggle" id="themeToggle">
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-        <circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="1.5"></circle>
-      </svg>
+      <span class="icon sun">☀️</span>
+      <span class="icon moon">🌙</span>
     </button>
   </div>
 </header>
@@ -159,6 +184,7 @@ const body = document.body;
 const themeToggle = document.getElementById('themeToggle');
 const userPref = localStorage.getItem('site-theme');
 if(userPref) body.setAttribute('data-theme', userPref);
+
 themeToggle.addEventListener('click', ()=>{ 
   const next = body.getAttribute('data-theme')==='dark'?'light':'dark';
   body.setAttribute('data-theme', next);
@@ -254,32 +280,24 @@ primaryAction.addEventListener('click', ()=>{
     const id = card.dataset.id;
     const song = lyricsData[id];
     card.querySelector('h3').innerHTML = primaryLang==='eng'?`<span class="eng-text">${song.title.eng}</span>`:song.title[primaryLang];
-    card.querySelector('p:nth-child(2)').innerHTML = 'Author: '+(primaryLang==='eng'?`<span class="eng-text">${song.author.eng}</span>`:song.author[primaryLang]);
-    card.querySelector('p:nth-child(3)').innerHTML = 'Album: '+(primaryLang==='eng'?`<span class="eng-text">${song.album.eng}</span>`:song.album[primaryLang]);
-    card.querySelector('p:nth-child(4)').innerHTML = 'Genre: '+(primaryLang==='eng'?`<span class="eng-text">${song.genre.eng}</span>`:song.genre[primaryLang]);
+    card.querySelector('p:nth-of-type(1)').innerHTML = primaryLang==='eng'?`Author: <span class="eng-text">${song.author.eng}</span>`:`Author: ${song.author.tig}`;
+    card.querySelector('p:nth-of-type(2)').innerHTML = primaryLang==='eng'?`Album: <span class="eng-text">${song.album.eng}</span>`:`Album: ${song.album.tig}`;
+    card.querySelector('p:nth-of-type(3)').innerHTML = primaryLang==='eng'?`Genre: <span class="eng-text">${song.genre.eng}</span>`:`Genre: ${song.genre.tig}`;
   });
-  // Update modal if open
-  if(currentCard){
-    const id = currentCard.dataset.id;
-    modalTitle.innerHTML = primaryLang==='eng'?`<span class="eng-text">${lyricsData[id].title.eng}</span>`:lyricsData[id].title[primaryLang];
-    modalContent.innerHTML = primaryLang==='eng'?`<span class="eng-text">${lyricsData[id].eng}</span>`:lyricsData[id][primaryLang];
-    langBtn.textContent = primaryLang.toUpperCase();
-  }
 });
 
-// ===== Search =====
-document.getElementById('searchInput').addEventListener('input', e=>{
-  const q = e.target.value.toLowerCase();
+// ===== SEARCH =====
+document.getElementById('searchInput').addEventListener('input', function(){
+  const q = this.value.toLowerCase();
   cards.forEach(card=>{
     const id = card.dataset.id;
     const song = lyricsData[id];
-    const combined = (song.title.tig+' '+song.title.eng+' '+song.tig+' '+song.eng+' '+song.album.tig+' '+song.album.eng+' '+song.genre.tig+' '+song.genre.eng+' '+song.author.tig+' '+song.author.eng).toLowerCase();
-    card.style.display=combined.includes(q)?'block':'none';
+    const text = (song.title.tig+song.title.eng+song.tig+song.eng+song.author.tig+song.author.eng).toLowerCase();
+    card.style.display = text.includes(q)?'block':'none';
   });
   updateSongCount();
 });
 })();
 </script>
-
 </body>
 </html>
