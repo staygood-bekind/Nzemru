@@ -78,7 +78,7 @@ box-shadow:0 6px 18px rgba(59,130,246,0.12);}
     <div class="title">Lyric Site</div>
   </div>
   <div class="top-controls">
-    <button class="btn" id="primaryAction">Primary Action</button>
+    <button class="btn" id="primaryAction">TIG</button>
     <button class="theme-toggle" id="themeToggle">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
         <circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="1.5"></circle>
@@ -124,7 +124,7 @@ box-shadow:0 6px 18px rgba(59,130,246,0.12);}
     <h3 id="modalTitle"></h3>
     <p id="modalContent"></p>
     <button id="tagBtn" class="btn">Tag/Untag</button>
-    <button id="langBtn" class="btn">Tig</button>
+    <button id="langBtn" class="btn">TIG</button>
   </div>
 </div>
 
@@ -132,10 +132,10 @@ box-shadow:0 6px 18px rgba(59,130,246,0.12);}
 <script>
 (function(){
 const body = document.body;
-const toggle = document.getElementById('themeToggle');
+const themeToggle = document.getElementById('themeToggle');
 const userPref = localStorage.getItem('site-theme');
 if(userPref) body.setAttribute('data-theme', userPref);
-toggle.addEventListener('click', ()=>{ 
+themeToggle.addEventListener('click', ()=>{ 
   const next = body.getAttribute('data-theme')==='dark'?'light':'dark';
   body.setAttribute('data-theme', next);
   localStorage.setItem('site-theme', next);
@@ -153,7 +153,7 @@ function pad(n){return n<10?'0'+n:n;}
 function updateDateTime(){const now=new Date();clockEl.textContent=`${pad(now.getHours())}:${pad(now.getMinutes())}:${pad(now.getSeconds())}`; const opts={weekday:'long',year:'numeric',month:'long',day:'numeric'};dateEl.textContent=now.toLocaleDateString(undefined,opts);}
 updateDateTime(); setInterval(updateDateTime,1000);
 
-// Dynamically populate cards
+// ===== Populate Cards =====
 const lyricsGrid = document.getElementById('lyricsGrid');
 const cards = [];
 Object.keys(lyricsData).forEach(id => {
@@ -164,15 +164,16 @@ Object.keys(lyricsData).forEach(id => {
   if(song.taged) card.classList.add('taged');
   card.innerHTML = `
     <h3>${song.title.tig}</h3>
-    <p>Author: ${song.author}</p>
-    <p>Album: ${song.album}</p>
-    <p>Genre: ${song.genre}</p>
+    <p>Author: ${song.author.tig}</p>
+    <p>Album: ${song.album.tig}</p>
+    <p>Genre: ${song.genre.tig}</p>
     <p>Date: ${song.date}</p>
   `;
   lyricsGrid.appendChild(card);
   cards.push(card);
 });
 
+// ===== Modal =====
 const lyricModal = document.getElementById('lyricModal');
 const modalTitle = document.getElementById('modalTitle');
 const modalContent = document.getElementById('modalContent');
@@ -189,14 +190,14 @@ function updateSongCount(){
 updateSongCount();
 
 // Card click -> modal
-cards.forEach(card => {
-  card.addEventListener('click', () => {
+cards.forEach(card=>{
+  card.addEventListener('click', ()=>{
     currentCard = card;
+    currentLang = primaryLang; // sync with primary
+    langBtn.textContent=currentLang.toUpperCase();
     const id = card.dataset.id;
-    currentLang='tig';
-    langBtn.textContent='TIG';
-    modalTitle.textContent = lyricsData[id].title[currentLang] || card.querySelector('h3').textContent;
-    modalContent.textContent = lyricsData[id][currentLang] || '';
+    modalTitle.textContent = lyricsData[id].title[currentLang];
+    modalContent.textContent = lyricsData[id][currentLang];
     lyricModal.style.display='flex';
     tagBtn.textContent = card.classList.contains('taged')?'Untag':'Tag';
   });
@@ -211,20 +212,44 @@ tagBtn.addEventListener('click',()=>{
 });
 langBtn.addEventListener('click',()=>{
   if(!currentCard) return;
-  currentLang=currentLang==='tig'?'eng':'tig';
   const id=currentCard.dataset.id;
-  modalTitle.textContent=lyricsData[id].title[currentLang];
-  modalContent.textContent=lyricsData[id][currentLang];
+  currentLang = currentLang==='tig'?'eng':'tig';
+  modalTitle.textContent = lyricsData[id].title[currentLang];
+  modalContent.textContent = lyricsData[id][currentLang];
   langBtn.textContent=currentLang.toUpperCase();
 });
 
-// Search
+// ===== PRIMARY ACTION LANGUAGE TOGGLE =====
+const primaryAction = document.getElementById('primaryAction');
+let primaryLang = 'tig';
+primaryAction.addEventListener('click', ()=>{
+  primaryLang = primaryLang==='tig'?'eng':'tig';
+  primaryAction.textContent = primaryLang.toUpperCase();
+  // Update all cards
+  cards.forEach(card=>{
+    const id = card.dataset.id;
+    const song = lyricsData[id];
+    card.querySelector('h3').textContent = song.title[primaryLang];
+    card.querySelector('p:nth-child(2)').textContent = 'Author: '+song.author[primaryLang];
+    card.querySelector('p:nth-child(3)').textContent = 'Album: '+song.album[primaryLang];
+    card.querySelector('p:nth-child(4)').textContent = 'Genre: '+song.genre[primaryLang];
+  });
+  // Update modal if open
+  if(currentCard){
+    const id = currentCard.dataset.id;
+    modalTitle.textContent = lyricsData[id].title[primaryLang];
+    modalContent.textContent = lyricsData[id][primaryLang];
+    langBtn.textContent = primaryLang.toUpperCase();
+  }
+});
+
+// ===== Search =====
 document.getElementById('searchInput').addEventListener('input', e=>{
   const q = e.target.value.toLowerCase();
   cards.forEach(card=>{
     const id = card.dataset.id;
     const song = lyricsData[id];
-    const combined = (song.title.tig+' '+song.title.eng+' '+song.tig+' '+song.eng+' '+song.album+' '+song.genre+' '+song.author).toLowerCase();
+    const combined = (song.title.tig+' '+song.title.eng+' '+song.tig+' '+song.eng+' '+song.album.tig+' '+song.album.eng+' '+song.genre.tig+' '+song.genre.eng+' '+song.author.tig+' '+song.author.eng).toLowerCase();
     card.style.display=combined.includes(q)?'block':'none';
   });
   updateSongCount();
