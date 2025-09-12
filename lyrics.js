@@ -17,30 +17,5 @@ const lyricsData = {
     tig: `2ብግብርኻ ተደኒቀ ...`,
     eng: `By your work you were saved ...`
   },
-  song4: {
-    title: { tig: "ብግብርኻ ተደኒቀ", eng: "Bgbrka Tedeniqe" },
-    author: { tig: "ሴም ፡ ኣድያም", eng: "Sem Adiam" },
-    album: { tig: "ንስል", eng: "Nsil" },
-    genre: { tig: "ምስጋና", eng: "Praise" },
-    date: "2023-02-23",
-    tig: `1) ኣየሕፍረንን ትህላውነትካ ...`,
-    eng: `1) Ayyeḥfrenn tihlawnetekha ...`
-  },
-  song5: {
-    title: { tig: "ብግብርኻ ተደኒቀ", eng: "Bgbrka Tedeniqe" },
-    author: { tig: "ሴም ፡ ኣድያም", eng: "Sem Adiam" },
-    album: { tig: "ንስል", eng: "Nsil" },
-    genre: { tig: "ምስጋና", eng: "Praise" },
-    date: "2023-02-23",
-    tig: `1) ኣየሕፍረንን ትህላውነትካ ...`,
-    eng: `1) Ayyeḥfrenn tihlawnetekha ...`
-    },
-  song6: {
-    title: { tig: "ብግብርኻ ተደኒቀ", eng: "Bgbrka Tedeniqe" },
-    author: { tig: "ሴም ፡ ኣድያም", eng: "Sem Adiam" },
-    album: { tig: "ንስል", eng: "Nsil" },
-    genre: { tig: "ምስጋና", eng: "Praise" },
-    date: "2023-02-23",
-    tig: `1) ኣየሕፍረንን ትህላውነትካ ...`,
-    eng: `1) Ayyeḥfrenn tihlawnetekha ...`
+ //add here
 };
