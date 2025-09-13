@@ -89,7 +89,7 @@ song10: {
     tig: `10ናይ ሶንግ 10 ትርጉም ...`,
     eng: `10 Song 10 lyrics ...`
 },
-song11: {
+song13: {
     title: { tig: "ናይ ሶንግ 10", eng: "Song 10" },
     author: { tig: "ሴም ፡ ኣድያም", eng: "Sem Adiam" },
     album: { tig: "ንስል", eng: "Nsil" },
@@ -98,7 +98,43 @@ song11: {
     tig: `10ናይ ሶንግ 10 ትርጉም ...`,
     eng: `10 Song 10 lyrics ...`
 },
-song12: {
+song14: {
+    title: { tig: "ናይ ሶንግ 10", eng: "Song 10" },
+    author: { tig: "ሴም ፡ ኣድያም", eng: "Sem Adiam" },
+    album: { tig: "ንስል", eng: "Nsil" },
+    genre: { tig: "ምስጋና", eng: "Praise" },
+    date: "2023-03-10",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: `10 Song 10 lyrics ...`
+},
+song15: {
+    title: { tig: "ናይ ሶንግ 9", eng: "Song 9" },
+    author: { tig: "ሴም ፡ ኣድያም", eng: "Sem Adiam" },
+    album: { tig: "ንስል", eng: "Nsil" },
+    genre: { tig: "ምስጋና", eng: "Praise" },
+    date: "2023-03-09",
+    tig: `9ናይ ሶንግ 9 ትርጉም ...`,
+    eng: `9 Song 9 lyrics ...`
+},
+song16: {
+    title: { tig: "ናይ ሶንግ 10", eng: "Song 10" },
+    author: { tig: "ሴም ፡ ኣድያም", eng: "Sem Adiam" },
+    album: { tig: "ንስል", eng: "Nsil" },
+    genre: { tig: "ምስጋና", eng: "Praise" },
+    date: "2023-03-10",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: `10 Song 10 lyrics ...`
+},
+song17: {
+    title: { tig: "ናይ ሶንግ 10", eng: "Song 10" },
+    author: { tig: "ሴም ፡ ኣድያም", eng: "Sem Adiam" },
+    album: { tig: "ንስል", eng: "Nsil" },
+    genre: { tig: "ምስጋና", eng: "Praise" },
+    date: "2023-03-10",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: `10 Song 10 lyrics ...`
+},
+song18: {
     title: { tig: "ናይ ሶንግ 10", eng: "Song 10" },
     author: { tig: "ሴም ፡ ኣድያም", eng: "Sem Adiam" },
     album: { tig: "ንስል", eng: "Nsil" },
