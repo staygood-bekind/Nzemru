@@ -180,28 +180,32 @@ for(let i=1;i<=64;i++){
 
 <script>
 (function(){
-const body = document.body;
-const themeToggle = document.getElementById('themeToggle');
-const userPref = localStorage.getItem('site-theme');
-if(userPref) body.setAttribute('data-theme', userPref);
+  // set theme on the root element (html) so the whole page (including background) follows the theme
+  const root = document.documentElement;
+  const themeToggle = document.getElementById('themeToggle');
+  const userPref = localStorage.getItem('site-theme');
+  if (userPref) root.setAttribute('data-theme', userPref);
 
-themeToggle.addEventListener('click', ()=>{ 
-  const next = body.getAttribute('data-theme')==='dark'?'light':'dark';
-  body.setAttribute('data-theme', next);
-  localStorage.setItem('site-theme', next);
-});
+  themeToggle.addEventListener('click', ()=>{ 
+    const current = root.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+    const next = current === 'dark' ? 'light' : 'dark';
+    root.setAttribute('data-theme', next);
+    localStorage.setItem('site-theme', next);
+  });
 
-const hamburger = document.getElementById('hamburgerBtn');
-const sidebar = document.getElementById('siteSidebar');
-hamburger.addEventListener('click',()=>{sidebar.classList.toggle('open'); hamburger.classList.toggle('active');});
-document.addEventListener('click', e=>{if(!sidebar.contains(e.target)&&!hamburger.contains(e.target)&&sidebar.classList.contains('open')&&window.innerWidth<900){sidebar.classList.remove('open');hamburger.classList.remove('active');}});
-document.addEventListener('keydown', e=>{if(e.key==='Escape') sidebar.classList.remove('open');});
+  // --- rest of your existing script unchanged below ---
+  const hamburger = document.getElementById('hamburgerBtn');
+  const sidebar = document.getElementById('siteSidebar');
+  hamburger.addEventListener('click',()=>{sidebar.classList.toggle('open'); hamburger.classList.toggle('active');});
+  document.addEventListener('click', e=>{if(!sidebar.contains(e.target)&&!hamburger.contains(e.target)&&sidebar.classList.contains('open')&&window.innerWidth<900){sidebar.classList.remove('open');hamburger.classList.remove('active');}});
+  document.addEventListener('keydown', e=>{if(e.key==='Escape') sidebar.classList.remove('open');});
 
-const clockEl = document.getElementById('clock');
-const dateEl = document.getElementById('dateText');
-function pad(n){return n<10?'0'+n:n;}
-function updateDateTime(){const now=new Date();clockEl.textContent=`${pad(now.getHours())}:${pad(now.getMinutes())}:${pad(now.getSeconds())}`; const opts={weekday:'long',year:'numeric',month:'long',day:'numeric'};dateEl.textContent=now.toLocaleDateString(undefined,opts);}
-updateDateTime(); setInterval(updateDateTime,1000);
+  const clockEl = document.getElementById('clock');
+  const dateEl = document.getElementById('dateText');
+  function pad(n){return n<10?'0'+n:n;}
+  function updateDateTime(){const now=new Date();clockEl.textContent=`${pad(now.getHours())}:${pad(now.getMinutes())}:${pad(now.getSeconds())}`; const opts={weekday:'long',year:'numeric',month:'long',day:'numeric'};dateEl.textContent=now.toLocaleDateString(undefined,opts);}
+  updateDateTime(); setInterval(updateDateTime,1000);
+
 
 // ===== Populate Cards =====
 const lyricsGrid = document.getElementById('lyricsGrid');
