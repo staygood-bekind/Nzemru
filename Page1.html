@@ -163,22 +163,6 @@ box-shadow:0 6px 18px rgba(59,130,246,0.12);}
 </div>
 
 <script>
-// ===== Sample lyricsData with 64 songs =====
-const lyricsData = {};
-for(let i=1;i<=64;i++){
-  lyricsData['song'+i] = {
-    title: { tig: `ናይ ሶንግ ${i}`, eng: `Song ${i}` },
-    author: { tig: "ሴም ፡ ኣድያም", eng: "Sem Adiam" },
-    album: { tig: "ንስል", eng: "Nsil" },
-    genre: { tig: "ምስጋና", eng: "Praise" },
-    date: `2023-03-${i<10?'0'+i:i}`,
-    tig: `${i}ናይ ሶንግ ${i} ትርጉም ...`,
-    eng: `${i} Song ${i} lyrics ...`
-  };
-}
-</script>
-
-<script>
 (function(){
   // set theme on the root element (html) so the whole page (including background) follows the theme
   const root = document.documentElement;
