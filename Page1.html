@@ -7,6 +7,76 @@
 <link rel="icon" type="image/png" href="Favicon.png">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Caveat&display=swap" rel="stylesheet">
 
+<!-- ✅ Google Analytics 4 with custom events -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-L6RYYYV2JC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-L6RYYYV2JC'); // Replace with your GA4 Measurement ID
+
+  // === Helper function for custom events ===
+  function trackEvent(eventName, params={}) {
+    gtag('event', eventName, params);
+    console.log('GA4 Event:', eventName, params); // Optional, for debugging
+  }
+
+  // === Track default page view ===
+  trackEvent('page_view');
+
+  // === Example: Track song card opened ===
+  document.querySelectorAll('.choice-card').forEach(card => {
+    card.addEventListener('click', () => {
+      const songId = card.dataset.id;
+      const songTitle = card.querySelector('h3').textContent;
+      trackEvent('song_opened', { song_id: songId, song_title: songTitle });
+    });
+  });
+
+  // === Track Tag/Untag clicks ===
+  const tagButtons = document.querySelectorAll('#tagBtn');
+  tagButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      if(!currentCard) return;
+      const songId = currentCard.dataset.id;
+      const songTitle = currentCard.querySelector('h3').textContent;
+      const action = currentCard.classList.contains('taged') ? 'tagged' : 'untagged';
+      trackEvent('tag_toggle', { song_id: songId, song_title: songTitle, action });
+    });
+  });
+
+  // === Track search input ===
+  const searchInput = document.getElementById('searchInput');
+  searchInput.addEventListener('input', (e) => {
+    trackEvent('search', { query: e.target.value });
+  });
+
+  // === Track theme toggle (dark/light) ===
+  const themeToggle = document.getElementById('themeToggle');
+  themeToggle.addEventListener('click', () => {
+    const theme = document.documentElement.getAttribute('data-theme');
+    trackEvent('theme_toggle', { theme });
+  });
+
+  // === Track sidebar open/close ===
+  const sidebar = document.getElementById('siteSidebar');
+  const hamburger = document.getElementById('hamburgerBtn');
+  hamburger.addEventListener('click', () => {
+    const open = sidebar.classList.contains('open');
+    trackEvent('sidebar_toggle', { open: !open }); // After toggle
+  });
+
+  // === Track language switch ===
+  const langButtons = document.querySelectorAll('#langBtn, #primaryAction');
+  langButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const lang = btn.id === 'primaryAction' ? primaryLang : currentLang;
+      trackEvent('language_switch', { language: lang });
+    });
+  });
+</script>
+
+  
 <style>
 :root{
 --bg: #ffffff; --card: #f6f7fb; --text: #111827; --muted:#666d75;
