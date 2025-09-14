@@ -1,6 +1,6 @@
 const lyricsData = {
 song1: {
-    title: { tig: "ናይ ሶንግ 1", eng: "Song 1" },
+    title: { tig: "ከምቲ ዝደልዮ", eng: "Song 1" },
     author: { tig: "ሴም ፡ ኣድያም", eng: "Sem Adiam" },
     album: { tig: "ንስል", eng: "Nsil" },
     genre: { tig: "ምስጋና", eng: "Praise" },
@@ -9,7 +9,7 @@ song1: {
     eng: `1 Song 1 lyrics ...`
 },
 song2: {
-    title: { tig: "ናይ ሶንግ 2", eng: "Song 2" },
+    title: { tig: "አንታይ ይሰኣነካ ድዩ", eng: "Song 2" },
     author: { tig: "ሴም ፡ ኣድያም", eng: "Sem Adiam" },
     album: { tig: "ንስል", eng: "Nsil" },
     genre: { tig: "ምስጋና", eng: "Praise" },
@@ -18,7 +18,7 @@ song2: {
     eng: `2 Song 2 lyrics ...`
 },
 song3: {
-    title: { tig: "ናይ ሶንግ 3", eng: "Song 3" },
+    title: { tig: "ከም ስመይ ኮይኑለይ", eng: "Song 3" },
     author: { tig: "ሴም ፡ ኣድያም", eng: "Sem Adiam" },
     album: { tig: "ንስል", eng: "Nsil" },
     genre: { tig: "ምስጋና", eng: "Praise" },
@@ -27,7 +27,7 @@ song3: {
     eng: `3 Song 3 lyrics ...`
 },
 song4: {
-    title: { tig: "ናይ ሶንግ 4", eng: "Song 4" },
+    title: { tig: "ስለ ንኣምን", eng: "Song 4" },
     author: { tig: "ሴም ፡ ኣድያም", eng: "Sem Adiam" },
     album: { tig: "ንስል", eng: "Nsil" },
     genre: { tig: "ምስጋና", eng: "Praise" },
@@ -36,7 +36,7 @@ song4: {
     eng: `4 Song 4 lyrics ...`
 },
 song5: {
-    title: { tig: "ናይ ሶንግ 5", eng: "Song 5" },
+    title: { tig: "ኣልፋን ኦሜጋን", eng: "Song 5" },
     author: { tig: "ሴም ፡ ኣድያም", eng: "Sem Adiam" },
     album: { tig: "ንስል", eng: "Nsil" },
     genre: { tig: "ምስጋና", eng: "Praise" },
@@ -45,7 +45,7 @@ song5: {
     eng: `5 Song 5 lyrics ...`
 },
 song6: {
-    title: { tig: "ናይ ሶንግ 6", eng: "Song 6" },
+    title: { tig: "ተንሲኡልና", eng: "Song 6" },
     author: { tig: "ሴም ፡ ኣድያም", eng: "Sem Adiam" },
     album: { tig: "ንስል", eng: "Nsil" },
     genre: { tig: "ምስጋና", eng: "Praise" },
@@ -54,7 +54,7 @@ song6: {
     eng: `6 Song 6 lyrics ...`
 },
 song7: {
-    title: { tig: "ናይ ሶንግ 7", eng: "Song 7" },
+    title: { tig: "ኦ ማርያም", eng: "Song 7" },
     author: { tig: "ሴም ፡ ኣድያም", eng: "Sem Adiam" },
     album: { tig: "ንስል", eng: "Nsil" },
     genre: { tig: "ምስጋና", eng: "Praise" },
@@ -63,7 +63,7 @@ song7: {
     eng: `7 Song 7 lyrics ...`
 },
 song8: {
-    title: { tig: "ናይ ሶንግ 8", eng: "Song 8" },
+    title: { tig: "ፍቕሩን ምሕረቱን", eng: "Song 8" },
     author: { tig: "ሴም ፡ ኣድያም", eng: "Sem Adiam" },
     album: { tig: "ንስል", eng: "Nsil" },
     genre: { tig: "ምስጋና", eng: "Praise" },
