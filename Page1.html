@@ -304,18 +304,9 @@ document.getElementById('searchInput').addEventListener('input', function(){
   cards.forEach(card=>{
     const id = card.dataset.id;
     const song = lyricsData[id];
-    const text = (
-      song.title.tig + song.title.eng +
-      song.tig + song.eng +
-      song.author.tig + song.author.eng +
-      song.album.tig + song.album.eng +
-      song.genre.tig + song.genre.eng +
-      song.date
-    ).toLowerCase();
-    card.style.display = text.includes(q) ? 'block' : 'none';
+    const text = (song.title.tig+song.title.eng+song.tig+song.eng+song.author.tig+song.author.eng).toLowerCase();
+    card.style.display = text.includes(q)?'block':'none';
   });
-});
-
 
   updateSongCount();
 });
