@@ -37,13 +37,71 @@ xegaKa nezela‘lem kesfahfih ab zer‘ay /2/
 eNtaye’mo kibl’e ……….`
 },
 song2: {
-    title: { tig: "አንታይ ይሰኣነካ ድዩ", eng: "Song 2" },
-    author: { tig: "ሴም ፡ ኣድያም", eng: "Sem Adiam" },
-    album: { tig: "ንስል", eng: "Nsil" },
-    genre: { tig: "ምስጋና", eng: "Praise" },
-    date: "2023-03-02",
-    tig: `2ናይ ሶንግ 2 ትርጉም ...`,
-    eng: `2 Song 2 lyrics ...`
+    title: { tig: "ተማሪኩ ልበይ ብኣኻ", eng: "temariku lbey beaka" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    tig: `
+ክንደይከ ይጽብቕ ቲ’ትርኢትካ
+ገጽካ የንጸባርቕ ንዝርኣየካ (2)
+ኣእጋርካ ከም ኣብ ሓጎዶ ዝረሰነ ኣስራዚ እዩ
+ኣዒንትኻ’ውን ከም ሃልሃልታ ሓዊ’ዩ
+
+ተደ፦ ተማሪኹ ልበይ ብኣኻ (2)
+መሲጥካ’ዮ ውኖይ ንስኻ (2)
+ተማሪኹ’ሎ ልበይ ልበይ ልበይ ልበይ ብኣኻ
+ተመሲጡ’ሎ ውኖይ ውኖይ ቀልበይ ምሳኻ (2)
+
+እንሆ ፍትወይ ጽቡቕ ኢኻ
+ዝፈስስ ቅበኢ’ውን ኣለዎ ቲ’ስምካ (2)
+መኣዛ ሕይወት ኣለዎ ጎይታ’የ ቲ’ድምጽኻ
+ሓለፋ ወይኒ ክንእዶ’የ ፍቕርኻ
+
+ኣብ ማእከል ኣእዋም ዱር ከም ዕምበባ
+ፈታዊየይ በይንኻ ኣሎካ ሓለፋ (2)
+ፍትወይ ናተይ ኢኻ ኣነ ድማ ኢየ ናትካ
+ጥዒሙኒ’ሎ ማሪኹኒ ፍቕርኻ
+
+ናይ ገነት ዓይኒ ማይ ኣሎ’ባኻ
+ዘልኣለም ሕይወት’ዩ ፈልፋሊ ዒላኻ (2)
+ካብ ኣኽራን እናዘለለ ድምጽኻ ምስ’ዝመጸኒ
+ሓይለይ ይሕደስ ሓጎስ ይመልኣኒ
+
+ኣብቲ ኣብ ቃቑራ ኣብቲ ጸድፊ
+ዘለኺ ጽብቕተይ ካብኡ ንዒ ውጺ (2)
+ድምጽኺ ኣስምዕኒ ገጽኪ’ውን ኣርእይኒ
+ምስ በልካ ጎይታይ ውኖይ መሲጥካኒ`,
+    eng: `
+1. kinḍeyka yixibx q t’i tiri’itka
+ gexka ye nixibark ni zir’a yeka (2)
+ a’igarka kem ab ḥagodo ziresene asirazi iyu
+ a’intka’wn kem ḥalḥalta ḥawi’yu
+   tede: temariku libey b’aka (2)
+        mesiṭka’yo w’noy nisika (2)
+        temariku’lo libey libey libey libey b’aka
+        temesiṭu’lo w’noy w’noy qelbey misa’ka (2)
+
+2. inho fiṭwey xibux i’ka
+  zifes’s qibe’i’wn alewo t’i simka (2)
+  me’aza ḥiywet alewo goyta’ye t’i d’mxka
+  ḥalefa weyni k’ne’do’ye fiqirka
+
+3. ab ma’ekel a’iwam dur kem ‘embeba
+   fetawi yey beyin’ka aloka ḥalefa (2)
+   fiṭwey natey i’ka ane d’ma iye natka
+   ṭi’imu’ni lo marik’uni fiqirka
+
+4. nay genet ‘ayni may alo’baka
+   zelalem ḥiywet’yu felfali ‘ilaka (2)
+   kab akhran enazelele dmxka mis’yzmeceni
+   ḥayley yihdes ḥagos yimel’ani
+
+5. abti ab qaqura abti xedfi
+   zelek’i xibxtey kabu n’i w’xi (2)
+   dmxki asmi’ini gexki’wn ar’e’ini
+   mis belka goytay w’noy mesiṭkani
+`
 },
 song3: {
     title: { tig: "ከም ስመይ ኮይኑለይ", eng: "Song 3" },
