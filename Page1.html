@@ -301,12 +301,30 @@ primaryAction.addEventListener('click', ()=>{
 // ===== SEARCH =====
 document.getElementById('searchInput').addEventListener('input', function(){
   const q = this.value.toLowerCase();
-  cards.forEach(card=>{
-    const id = card.dataset.id;
-    const song = lyricsData[id];
-    const text = (song.title.tig+song.title.eng+song.tig+song.eng+song.author.tig+song.author.eng).toLowerCase();
-    card.style.display = text.includes(q)?'block':'none';
+
+  songsArray.forEach(({ id, song }, index) => {
+    const card = cards[index];
+
+    // ✅ include title, author, lyrics, album, genre, date, and duplicate marker
+    const text = (
+      song.title.tig +
+      song.title.eng +
+      song.tig +
+      song.eng +
+      song.author.tig +
+      song.author.eng +
+      song.album.tig +
+      song.album.eng +   // just in case you add English album names later
+      song.genre.tig +
+      song.genre.eng +   // same for genre in English
+      song.date +
+      (song.isDuplicate ? " duplicate" : "")
+    ).toLowerCase();
+
+    card.style.display = text.includes(q) ? 'block' : 'none';
   });
+});
+
   updateSongCount();
 });
 })();
