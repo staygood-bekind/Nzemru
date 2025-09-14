@@ -195,12 +195,19 @@ box-shadow:0 6px 18px rgba(59,130,246,0.12);}
 // ===== Populate Cards =====
 const lyricsGrid = document.getElementById('lyricsGrid');
 const cards = [];
-Object.keys(lyricsData).forEach(id => {
-  const song = lyricsData[id];
+
+// 1. Turn lyricsData into an array of {id, song}
+const songsArray = Object.keys(lyricsData).map(id => ({ id, song: lyricsData[id] }));
+
+// 2. Sort alphabetically by Tigrinya title
+songsArray.sort((a, b) => a.song.title.tig.localeCompare(b.song.title.tig, 'ti-ET'));
+
+// 3. Create cards in sorted order
+songsArray.forEach(({ id, song }) => {
   const card = document.createElement('div');
   card.className = 'choice-card';
   card.dataset.id = id;
-  if(song.taged) card.classList.add('taged');
+  if (song.taged) card.classList.add('taged');
   card.innerHTML = `
     <h3>${song.title.tig}</h3>
     <p>Author: ${song.author.tig}</p>
