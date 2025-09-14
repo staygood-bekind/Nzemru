@@ -1,12 +1,40 @@
 const lyricsData = {
 song1: {
-    title: { tig: "ከምቲ ዝደልዮ", eng: "Song 1" },
-    author: { tig: "ሴም ፡ ኣድያም", eng: "Sem Adiam" },
-    album: { tig: "ንስል", eng: "Nsil" },
-    genre: { tig: "ምስጋና", eng: "Praise" },
-    date: "2023-03-01",
-    tig: `1ናይ ሶንግ 1 ትርጉም ...`,
-    eng: `1 Song 1 lyrics ...`
+    title: { tig: "ስምካ ይኽበር", eng: "smka ykber" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "ምስጋና", eng: "msgana" },
+    date: "",
+    tig: `1.እንታይ’ሞ ክብል’የ እንታየ’ኸ ዘቕርቦ 
+ ውዕለትካስ ካብ ዓቕመይ ንላዕሊ ኮይኑ /2/ 
+  ተደ፦ካብ ሓመድ ኣልዒልካ ሰብ እንዲኻ ትገብር     
+        ንዝተረስዐስ ልብኻ ይዝክር  
+        ስምካ ይኽበር እግዚ/ር /2/ 
+              ስምካ ይኽበር ንዘልኣለም ስምካ ይኽበር 
+              ባህ ኢሉካ ክቡር መስዋእተይ እንካ ተቐበል 
+              ስምካ ይኽበር እግዚ/ር(8) 
+2.ከናፍረይ ንስምካ ከውርያ’የን ንስራሕካ 
+  ዝገበርካለይ በዚሑ’ስ ምስጋና ይህበካ /2/ 
+      3.ሰላመይ ከም ወሓዚ ረሓቦት ጌርካዮ ዙርያይ 
+        ጸጋኻ ንዘልኣለም ከስፋሕፍሕ ኣብ ዘርአይ /2/ 
+                እንታይ’ሞ ክብል’የ……… .`,
+    eng: `1.eNtaye’mo kibl’e eNtaye’Ke zeqerbo
+wuOletkas kab ‘aqmey nLa‘li koynu /2/
+
+tede: kab Hamed Al‘ilka seb endiKa tigeber
+nezeteres‘as libka yizker
+simka yikheber Egzi/r /2/
+simka yikheber nezela‘lem simka yikheber
+bah iluKa kibur meswa‘etey enka teqebel
+simka yikheber Egzi/r (8)
+
+2.kenafrey nsimka kewurya’ye nserahKa
+zgeberkalei bezihu’s mesgana yihbeka /2/
+
+3.selamey kem weHazi reHabot gerKayo zuryay
+xegaKa nezela‘lem kesfahfih ab zer‘ay /2/
+
+eNtaye’mo kibl’e ……….`
 },
 song2: {
     title: { tig: "አንታይ ይሰኣነካ ድዩ", eng: "Song 2" },
