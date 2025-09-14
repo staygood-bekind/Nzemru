@@ -104,13 +104,56 @@ song2: {
 `
 },
 song3: {
-    title: { tig: "ከም ስመይ ኮይኑለይ", eng: "Song 3" },
-    author: { tig: "ሴም ፡ ኣድያም", eng: "Sem Adiam" },
-    album: { tig: "ንስል", eng: "Nsil" },
-    genre: { tig: "ምስጋና", eng: "Praise" },
-    date: "2023-03-03",
-    tig: `3ናይ ሶንግ 3 ትርጉም ...`,
-    eng: `3 Song 3 lyrics ...`
+    title: { tig: "ከም ስመይ ኮይኑለይ", eng: "kemsm" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "ምስጋና", eng: "" },
+    date: "",
+    tig: ` 
+1.ድርሳናት ናይ ልበይ… ሓደ ክልተ ኢሉ ክቖጽር ጀመረ 
+  ኣዝዩ ካብ ምግንፋል… ከም ቅልጡፍ ብርዒ ክጽሕፍ ጀመረ 
+  ብመስተንክር ፍቕሩ… እናተገረመ እናተደነቐ           
+  ከመይ’ልካ ይውዳእ… ከመይ’ልካ ይውዳእ እቲ  ባህርያቱ 
+  እቲ ዓቢ ፍቕሩ……… ምሉእ ምሕረቱ  
+  
+ 
+ ተደ፦ኣይይይይይ…… ከም እግዚ/ር ዝበለ መን’ዩ(2) 
+       ሓሳብ ሰብ ዝፈልጥ… ናይ ውሽጢ ዝርዳእ                
+       ተረዲኡ ድማ… ሽግርካ ዝፈትሕ         
+       ኣይይይይይ…… ከም እግዚ/ር ዝበለ መን’ዩ  
+2.ብምድራዊ ቋንቋ… ክትዛረበሉ ከምይ’ሉ ይውዳእ  
+  ከምቲ ዓቢ ባሕሪ… ብሓንቲ ጭልፋ ምጭላፍ 
+  በእምሮ ኣይግመትን’ዩ… ብኣሰር ኣሰር ከቶ ኣይብጻሕን’ዩ 
+  ወዳጀ መዓሙቕ… ወዳጀ መዓሙቕ እዩ ፍቕሪ ኣምላኽ 
+  መንከ የስተውዕሎ……… መንከ ይጽብጽቦ 
+     3.ኮራኹር ኣናብስ… ይስእኑ ይጠምዩ 
+       እቶም ንጎይታ ‘የሱስ… ዘይረኸብዎ ይጭነቑ 
+       ንእግዚ/ር ዝደልዩ… ’ቲ ሰናይ ዘበለ ከቶ ኣይጎድሎምን 
+       ናብኡ ዝጥምቱ… የንጸባርቑ ገጾም ኣይሓፍርን 
+       ኣብኡ ዝውከል ሰብ……… ብጹእ እዩ`,
+    eng: `
+    Dirsanat nay libey… hade klte ilu kqts’r jemere
+Azyu kab mig’nfal… ke-m k’ltuf br’i kts’hf jemere
+Bemesetnkr fquru… enategereme enatedenqe
+Kemey’lka yiwda’e… kemey’lka yiwda’e eti bahryatu
+Eti ‘abi fquru……… mlu’ mheretu
+
+Tedefo: ayyyyy… ke-m Igzi/’r zebele men’yu (2)
+Hasab seb zefelt… nay wushti zird’a’e
+Teredi’u dma… shgirka zefet’h
+Ayyyyy…… ke-m Igzi/’r zebele men’yu
+
+Bmedrawi kwankwa… ktizarbelu kemiy’lu yiwda’e
+Kemti ‘abi bahri… b’hanti ch’lfa m’ch’laf
+Beemro ayigm’tin’yu… b’aser aser keto ayb’shan’yu
+Wedaje me’amuq… wedaje me’amuq iyu fquri amlak
+Menke yestewe’lo……… menke ytsbtsbo
+
+Korakur anabs… ysi’nu ytem’yu
+Etom ngoyta “Yesus… zeyrekhebwo ych’neq’nu
+N’igzi/’r zedelyu… ’ti senay zebele keto aygodlomn
+Nabu z’t’m’tu… yen’tsebarqu gets’om ayhafrn
+Abu z’w’kel seb……… btsu’ iyu`
 },
 song4: {
     title: { tig: "ስለ ንኣምን", eng: "Song 4" },
