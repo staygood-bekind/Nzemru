@@ -156,13 +156,73 @@ Nabu z’t’m’tu… yen’tsebarqu gets’om ayhafrn
 Abu z’w’kel seb……… btsu’ iyu`
 },
 song4: {
-    title: { tig: "ስለ ንኣምን", eng: "Song 4" },
-    author: { tig: "ሴም ፡ ኣድያም", eng: "Sem Adiam" },
-    album: { tig: "ንስል", eng: "Nsil" },
-    genre: { tig: "ምስጋና", eng: "Praise" },
-    date: "2023-03-04",
-    tig: `4ናይ ሶንግ 4 ትርጉም ...`,
-    eng: `4 Song 4 lyrics ...`
+    title: { tig: "ኣኽቢርካኒ", eng: "akbirkani" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    tig: `
+     ተደ፦ኣኽቢርካኒ ‘ንዲኻ ኣምላኸይ 
+           ኣኽቢርካኒ ‘ንዲኻ ኢየሱሰይ 
+           ካብ ናይ ጸልማት ናብራ ኣውጺእካኒ 
+           ኣብ ናይ ብርሃን ሕይወት ኣሰጋጊርካኒ /2/ 
+1.ሕይወትካ ስለይ ብምሕላፍካ 
+   ፍቕርኻ በዚ ገሊጽካለይ ኢኻ 
+   ኣሰይ ኣነስ ተዓዲለ 
+   ኣብ ቤትካ ክነብር ተመሪጸ 
+         2.ኢየሱሰይ ፍሉይ’ዩ ባህሪኻ 
+           ይማርኽ ’ዚ ጡዑም ፍቅርኻ 
+           ዘመነይ ምሳኻ ከሕልፎ 
+           ንልበይ ኣዝዩ ባህ ይብሎ’ሎ 
+3.ኣብ ማእከል ባሕሪ ጎደና ኣሎካ 
+   ኣብ ማእከል በረኻ መንገዲ ኣሎካ 
+   ንዓኻ’ስ እግዚ/ር እንታይ ይጨንቀካ 
+   ንንፋስን ንባሕርን ትእዝዝ ብቓልካ(2) 
+     ተደ፦ናትካ ብሙዃነይ  
+           ንስኻ’ውን ናተይ ኢየሱሰይ’ውን ናተይ 
+           ኣዚዩ ባህ ይብሎ’ሎ ይሕጎስ ኣሎ ልበይ 
+           ብብሉጽ መስዋእቲ የቕርቦ ኣብ ቅድሜኻ(2) 
+           ጎይታይን ኣምላኸይን መን ኣሎኒ ብዘይካኻ 
+4.ንፋስ ኣይረኤኹን ዝናብ ድማ የለን 
+   ደመና ኣይረኤኹን ዝናብ ድማ የለን 
+   ጎዳጉደይ ግና ማያት ተጎልቢቡ 
+   ብጸጋን በረኸትን ኣዚኻ ተንጀርብቦ(2) `,
+    eng: `ʼTede:
+ʼAkbirka-ni ʼndika Amlakhey
+ʼAkbirka-ni ʼndika Iyesusey
+Kab nay tslmat nabra awtsiʼeka-ni
+Ab nay brhan hiywet aseggagir-ka-ni (x2)
+
+1.
+Hiywetka siley bimḥlafka
+Fqirka bezi gelitskaley ixa
+Asey anes teʼadile
+Ab beytka kinebber temeritse
+
+2.
+Iyesusey fluy’yu bahrika
+Yimarkhʼzi tuʼum fqirka
+Zemeney misa-ka kehilfo
+Nlibey azzu bah yiblo’lo
+
+3.
+Ab maʼekel bahri godena aloka
+Ab maʼekel berekha mengedi aloka
+Nʼakaʼs Igziʼr entay yichenʼneka
+Nʼnfasn nbahrn tʼezzez bʼqalka (x2)
+
+Tede:
+Natka bmuʼan-ey
+Neskaʼun natey Iyesuseyʼun natey
+Aziyu bah yiblo’lo yiḥgos alo libey
+Bibluts meswaʼti yeqʼrbo ab qidmeyka (x2)
+Goytayen Amlakheyʼn men alo-ni bzeika-ka
+
+4.
+Nfas ayreʼekhun zynab dima yelen
+Demena ayreʼekhun zynab dima yelen
+Godagudey gna mayat tegolbibu
+Btsagan berekhetn azikha tenjerbbo (x2)`
 },
 song5: {
     title: { tig: "ኣልፋን ኦሜጋን", eng: "Song 5" },
