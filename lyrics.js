@@ -5,6 +5,7 @@ song1: {
     album: { tig: "", eng: "" },
     genre: { tig: "ምስጋና", eng: "msgana" },
     date: "",
+    cover: "images/album1.jpg",
     tig: `1.እንታይ’ሞ ክብል’የ እንታየ’ኸ ዘቕርቦ 
  ውዕለትካስ ካብ ዓቕመይ ንላዕሊ ኮይኑ /2/ 
   ተደ፦ካብ ሓመድ ኣልዒልካ ሰብ እንዲኻ ትገብር     
