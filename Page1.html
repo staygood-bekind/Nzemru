@@ -217,8 +217,10 @@ songsArray.forEach(({ id, song }) => {
   card.dataset.id = id;
   if (song.taged) card.classList.add('taged');
 
-  // ⚠ Add duplicate marker
+  // Add album art (song.cover should be the image URL or path)
   card.innerHTML = `
+    <img src="${song.cover}" alt="${song.title.tig} cover"
+         style="width:100%;border-radius:10px;margin-bottom:12px;object-fit:cover;">
     <h3>${song.title.tig} ${song.isDuplicate ? "⚠ (Duplicate)" : ""}</h3>
     <p>Author: ${song.author.tig}</p>
     <p>Album: ${song.album.tig}</p>
@@ -229,6 +231,7 @@ songsArray.forEach(({ id, song }) => {
   lyricsGrid.appendChild(card);
   cards.push(card);
 });
+
 
 // ===== Modal =====
 const lyricModal = document.getElementById('lyricModal');
