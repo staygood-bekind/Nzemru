@@ -43,6 +43,7 @@ song2: {
     album: { tig: "", eng: "" },
     genre: { tig: "", eng: "" },
     date: "",
+    cover: "images/album1.jpg",
     tig: `
 ክንደይከ ይጽብቕ ቲ’ትርኢትካ
 ገጽካ የንጸባርቕ ንዝርኣየካ (2)
@@ -110,6 +111,7 @@ song3: {
     album: { tig: "", eng: "" },
     genre: { tig: "ምስጋና", eng: "" },
     date: "",
+    cover: "images/album1.jpg",
     tig: ` 
 1.ድርሳናት ናይ ልበይ… ሓደ ክልተ ኢሉ ክቖጽር ጀመረ 
   ኣዝዩ ካብ ምግንፋል… ከም ቅልጡፍ ብርዒ ክጽሕፍ ጀመረ 
@@ -162,6 +164,7 @@ song4: {
     album: { tig: "", eng: "" },
     genre: { tig: "", eng: "" },
     date: "",
+    cover: "images/album1.jpg",
     tig: `
      ተደ፦ኣኽቢርካኒ ‘ንዲኻ ኣምላኸይ 
            ኣኽቢርካኒ ‘ንዲኻ ኢየሱሰይ 
@@ -231,6 +234,7 @@ song5: {
     album: { tig: "ንስል", eng: "Nsil" },
     genre: { tig: "ምስጋና", eng: "Praise" },
     date: "2023-03-05",
+    cover: "images/album1.jpg",
     tig: `5ናይ ሶንግ 5 ትርጉም ...`,
     eng: `5 Song 5 lyrics ...`
 },
@@ -240,6 +244,7 @@ song6: {
     album: { tig: "ንስል", eng: "Nsil" },
     genre: { tig: "ምስጋና", eng: "Praise" },
     date: "2023-03-06",
+    cover: "images/album1.jpg",
     tig: `6ናይ ሶንግ 6 ትርጉም ...`,
     eng: `6 Song 6 lyrics ...`
 },
@@ -249,6 +254,7 @@ song7: {
     album: { tig: "ንስል", eng: "Nsil" },
     genre: { tig: "ምስጋና", eng: "Praise" },
     date: "2023-03-07",
+    cover: "images/album1.jpg",
     tig: `7ናይ ሶንግ 7 ትርጉም ...`,
     eng: `7 Song 7 lyrics ...`
 },
@@ -258,6 +264,7 @@ song8: {
     album: { tig: "ንስል", eng: "Nsil" },
     genre: { tig: "ምስጋና", eng: "Praise" },
     date: "2023-03-08",
+    cover: "images/album1.jpg",
     tig: `8ናይ ሶንግ 8 ትርጉም ...`,
     eng: `8 Song 8 lyrics ...`
 },
@@ -267,6 +274,7 @@ song9: {
     album: { tig: "ንስል", eng: "Nsil" },
     genre: { tig: "ምስጋና", eng: "Praise" },
     date: "2023-03-09",
+    cover: "images/album1.jpg",
     tig: `9ናይ ሶንግ 9 ትርጉም ...`,
     eng: `9 Song 9 lyrics ...`
 },
@@ -276,6 +284,7 @@ song10: {
     album: { tig: "ንስል", eng: "Nsil" },
     genre: { tig: "ምስጋና", eng: "Praise" },
     date: "2023-03-10",
+    cover: "images/album1.jpg",
     tig: `10ናይ ሶንግ 10 ትርጉም ...`,
     eng: `10 Song 10 lyrics ...`
 },
@@ -285,6 +294,7 @@ song13: {
     album: { tig: "ንስል", eng: "Nsil" },
     genre: { tig: "ምስጋና", eng: "Praise" },
     date: "2023-03-10",
+    cover: "images/album1.jpg",
     tig: `10ናይ ሶንግ 10 ትርጉም ...`,
     eng: `10 Song 10 lyrics ...`
 },
@@ -294,6 +304,7 @@ song14: {
     album: { tig: "ንስል", eng: "Nsil" },
     genre: { tig: "ምስጋና", eng: "Praise" },
     date: "2023-03-10",
+    cover: "images/album1.jpg",
     tig: `10ናይ ሶንግ 10 ትርጉም ...`,
     eng: `10 Song 10 lyrics ...`
 },
@@ -303,6 +314,7 @@ song15: {
     album: { tig: "ንስል", eng: "Nsil" },
     genre: { tig: "ምስጋና", eng: "Praise" },
     date: "2023-03-09",
+    cover: "images/album1.jpg",
     tig: `9ናይ ሶንግ 9 ትርጉም ...`,
     eng: `9 Song 9 lyrics ...`
 },
@@ -312,6 +324,7 @@ song16: {
     album: { tig: "ንስል", eng: "Nsil" },
     genre: { tig: "ምስጋና", eng: "Praise" },
     date: "2023-03-10",
+    cover: "images/album1.jpg",
     tig: `10ናይ ሶንግ 10 ትርጉም ...`,
     eng: `10 Song 10 lyrics ...`
 },
@@ -321,6 +334,7 @@ song17: {
     album: { tig: "ንስል", eng: "Nsil" },
     genre: { tig: "ምስጋና", eng: "Praise" },
     date: "2023-03-10",
+    cover: "images/album1.jpg",
     tig: `10ናይ ሶንግ 10 ትርጉም ...`,
     eng: `10 Song 10 lyrics ...`
 },
@@ -330,6 +344,7 @@ song18: {
     album: { tig: "ንስል", eng: "Nsil" },
     genre: { tig: "ምስጋና", eng: "Praise" },
     date: "2023-03-10",
+    cover: "images/album1.jpg",
     tig: `10ናይ ሶንግ 10 ትርጉም ...`,
     eng: `10 Song 10 lyrics ...`
 },
