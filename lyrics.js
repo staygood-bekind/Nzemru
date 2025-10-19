@@ -229,14 +229,53 @@ Godagudey gna mayat tegolbibu
 Btsagan berekhetn azikha tenjerbbo (x2)`
 },
 song5: {
-    title: { tig: "ኣልፋን ኦሜጋን", eng: "Song 5" },
-    author: { tig: "ሴም ፡ ኣድያም", eng: "Sem Adiam" },
-    album: { tig: "ንስል", eng: "Nsil" },
+    title: { tig: "ኣብቲ ቅዱስ ቤትካ", eng: "Abti Kudus Betka" },
+    author: { tig: " ", eng: " " },
+    album: { tig: "", eng: " " },
     genre: { tig: "ምስጋና", eng: "Praise" },
-    date: "2023-03-05",
+    date: " ",
     cover: "images/album1.jpg",
-    tig: `5ናይ ሶንግ 5 ትርጉም ...`,
-    eng: `5 Song 5 lyrics ...`
+    tig: `ንዑ ንኣምላኽ ብሓጎስ ንዘምረሉ 
+  ንከውሒ መድሕና ብሓባር ንጨድረሉ 
+  ኣብ ዝፋኑ ክንበጽሕ ብልዑል ምስጋና 
+  ክንዝምረሉ ኢና ብጥዑም ቃና 
+      ተደ፦ኣብቲ ቅዱስ ቤትካ ዘመላልሰና 
+            ብመንፈስ ሓይሊ ጽድቂ ፍጠረልና /2/ 
+2.ኣብ ልዕሊ ኩሉ ኣምላኸይ ንጉስ’ዩ 
+  ጠፈር ሃዋህው’ን እውን ምስክር’ዩ 
+  ባሕሪ’ውን ናቱ’ዩ ንሱ ዝፈጠሮ 
+  ንቑጽ ምድሪ እውን ጥሉል ዝገበሮ 
+          3.ንጽምእቲ ነፍሲ ብጸጋኡ ኣዕጊቡ 
+             ንጥፍእቲ ነፍሲ ናብ ሰናይ ስሒቡ 
+             ንሱ ኣምላኽና’ዩ ንሕና ድማ ሕዝቡ 
+             ኣብቲ ልሙዕ ሸኻ ኣኪቡ ስሒቡ 
+4.ኣምላኽ ምሳና’ዩ ከቶ ኣይንፈርሕን 
+  ሰብከ እንታይ ከይገብረና ፍጹም ኣይንርዕድን 
+  ኣብ ትሕቲ ኣኽናፉ ክንዕቆብ ኢና 
+  እቲ እኩይ ሓይሊ’ውን ፍጹም ኣይቀርበናን `,
+    eng: `1.Niu nimalak bihagos nizemerelu
+Nikuhi medhina bihabar nichaderelu
+Ab zifanu kinbetsih bilul misgana
+Kinizmerelu ina bitum kana
+
+Tede:
+Abti kudus betka zemelalsena
+Bimenfes hayli tsidki feteralna (×2)
+
+2.Ab lieli kulun amlakay ngus yu
+Tefer hawahun inun miskir yu
+Bahri un natu yu nissu zifetero
+Nikuts midri un tilul zigabero
+
+3.Nitsimiti nefsi bitsaga’u a’gibu
+Nitfiti nefsi nab senay sihibu
+Nissu amlakna yu nihna dima hizbu
+Abti limu’a shekha akibu sihibu
+
+4.Amlak misana yu kito ayniferhin
+Sebke entay keygebrena fitsum ayniredin
+Ab tihti aknafu kiniqob ina
+Eti ikuy hayli un fitsum aykerbena’n`
 },
 song6: {
     title: { tig: "ተንሲኡልና", eng: "Song 6" },
