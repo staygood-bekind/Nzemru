@@ -278,94 +278,587 @@ Ab tihti aknafu kiniqob ina
 Eti ikuy hayli un fitsum aykerbena’n`
 },
 song6: {
-    title: { tig: "ተንሲኡልና", eng: "Song 6" },
-    author: { tig: "ሴም ፡ ኣድያም", eng: "Sem Adiam" },
-    album: { tig: "ንስል", eng: "Nsil" },
-    genre: { tig: "ምስጋና", eng: "Praise" },
-    date: "2023-03-06",
+    title: { tig: "ስድራቤቱ ንኣምላኽ", eng: "Sidra Betu Nimalak" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
     cover: "images/album1.jpg",
-    tig: `6ናይ ሶንግ 6 ትርጉም ...`,
-    eng: `6 Song 6 lyrics ...`
+    tig: `ተደ፦ስድራቤቱ ናይ ኣምላኽ ብሙዃና 
+         ኣዚና ሕሩያት ፍጥረት ኢና 
+         ብምሕረት ሃብታም ጎይታ ሒዝና                                               
+         ምስ ክርስቶስ ሕያዋን ገበረና 
+1.ቀደም ዝረሓቕና ዝነበርና ሕጂ ግን ናቱ ኮይና 
+  በቲ ክቡር ዋጋ ተዓዲግና ስድራቤት ኣምላኽ ኢና 
+  እዚ ብሉጽ ዕጫ ዝበጽሓና ብጎይታ ኮይኑልና 
+  ነመስግኖ(2) ነመስግኖ ንጎይታ 
+  ብጥዑም ዜማታት ምስ ድሙቕ ዕልልታ(2) 
+       2.ክልተ ዝነበሩ ብደሙ ሓደ ዝገበረ 
+         ኣብ መንጎ ዝነበረ ከለካሊ ቀጽሪ’ውን ዘፍረሰ 
+         ርእሱ ኣወፍዩልና ሞይቱልና ጸይሩ’ውን መስቀሉ 
+         ነቲ ጽልኢ(2) ብስጋኡ ስዒሩ 
+         ኣብ መስቀል ሰቒሉ ሰላም ኣበሲሩ(2) 
+3.ኢየሱስ ርእሰ መኣዝን ዘለዎ ህንጻ ብምንዳቕና 
+  ዘልኣለም ኣብ ሕቕፉ ክንነብር ዕድል ብምርካብና 
+  ማህደር መንፈስ ቅዱስ ብመንፈስ ክንከውን ሓቢርና 
+  ኣብ ቤቱ ኣብ ሕቕፉ ኣብ ጽላል ኣኽናፉ 
+  ክንጽምበር ኣብ ኣርያም ምስቶም ቅዱሳኑ(2`,
+    eng: `Tede:Sidra Betu nay Amlak bimu’ana
+Azina hruyat fɨtret ina
+Bimhirret habtam goyta hizna
+Mis Kristos hiyawan geberna
+
+1.Qedem zirehaqna zineberna higi gin natu koyna
+Beti kibur waga te’adiqna sidra bet Amlak ina
+Izi biluts iqcha zibets’hana bigoyta koynulna
+Nemesgino (2) nemesgino ngoyta
+Bit’um zimatat mis dmuq ililta (2)
+
+2.Kilte zineberu bidemu hade zigebera
+Ab mengo zinebera kelekali qetsri un zefr’se
+Re’su awfiyulna moytulna tseyru un mesqelu
+Neti tsl’i (2) bisga’u sɨi’ru
+Ab mesqel seqilu selam abesiru (2)
+
+3.Iyesus r’ese me’azen zelayyo hɨnsa bɨmɨndaqqna
+Zelalem ab hɨqfu knenebber ʕɨdl bɨmɨrkabna
+Mahder menfes kudus bɨmenfes knkewun ḥabirna
+Ab betu ab hɨqfu ab tslal aḥnafu
+Knets’mber ab aryam mis tom kudusanu (2)`
 },
 song7: {
-    title: { tig: "ኦ ማርያም", eng: "Song 7" },
-    author: { tig: "ሴም ፡ ኣድያም", eng: "Sem Adiam" },
-    album: { tig: "ንስል", eng: "Nsil" },
-    genre: { tig: "ምስጋና", eng: "Praise" },
-    date: "2023-03-07",
+    title: { tig: "እግዚ/ር ሰላምና’ዩ", eng: "Egziher Selamna Yu" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
     cover: "images/album1.jpg",
-    tig: `7ናይ ሶንግ 7 ትርጉም ...`,
-    eng: `7 Song 7 lyrics ...`
+    tig: `1.ኩሉ ብርኪ ዝሰግደሉ 
+  ረማዕ ገማዕ ውን’ዝብለሉ 
+  ኣቱም ሕዝቢ ኣመስግኑ 
+  ንኣምላኽና ዓልሉ(2) 
+     ተደ፦እግዚ/ር ሰላምናዩ’ሞ 
+           ንእግዚ/ር ክብሪ ንሃቦ 
+           እግዚ/ር ኣምላኽና’ዩ’ሞ 
+           ብምሳጋና ልዕል ነብሎ(2) 
+           ብምስጋና ልዕል ነብሎ 
+2.ብምሕረቱ ዝጠመተና 
+  ኣብ ኣእዳዉ ዝወቀጠና 
+  ዕዳ ከፊሉ ሕይወት ሂቡና 
+  ይውሕዶ’ኳ ስብሃት ምስጋና(2) 
+       3.ንሱ ሓሲሩ ዘኽበረና 
+         ርእሰ መኣዝን ዝገበረና 
+         ቀጽርታትና ኣብ ዓይኑ’ዩ 
+         ሓላዊና ኣይታኸስን’ዩ(2) 
+4.ልሳናትና ስሓቕ ዕልልታ 
+  ልባትና’ውን ሓጎስ ምስ ደስታ 
+  ዘንጀርበበ ድንቂ ጎይታ’ዩ 
+  ኣብ ዘመናት መስተንክር ስርሑ(2) 
+        ብምስጋና ልዕል ነብሎ 
+        ብውዳሴ ልዕል ነብሎ 
+        ብሸብሸባ ልዕል ነብሎ 
+        ብሳዕሲዒት ልዕል ነብሎ 
+        ብዕልልታ ልዕል ነብሎ `,
+    eng: `1.Kulu birki zisegdelu
+Rema’e gema’e wun ziblela
+Atum hizbi amesginu
+Ni Amlakna alilu (2)
+
+Tede:Egziher selamna yumo
+Ni Egziher kibri nihabo
+Egziher Amlakna yumo
+Bimisagana li’el neblo (2)
+Bimisagana li’el neblo
+
+2.Bimhirretu zitemetna
+Ab a’edawu ziweqetena
+Ida k’filu hiywet hibuna
+Yiwihdo kwa sibhat misgana (2)
+
+3.Nisu hasiru zekiberena
+Re’ese me’azen zigeberena
+Qetsirtatna ab aynu yu
+Halawina aytakhsen yu (2)
+
+4.Lisanatna sihaq ililta
+Libatna wun ḥagos mis desta
+Zenjerbebe dinqi Goyta yu
+Ab zemenat mestenker sirhu (2)
+
+Bimisagana li’el neblo
+Biwudase li’el neblo
+Bishebsheba li’el neblo
+Bisa’si’it li’el neblo
+Bi’ililta li’el neblo`
 },
 song8: {
-    title: { tig: "ፍቕሩን ምሕረቱን", eng: "Song 8" },
-    author: { tig: "ሴም ፡ ኣድያም", eng: "Sem Adiam" },
-    album: { tig: "ንስል", eng: "Nsil" },
-    genre: { tig: "ምስጋና", eng: "Praise" },
-    date: "2023-03-08",
+    title: { tig: "ብጎይታ ዝያዳ ከቢራ", eng: "Bigoyta Zy’ada Kebira" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
     cover: "images/album1.jpg",
-    tig: `8ናይ ሶንግ 8 ትርጉም ...`,
-    eng: `8 Song 8 lyrics ...`
+    tig: `1.ንኸድሕነና ጎይታ ምስ ደለየ 
+  እኖ ክትኮኖ ንማርያም መረጸ 
+  ብልጽቲ ካብ ፍጥረት ኣዳም  
+  ምስ ሓጢኣት ዘይብላ ኪዳን 
+  ንማርያም ረኺብና ክብረት ለቢስና(2) 
+       ተደ፦ብጎይታ ዝያዳ ከቢራ  
+             ትነብር ዘልኣለም ደሚቓ   
+             ጠበቓ ናይ ፍጥረት ኣዳም  
+             ኣዴና ማርያም’ያ ማርያም ማርያም 
+             እወ ማርያም’ያ ማርያም  
+                 ሰማያ ጽላላ ጌራ  
+                 ንሓጢኣት ረጊጻ ብእግራ  
+                 ሳልኣ ክብረት ለቢስና 
+                 ርሕርሕቲ ኣደ ረኺብና  
+                 እወ ኣደ ረኺብና                        
+2.ርሕርሕቲ ኣደ ድሌትካ ትፈልጥ 
+  ወዳ ሓቲታ ጎደሎ ትምልእ 
+  ንግስቲ ኣፍደገ ሰማይ  
+  ብልጽቲ መሳልል ሰማይ 
+  ንማርያም ረኺብና ክብረት ለቢስና(2) 
+           3.ጓል ሰብ ክንሳ ንሰብ ዘይመሰለት 
+             ብልጽቲ ፍጥረት ጎይታ ዘየሕዘነት 
+             ስልምቲ ከም ጸሓይ ጩራ  
+             መድሓኒ ኣብ ከብዳ ጸይራ 
+             ንማርያም ረኺብና  ክብረት ለቢስና(2)`,
+    eng: `1.Nikhedhena Goyta mis deleye
+Eno kitkono ni Maryam meretse
+Bilitsi kab fitret Adam
+Mis hati’at zeybila kidan
+Ni Maryam rehɨbna kibret lebisna (2)
+
+Tede:Bigoyta zy’ada kebira
+Tinibr zelalem demika
+Tebeka nay fitret Adam
+Adena Maryam ya Maryam Maryam
+Ewe Maryam ya Maryam
+Semaya tslala gera
+Nihati’at regitsa bi’igra
+Sala kibret lebisna
+Rehrɨhti ade rehɨbna
+Ewe ade rehɨbna
+
+2.Rehrɨhti ade diletka tifelit
+Weda hatita godelo timli’
+Nigisti afdege semay
+Bilitsi mesalel semay
+Ni Maryam rehɨbna kibret lebisna (2)
+
+3.Gwal seb kinsa niseb zeymeselät
+Bilitsi fitret Goyta zeyehezenet
+Silimti kem tsihay chura
+Medhane ab kebda tseyra
+Ni Maryam rehɨbna kibret lebisna (2)`
 },
 song9: {
-    title: { tig: "ናይ ሶንግ 9", eng: "Song 9" },
-    author: { tig: "ሴም ፡ ኣድያም", eng: "Sem Adiam" },
-    album: { tig: "ንስል", eng: "Nsil" },
-    genre: { tig: "ምስጋና", eng: "Praise" },
-    date: "2023-03-09",
+    title: { tig: "ኣዳልዩለይ ኣሎ", eng: "Adalyuley Alo" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
     cover: "images/album1.jpg",
-    tig: `9ናይ ሶንግ 9 ትርጉም ...`,
-    eng: `9 Song 9 lyrics ...`
+    tig: `1.ኣብቲ ዳግማይ ሕይወት ምንባር ተጀሚረ 
+ ዘልኣለም ሓጎስ’ዩ እቲ ዝመቀረ 
+ ንምንታይ ይጭነቕ ንኽነብር ኢለ 
+ ኣይወድቕ ኣይደክም ምስ ኢየሱሰይ ኮይነ 
+    ተደ፦ኣዳልዩለይ ኣዳልዩለይ ኣሎ 
+          ኣዝዩ ክቡር ቦታ 
+          ኣዳልዩለይ ኣዳልዩለይ ኣሎ 
+          ኣዝዩ ብሉጽ ስፍራ 
+          ኣዳልዩለይ ኣዳልዩለይ ኣሎ 
+          ዋጋ ዘይከፍለሉ 
+          ኣዳልዩለይ ኣዳልዩለይ ኣሎ 
+          ውሽጠይ ዝዓርፈሉ 
+             ተስፋይ እዚ እዩ 
+             ነብሰይ እትደልዮ(2) 
+             ኣኽሊል ክብሪ ሕይወት 
+             ነብሰይ ትቕበሎ(2)
+2.ጸሓይ ኣየድልዮን ብርሃን ንኽኸውን 
+  ወርሒ ከዋኽብቲ ንዕኡ ኣይበቅዕን 
+  ወሓዚ ማይ ሕይወት ዝፈስስ ዝውሕዝ  
+  ኢየሱስ ኣዳልዩለይ ነቲ ብርሃን ቀንዴል 
+        3.ኣዝዩ ብሉጽ ቦታ ዓይኒ ዘይረኣየቶ 
+          ትማል ኮነ ሎሚ እዝኒ ዘይሰምዓቶ 
+          ኣእምሮ ወድ ሰብ ፍጹም ዘይምርምሮ 
+          ኢየሱስ እቲ ሕያው ኣዳልዩለይ ኣሎ 
+    ቀሲነ ንኽነብር ምርጭኡ ኾይኑ 
+    ንዓይ ንዉሉዱ ክብሪ ሂቡኒ’ዩ 
+    በቲ ኮኾብ ጽባሕ ዘልኣለም ሕያው’ዩ 
+    ኣነ ዝጽበዮ ተስፋይ ኢየሱስ’ዩ /2/ 
+    ኣዳልዩ ሁሁ…… ኣዳልዩ(8)  `,
+    eng: `1.Abti dagmay hiywet mɨnbar tejmire
+Zelalem ḥagos yu ɨti zimeqere
+Nɨmɨntay yich’neq nɨkhenebber ile
+Aywedq aydekem mis Iyesusey koyne
+
+Tede:Adalyuley, Adalyuley alo
+Azyu kibur bota
+Adalyuley, Adalyuley alo
+Azyu biluts sifra
+Adalyuley, Adalyuley alo
+Waga zeykeflelu
+Adalyuley, Adalyuley alo
+Wushtey zya’rfelu
+
+Tesfay ezi iyu
+Nebsey itdeliyo (2)
+Akhlil kibri hiywet
+Nebsey tikbelo (2)
+
+2.Tsihay ayedl’yon birhan nkhikhon
+Werhi kewakbti ni’u aybeq’in
+Wehazi may hiywet zifesis zwi’hiz
+Iyesus Adalyuley neti birhan qen’del
+
+3.Azyu biluts bota ayni zeyre’ayeto
+Timal kone lomi izni zeysem’a’to
+A’imro wed seb fitsum zeymrmro
+Iyesus iti hiyaw Adalyuley alo
+
+Qesine nkhenebber mirch’u koynu
+N’ay n’wludu kibri hibuni yu
+Beti kokhob tsbah zelalem hiyaw yu
+Ane zitsbeyo Tesfay Iyesus yu (2)
+
+Adalyu huhu…… Adalyu (8)`
 },
 song10: {
-    title: { tig: "ናይ ሶንግ 10", eng: "Song 10" },
-    author: { tig: "ሴም ፡ ኣድያም", eng: "Sem Adiam" },
-    album: { tig: "ንስል", eng: "Nsil" },
-    genre: { tig: "ምስጋና", eng: "Praise" },
-    date: "2023-03-10",
+    title: { tig: "ኣይርስዖን’የ", eng: "Ayrson’ye" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
     cover: "images/album1.jpg",
-    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
-    eng: `10 Song 10 lyrics ...`
+    tig: `1.ጼርካኒ ኣሎኻ…… 
+  ካብ መዓልቲ ንመዓልቲ   
+  ብምሕረትካ እናኸለልካ ኦኦኦ… 
+  ደው ኢለ ኣለኹ ኣብቲ ሕያው ቃልካ 
+  ኦኦኦ… ተተኺለ ኣለኹ ኣብቲ ሕያው ቃልካ 
+       ተደ፦ኣይርስዖን’የ… ‘ቲ ምሕረትካ ኣሃሃ… 
+                ኣይርስዖን’የ… ‘ቲ ፍቕርኻ ኣሃሃ… 
+                   ኣይርስዖን’የ… ‘ቲ ሓልዮትካ ኣሃሃ… 
+                   ኣይርስዖን’የ… ጉስነትካ ኣሃሃ… 
+2.ከይደክም ከይሕለል ኣጆኺ እናበልካ… 
+   ጸልማት ኣብ ዝኾነሉ ብርሃንካ እናብራህካ    
+   ንጎቦታት ሜዳ ጌርካዮም 
+   ኣሳጊርካኒ ብሩኽ ጎይታ 
+   ከምዚ ከማኻ መን ኣሎ ንዓይ  
+   ክንዲ ኹሉ ዝኾነለይ (2) 
+       3.ክሳብ ሽበት ክሳብ እርግናይ  
+           ትስከመኒ  ኣምላኸይ… 
+           ክኣምነካ’የ ምሉእ ዘመነይ 
+           ሓዚልካ ሓንጊርካ ከም ተጓዕዘኒ 
+           ናብ መፈጸምታ ከም ተብጽሓኒ 
+           እሙን ኢኻ ጀማሪ እምነተይ  
+           ኣይጥርጥረካን ምሉእ ዘመነይ(2) 
+              ኣብ ባህ ዘብል ዕጫ በጺሑኒ 
+                 አረ ግሩም ርስቲ መጺኡኒ  
+                 ኣየ ክንደይ ተዓዲለ (ተዓዊተ)       
+                 እግዚኣብሔር ኮይንካ ርስተይ (2) /2/`,
+    eng: `1.Tserkani alo kha…
+Kab me’alti ni me’alti
+Bimhirretka enakhelelka ooo…
+Dew ile alekhu abti hiyaw qalka
+Ooo… tetekhile alekhu abti hiyaw qalka
+
+Tede:Ayrson’ye… ti mhirretka aha-ha…
+Ayrson’ye… ti fqirka aha-ha…
+Ayrson’ye… ti halyotka aha-ha…
+Ayrson’ye… gusnetka aha-ha…
+
+2.Keydekhem keyħlel ajoḵi enabelka…
+Tselmat ab zikhonelu birhanka enabrahka
+Nigobotat meda gerkayo’m
+Asagirka’ni biruk Goyta
+Kemzi kemmakha men alo ni’ay
+Kindi khulu zikhonelay (2)
+
+3.Kisab shibet kisab ergnay
+Tiskemeni Amlakhay…
+Kiamneka’ye mlu’e zemena’y
+Hazilka hangirka kem tegwa’ezni
+Nab mefets’emta kem tebtsiħani
+Emun’ika jemari imnetey
+Aytirt’rka’n mlu’e zemena’y (2)
+
+Ab bah zebl ‘itsa bets’huni
+Are grum risti mets’i’uni
+Aye kindey te’adile (te’awite)
+Egziabher koyn’ka ristey (2)`
 },
 song13: {
-    title: { tig: "ናይ ሶንግ 10", eng: "Song 10" },
-    author: { tig: "ሴም ፡ ኣድያም", eng: "Sem Adiam" },
-    album: { tig: "ንስል", eng: "Nsil" },
-    genre: { tig: "ምስጋና", eng: "Praise" },
-    date: "2023-03-10",
+    title: { tig: "ካብ ትንፋሰይ ትቐርብ", eng: "Kab Tinfasey Tik’erb" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
     cover: "images/album1.jpg",
-    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
-    eng: `10 Song 10 lyrics ...`
+    tig: `1.ልመናይ ትሰምዕ ንብዓተይ ትርኢ  
+  ጻውዒተይ ትሰምዓኒ ምላሽ ድማ ትህብ 
+  ምስ ዝቐርብ ቅድሜኻ ኣለኹ ትብለኒ 
+  መን’ዩ ዝመስለካ ኦ… መድሓኒ   
+  ኦ…… 
+      ተደ፦ፍቕሪ ዝኾንካ ኣምላኽ ዝወዳደር ነይብልካ 
+               ቀረባ ኮይንካኒ ክስዕብ ኣስ’ኣሰርካ  
+               መን’ከ ኣሎ ከማኻ ዝኾነለይ  
+               ካብ ትንፋሰይ ዝቐርብ 
+               ዘፍቅረኒ ዝሓልየለይ   
+2.ድኻመይ ትርዳእ ሓይሊ እተዕጥቐኒ 
+  መጊብካ እናበርታዕካ ኣብ ሕቑፎኻ ተዕርፈኒ 
+  ምኻድ ምስ ሰኣንኩ መንኩብካ ትጾረኒ 
+  ኣብ ዓቐበት ቁልቁለት ነይትፍለየኒ 
+   ኦ…… 
+           3.ዕሽነተይ ትፈልጥ መንገዲ ትመርሓኒ 
+              ተሃክዩካ ነይፈልጥ ንኸተረድኣኒ 
+              ከይስምብድ ‘ሞ ከይፋልል ቀስ ኢልካ ትመኽረኒ 
+              በቲ ጥዑም ድምጽኻ ፍቓድካ ትምህረኒ 
+              ኦ…… 
+4.ልበይ ምስ ዝሽበር ተጸናንዓኒ  
+   መንፈሰይ ምስ ዝቕጥቀጥ ድማ ተድሕነኒ  
+   መከራይ ኣብ ዝበዝሓሉ ብኢድካ ተናግፈኒ 
+   ኩሉ ስምዒት ናይ ልበይ ብቐረባ ትርድኣኒ 
+  ኦ……`,
+    eng: `1.Limenay tise’m’ ni b’atey tire’i
+Tsaw’itey tise’m’ani milash dima t’ħeb
+Mis zikerb k’demeka alekhu tible’ni
+Men’yu zimesleka o… medhane
+O……
+
+Tede:Fqri zikhonka Amlak ziwedader neyblka
+Qereba koynkani k’s’ɨb as’aserrka
+Men’ka alo kemmakha zikhonelay
+Kab tinfasey zikerb
+Zefqreni zihalyelay
+
+2.Dkhamey tirda’e hayli it’ɛtk’eni
+Megibka enaberta’ekka ab h’qufoka te’rfeni
+Mikhad mis se’anku menkubka tits’orni
+Ab aqebet qulkulete neyitf’le’yeni
+O……
+
+3.Ishnetey tifelt men’gedi timerhani
+Tehakiyuka neyf’elt ni k’etered’ani
+Keysimbed ‘mo keyfalel qes ilka timekhrani
+Beti t’qum d’mtska f’qadka timhireni
+O……
+
+4.Libey mis zishber t’senani
+Menfesey mis ziqt’qet dima tedhheni
+Mekray ab zibe’zhalu b’idka tenagfeni
+Kulu sime’it nay libey b’qereba tirda’ni
+O……`
 },
 song14: {
-    title: { tig: "ናይ ሶንግ 10", eng: "Song 10" },
-    author: { tig: "ሴም ፡ ኣድያም", eng: "Sem Adiam" },
-    album: { tig: "ንስል", eng: "Nsil" },
-    genre: { tig: "ምስጋና", eng: "Praise" },
-    date: "2023-03-10",
+    title: { tig: "እሙን  ኢኻ", eng: "Emun Ika" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
     cover: "images/album1.jpg",
-    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
-    eng: `10 Song 10 lyrics ...`
+    tig: `1.ከመይ ከም ትሰርሖ እንተዘይፈለጥኩ’ኳ    
+   ስልጣንካ ኣሚነ ሽግረይ የቕርበልካ     
+   ተስፋታተይ ዘቑርጽ ጸገመይ እንተበዝሐ        
+   ንስኻ ከም ትፈትሓለይ ኣርጊጸ እፈልጥ’የ   
+           ሓያል ዓቢ ኣምላኽ ተኣምራት ትገብር  
+             እኣምነካ(3)                              
+             ማሕተም ንተገብሮ ከም ሓድሽ ትጅምር       
+             እሙን ኢኻ(3) 
+2.ናብራይ እናጸልመተ እንተኸደኒ እኳ     
+   ዝተጸበኽዎ ነገር እንተዘይኮነለይ ድማ     
+   ግዚኡ ሓሊኻ ንስኻ ኢኻ ተብርሆ        
+   ንዓኻ ብምሓዘይ ብዓወት ዝሓልፎ  
+            ተስፋታትካ ብሉጽ ንሕይወተይ ዘሐድስ 
+          እኣምነካ(3)       
+          መከራይ ኣልጊስካ በረኸት ተፍስስ     
+          እሙን ኢኻ(3)
+3.መንገዲ ናይ ረሲእ ብዓመጽ ክቐንዓሉ       
+   እርኢ’ለኹ ብዓይነይ ብብዙሕ ክሰልጠሉ     
+  ብሓቅኻ ብምኻደይ ከም ዓሻ እንተቑጸረኒ   
+  ብሓጢኣት ካብ ዝረኽቦስ ምስኣኑ ይበልጸኒ   
+           ናይ ዕለት እንጌራይ ስኢነ ነይፈልጥ 
+         እኣምነካ(3) 
+         ትሓሊ ወላዲ ዘድልየኒ ትፈልጥ 
+         እሙን ኢኻ(3)                                         
+4.ክፉእ ርሱን መንትግ ወርዊሩ ክቐትለኒ    
+   ከም ሓላዪ ተመሲሉ’ውን መጸኒ ክፉእ ጸላኢ    
+   ድሌቱ ኣይኮነሉን ሓጺርካያ ንሕይወተይ        
+   ምሉእ ዕረፍቲ ኣሎኒ ስለዝኾንካ ጓሳይየይ 
+         ጅግና ተዋጋኢ ስምካ እግዚ/ር 
+         እኣምነካ(3) 
+         ኣማዕዲኻ ኣይትርእየንን ምሳይ ደኣ ትነብር 
+         እሙን ኢኻ(3) `,
+    eng: `1.Kemey kem tiserho entezeyfel’tku’kwa
+Siltanka amine shigre yeqerbelka
+Tesfatatey zequrts ts’egemey entebezha
+Niska kem tifeṭhalei argitse efelt’ye
+Hayal ‘abi Amlak te’amrat tigebber
+Eamineka (3)
+Mahtem ntegebro kem hadish tijmer
+Emun Ika (3)
+
+2.Nabray enats’elmete entekedeni ekwa
+Zetsebeko neger entezeykonelay dima
+Gzi’u halika niska ika teberho
+Ni’akha bimhazey bi’awet zehalfo
+Tesfatatka biluts nihywetey zehadis
+Eamineka (3)
+Mekray algiska berekhet tefsis
+Emun Ika (3)
+
+3.Mengedey nay resi’ b’amet’ k’ek’enalu
+Eri’leku b’ayney b’bzuḥ k’sel’telu
+B’haqka b’mikhadey kem ‘asha enteqts’erni
+B’hati’at kab zirekebos misanu yibeltseni
+Nay ‘ilet eng’eray si’ine neyf’elt
+Eamineka (3)
+Tihali weladi zedliyeni tifelt
+Emun Ika (3)
+
+4.Kefu’ r’sun menteg werwiru k’ek’etleni
+Kem halay temesilu’wn mets’eni kefu’ ts’elai
+D’letu aykonelu’n haseerka’ya n’hywetey
+Mlu’e ‘erefeti aloni silzikhonka guasayeyi
+Jigna tewagai simka Egziher
+Eamineka (3)
+Am’adika aytirey’en misay dea tineber
+Emun Ika (3)`
 },
 song15: {
-    title: { tig: "ናይ ሶንግ 9", eng: "Song 9" },
-    author: { tig: "ሴም ፡ ኣድያም", eng: "Sem Adiam" },
-    album: { tig: "ንስል", eng: "Nsil" },
-    genre: { tig: "ምስጋና", eng: "Praise" },
-    date: "2023-03-09",
+    title: { tig: "ማርያም ዑንቂ ባሕሪ", eng: "Maryam ‘Unqi Bahri" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
     cover: "images/album1.jpg",
-    tig: `9ናይ ሶንግ 9 ትርጉም ...`,
-    eng: `9 Song 9 lyrics ...`
+    tig: `ተደ፦ማርያመይ ካብ ኩለን ዝኸበርኪ 
+           ርኽሰት ኣልቦ ካብ ኩለን ንጽሕቲ 
+           ሰመያዊ ፍቕሪ ዝተወግአ ልብኺ 
+           ተዋሂቡኪ’ሎ ብልዑል ፈጣሪ(2) 
+                ስለ ኹሉ እውን ትጽዕሪ 
+                ንጥፉኣት እውን ክትመልሲ 
+                ስለ ኹሉ ፍጡር ትነብዒ 
+                ንሓጥኣን ምስ ፈጣሪ ክትዓርቂ 
+           ማርያም ዑንቂ ባሕሪ 
+           ዝለበስኪ ዘልኣለም ክብሪ 
+           የድንቐኪ ኣለኹ(2) 
+           ማርያም ክበሪ ወትሩ ንበሪ 
+1.ኣማላድነትኪ ወትሩ ንጽውዕ 
+  ስለ ፍቑር ወድኺ ደገ ንጸንዕ 
+  ልብኺ ክፈቲ ኣውያትና ክሰምዕ 
+  ጸጋ ኣልቢሱ መንፈስና ከጽንዕ 
+  ከጽንዕ መንፈስና ከጽንዕ 
+        2.ካብ ኩለን ደናግል ኣብሊጹ ሓረየኪ 
+           ማሕደሩ ክትኮኒ ብቕድስና ቀብኣኪ 
+           ኣብ ምድርን ሰማይን ንግስቲ ሸመኪ 
+           ክብርን ውዳሴን ዘልኣለም ንዓኺ 
+           ንዓኺ ዘልኣለም ንዓኺ /2/ `,
+    eng: `Tedefa:Maryamey kab kulen zikheberki
+Rikheset albo kab kulen n’tsehti
+Semeyawi fqri zitewge’a libki
+Tewahibuki’lo bil’ul fetari (2)
+Sile kulu ewun ts’eri
+N’t’fu’at ewun k’timelsi
+Sile kulu f’tur tinbe’bi
+N’hati’an mis fetari k’tiarqi
+
+Maryam ‘Unqi Bahri
+Zilebeski zelalem k’bri
+Yedunqe’ki alekhu (2)
+Maryam k’bri wetru n’beri
+
+1.Amaladnetki wetru n’tsew’e
+Sile fqur wedkhi dege n’tsen’e
+Libki k’feti awy’atna k’sem’e
+Ts’ega albsu menfesna k’ts’n’e
+K’ts’n’e menfesna k’ts’n’e
+
+2.Kab kulen denagel ablitshu hareyeki
+Mahderu k’tikoni b’qed’sna k’ebaki
+Ab midrin semayn nigisti shemeki
+K’bri n’wdase’n zelalem n’akhi
+N’akhi zelalem n’akhi (2)`
 },
 song16: {
-    title: { tig: "ናይ ሶንግ 10", eng: "Song 10" },
-    author: { tig: "ሴም ፡ ኣድያም", eng: "Sem Adiam" },
-    album: { tig: "ንስል", eng: "Nsil" },
-    genre: { tig: "ምስጋና", eng: "Praise" },
-    date: "2023-03-10",
+    title: { tig: "ሰላመይ ወሓዚ ጌርካዮ", eng: "Selamey Wehazi Gerkaio" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
     cover: "images/album1.jpg",
-    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
-    eng: `10 Song 10 lyrics ...`
+    tig: `1.ካባኻ ርሒቐ ናበይ’የ ክኸይድ 
+   እንታይ’ከ ክረክብ ካባኻ ዝበልጽ 
+   ኣይደልን(2) ክፍለየካ 
+   ሓንሳእ ንዘልኣለም መሪጸካ 
+   ሰናይካ እንድዩ ለሚዱ ልበይ 
+   ክፍለ ዘይገብረለይ 
+   ጽቡቕካ እንድዩ ለሚዱ ልበይ 
+   ክፍለ ዘይገብረለይ(2)  
+         ተደ፦ኣይደንል’የ ክርሕቕ ካባኻ 
+               ኣይደንል’የ ክፍለየ’ካ 
+               እንታይ’ዶ ጽቡቕ ኣሎኒ’ዩ  
+               ኢየሱስ ብዘይካ’ኻ  
+               ጽባቐይ ክብረተይ ዝምከሓሉ ሃብተይ 
+               ናይ ዘልኣለም ርስተይ  
+               ንስኻ እንዲኻ…ዎ… ኢየሱሰይ 
+               ንዘልኣለም ዘይትበርስ ሃብተይ  
+ 2.ኣነ ንክኸብር ዝተዋረድካለይ  
+   ሕይወት ንኽረክብ ንስኻ ሞትካለይ  
+   ሰላመይ(2) ወሓዚ ገርካዮ 
+   ብስምብራትካ ቁስለይ ፈዊስካዮ 
+   እዚ እንዳ’ረአኹስ ኣነ ፈጺመ ነይፍለይ 
+   እንተደለኹ ከኣ ልበይ ኣይገብረለይ(2) 
+               3.ኣብ መንጎ ኣማልኽቲ ከማኻ ዝበለ 
+               ብዕቤቱ ዝፍራሕ ገባር ተኣምራት 
+               ከማኻ(2) ዝኸበረ መን’ዩ 
+               ልዕል ዝበለ’ኸ እንታዋይ’ዩ 
+               ንዝተበጀኻዮ ብምሕረት ትመርሕ 
+               ነብሰይ ብፍቶታ ብድሕሬኻ ትጠብቕ(2) 
+4.ብዘይካ’ኻ እሞ መን’ዩ ካልእ ኣምላኽ 
+   እወ ብዘይ ብኣኻ መን’ከ ኣሎ ከውሊ 
+   ካብ ልበይ(2) የፍቅረካ እየ  
+   ክገልጸልካ ፍቕረይ ዜማ ጌረ 
+   ዎ ኣምላኽ ክብረይን ልበይን ኣንቂደን 
+   ሰናይካ ከዘንቱ እምበር ካባኻ’ስ ኣይፍለን(2) `,
+    eng: `1.Kabaka r’hiqe nabey’ye k’kheyd
+Entay’ke k’rekb kabaka zibelts
+Ayde’ln (2) k’fleyeka
+Hansae n’zelalem merits’eka
+Senayka endyu lemidu libey
+K’fley zeygebreley
+Tsbukeka endyu lemidu libey
+K’fley zeygebreley (2)
+
+Tedefa:Ayden’l’ey k’rh’q kabaka
+Ayden’l’ey k’fleyeka
+Entay’do ts’buk aloni’yu
+Iyesus b’zeyka’kha
+Tsbak’ey k’biretey z’mek’halu habtey
+Nay zelalem ristey
+Niska endikha…wo… Iyesusey
+N’zelalem zeytberes habtey
+
+2.Ane n’kekheber z’t’war’dkaley
+Hywet n’krekb niska motkaley
+Selamey (2) Wehazi Gerkaio
+B’smb’ratka qusley fewiskaio
+Ezi endar’e’kus ane fets’ime neyf’ley
+Entedelkhu ke’a libey aygebreley (2)
+
+3.Ab mengo amalekhti kemakha z’bele
+B’ebetu z’ferah gebar te’amrat
+Kemakha (2) z’kheber men’yu
+L’el z’bele’khe entawaye’yu
+Niztebej’kayo b’mheret t’merrh
+Nebse’ b’ftota b’dhereka t’tebq’ (2)
+
+4.B’zeyka’kha emo men’yu kal’ amlak
+Ewe b’zey b’akha men’ke alo kewli
+Kab libey (2) yefqreka iye
+K’gelts’elka fqrey zema gere
+Wo Amlak k’breyn libeyn anqiden
+Senayka kezintu ember kabaka’s ayfelsn (2)`
 },
 song17: {
     title: { tig: "ናይ ሶንግ 10", eng: "Song 10" },
@@ -387,5 +880,25 @@ song18: {
     tig: `10ናይ ሶንግ 10 ትርጉም ...`,
     eng: `10 Song 10 lyrics ...`
 },
+song10: {
+    title: { tig: "", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: `10 Song 10 lyrics ...`
+},
+song10: {
+    title: { tig: "", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: `10 Song 10 lyrics ...`
+},    
 // … continue incrementally up to song64
 };
