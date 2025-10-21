@@ -1243,6 +1243,346 @@ Neti zestew’elos Iyesus feluy ikha
 Halefa kulu ikha`
 },
 song22: {
+    title: { tig: "ኣይነበር", eng: "Ayneber" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    cover: "images/album1.jpg",
+    tig: `1.ናይ ዘልኣለም ሕይወት ቃል ኣሎካ 
+   ናበይ ክኸይድ’የ ሞ’ካባኻ 
+   ምርጫይ እዚ’ዩ ንዘልኣለም  
+   ካብ ቤትካ ወጻእስ ኣይነበር(7) 
+   ተደ፦ስጉምትታተይ ኩሉ (ይኹን) ኣብ ኣሰርካ 
+           ካልኢት (ደቒቕ) ኣይደልን ክፍለ ካባኻ(2) 
+           ኣይደልን ክፍለ ካባኻ 
+           ኣይረክብን ደልየ’ውን (ኢየሱስይ) ከማኻ(2) 
+           ነብሰይሲ እምብዛ(2) ፈትያትካ 
+           ኣይደልን ኣይፍለን ኢላ ካባኻ 
+           ትጠብቅ ኣላ(2) ብድሕሬኻ 
+           ትጠብቕ ኣላ ብድሕሬኻ(2) 
+2.ምሳኻ ሙዃንዩ ነብሰይ ዕረፍታ 
+   ኣብ ቅድሚ ገጽካ’ዩ ዕጋበታ 
+   ብርክኽ ትብል ክትዓርፍ ካብ ጻዕራ 
+   መሊኣ ትትስእ ብምስጋና(7) 
+         3.ካብ ሽሕ መዓልቲ ኣብ ደምበ ረሲኣን 
+            ኣብ ቤትካ ይሕሸኒ ምሳኻ ሙዃን 
+            ካባኻ ዘይኮነስ ኣይኹነኒ 
+            ንሙሉእ ዘመነይ ይትረፈኒ(7)`,
+    eng: `1.Nay zelalem hywet qal aloka
+Nabey kkeyd iye mokabkha
+Mrchay ez’yu nzelalem
+Kab betkha wetsa’es ayneber (7)
+
+Tedefa:Sgumt tatay kulu (ykhun) ab aserka
+Kal’it (deqiq) aydelnn kflet kabkha (2)
+Aydelnn kflet kabkha
+Ayreknn delye’wn (Iyesusy) kemakha (2)
+Nebseysi embza (2) fetyatkha
+Aydelnn ayflenn ila kabkha
+Ttetebk ala (2) bdhreka
+Ttetebk ala bdhreka (2)
+
+2.Msakha mu’anyu nebsey yrefta
+Ab kdmi gtskha’yu ygbeta
+Brkhkh tbel ktta’rf kab tsa’ra
+Mlia ttse’s bmsgana (7)
+
+3.Kab shh me’alti ab dembe resi’an
+Ab betkha yhshe’ni msakha mu’an
+Kabkha zeykones aykhuneni
+Nmulu’e zemney yttrefeni (7)`
+},
+song23: {
+    title: { tig: "ተመስገን ኢየሱስ", eng: "Temesgen Iyesus" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    cover: "images/album1.jpg",
+    tig: `1.ኣብ መቕደስካ ክኣቱ ሒዘ ጥዑም ሽቶ 
+  ንኽብርኻስ ኢየሱስ (ፍትወይ) እሰብሮ አፍስሶ(2) 
+  ቅዱስ(3) ኢለ አምልኸካ 
+  ኣብ ዘመናት ኩሉ መን’ዩ’ሞ ከማኻ(2) 
+  መን’ዩ’ሞ ከማኻ መን’ዩ ዝመስለካ 
+    ተደ፦ተመስገን ኢየሱስ ተመስገን(3) ተመስገን 
+                    ነፍሰይ ተኽብረካ‘ላ ተመስገን 
+                    ነፍሰይ ተዕብየካ‘ላ ተመስገን 
+                    ነፍሰይ ተንግሰካ‘ላ ተመስገን 
+                    ነፍሰይ ተምልኸካ‘ላ ተመስገን 
+          ተመስገን(2) ብነገር ኩሉ ጻድቕ ኢኻ’ሞ ተመስገን 
+          ተባረኽ(3) ብነገር ኩሉ ሕያው ኢኻ’ሞ ተባረኽ 
+2.ኣበርን መንቅብን ፈጺሙ ዘይብልካ 
+   ኢንታ ኮነ ዕጣር ዘይተረኽበካ(2) 
+  ንስምካ ከኽብር ትምክሕተይ’ዩ ንዓይ 
+   ብኣኻ ክጽዋዕ ኩርዓተይ ሓበነይ 
+  ብስምካ ክጽዋዕ ስም ክብረት’ዩ ንዓይ 
+   ካበይ’ዩ ኮይኑለይ ዕጫይ ጸቢቑለይ 
+            3.ካብ ደጌታት ናይ ሞት ስሒብካ ተውጽኣኒ 
+             ኣብ በረኽቲ ቦታ ዳግም ተቑመኒ(2) 
+               ከማኻስ መን እዩ ንዓይ ዝቐርበኒ 
+             ኣብ ክፉእ ኣብ ጽቡቕ ካልኣይ ዝኾነኒ 
+               ኣብ ራህዋ ኣብ ጸበባ ካልኣይ ዝኾነኒ 
+               ብጻይ ዝኾነኒ ዘጸናንዓኒ 
+4.ጽቡቐይ ዘይፈቱ ሃማን ከጥፍኣኒ 
+  ካብ ላዕሊ ካብ ኣርያም ክትዝክረኒ(2) 
+   እዚ እናረአኹስ ከመይ ስቕ ክኽእሎ 
+   ኣብ ዝፋንካ ኣትየ ዕጣነይ ኣዕርጎ(2) 
+   ዕጣነይ ኣዕርጎ እንካ ተቐበሎ `,
+    eng: `1.Ab meqdaska kiatu hizye tqum shito
+Nkhibrkash Iyesus fetwey isebro afsso (2)
+Kduss (3) ile amlekeka
+Ab zemenat kulu menuymo kemakha (2)
+Menuymo kemakha menu yu zmesleka
+
+Tedefa:Temesgen Iyesus temesgen (3) temesgen
+Nefsei tekhbreskala temesgen
+Nefsei tebybioka temesgen
+Nefsei tengeska la temesgen
+Nefsei temlikeka la temesgen
+Temesgen (2) bnegir kulu tsadq ikha mo temesgen
+Tebarek (3) bnegir kulu hyaw ikha mo tebarek
+
+2.Abern menkebn fatsimu zeybelka
+Inta kone etar zeyterekhbekka (2)
+Nismka kekhibr timikhtey yu nay
+Baakha ktshwa kurna tehabeni
+Bismka ktshwae sim kbretyu nay
+Kabey yu koynuley eqayi tsebikuley
+
+3.Kab degetat nay mot sibhbka tewtsani
+Ab berekhti bota dagim tequmeni (2)
+Kemakhas men eyu nay zikerbeni
+Ab kefu ab tsbuq kalay zikhoneni
+Ab rahwa ab tsebeba kalay zikhoneni
+Btsay zikhoneni zestenanani
+
+4.Tsbukey zeyfetu haman ketfaani
+Kab laeli kab aryam ktizkreni (2)
+Ezi enaraekus kemey sk kkhilo
+Ab zefanka atye eqtany aergu (2)
+Eqtany aergu enkah teqebelo`
+},
+    song24: {
+    title: { tig: "ከመስግነካ እደሊ’ለኹ", eng: "Kemmesgineka Edeli leku" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    cover: "images/album1.jpg",
+    tig: `1.ከመስግነካ እደሊ’ለኹ… 
+ክውድሰካ እደሊ’ለኹ… 
+ከኽብረካ እደሊ’ለኹ…  
+ንዘልኣለም /2/ 
+    ተደ፦ሕጽረት ቃላት’ዩ እምበር ትኽስታ የብለይን(4) 
+     እዚ ኹሉ ሰናይካ 
+     ምስቲ ኹሉ ሓልዮትካ 
+     መስፈሪ ኣይርከቦን’ዩ ጎይታይ ዓሚቕ’ዩ ቲ’ፍቕርኻ 
+     ምስቲ ኹሉ ሰናይካ ቲ’መስተንክር ግብርኻ 
+     መስፈሪ ኣይርከቦን’ዩ ኢየሱስ ዓሚቕ’ዩ ቲ’ፍቕርኻ 
+2.ክብሪ ምስጋና…  ስግደት ንዓኻ… 
+  ውዳሴ ዕልልታ…  ኣምልኾ ንዙፋንካ… 
+  ንዘልኣለም…  ሕይወት ዘለኩም…  
+   ኩሉኹም ፍጥረታት… ኣኽራናት ጎቦታት…   
+ወሓይዝ ሩባታት… 
+ኣመስግንዎ……… 
+      3.ምሕረቱ ዘይውዳእ…  ስልጣኑ ዘይድፈር… 
+        ዕቤቱ ዘይምርመር…  ልዑል ኣምላኽና… 
+        ንወትሩ ይኽበር…  ሕይወትና ኣንጽሓዮ… 
+        ልብና ኣቕንዓዮ…  ጸጋኻ መሊኡ…   
+        መንፈስካ ተሓዲሱ…`,
+    eng: `1.Kemmesgineka edeli leku
+Kiwdiseka edeli leku
+Kekhbreka edeli leku
+Nzelalem (2)
+
+Tedefa:Hitsret qalat yu ember tkista yebliyn (4)
+Ezi kulu senayka
+Misti kulu halyotka
+Mesferi ayrekhbon yu goytay amiq yu tifqirka
+Misti kulu senayka ti mestenker gibrka
+Mesferi ayrekhbon yu Iyesus amiq yu tifqirka
+
+2.Kibri msgana sgdet n’aakha
+Wdase elilta amlkho nzufanka
+Nzelalem hywot zelekum
+Kuluhkum ftratat akhranat gobotat
+W’hayz rubatat
+Amesgino
+
+3.Mhretu zeywudae siltanu zeydfer
+Ebetu zeymrmer l’ul Amlakna
+Nwetr ykber hywotna antsahayo
+Lbna aqn’ayo tsegaka meliu
+Menfeska tehaddisu`
+},
+    song25: {
+    title: { tig: "ተመስገን ጎይታይ", eng: "Temesgen Goytay" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    cover: "images/album1.jpg",
+    tig: `1.ምሕረትካ ሃበኒ ኢለ ምስ ጸዋዕኩ                          
+  ቁሊሕ ኢልካ ጠሚትካኒ……  
+  ናባኻ ምስ ጠራዕኩ                            
+  ፈውስኻ ምስ ደለኹ ብኢድካ በጺሕካኒ                            
+  ኩሉ ስምዒት ናይ ልበይ ብቐረባ ትርድኣኒ(2) 
+       ተደ፦ተመስገን(3) ጎይታይ (2)  
+                ካብቲ ሕማቕ ሕይወት ዘውጻእካኒ             
+                ክስዕበካ ፍቕርኻ ደሪኹኒ(2)               
+                ክስዕበካ ፍቕርኻ ደሪኹኒ 
+2.መን ኮይነ‘የ ኣነ ኣባኻ ዝነብር                                         
+   ምሕረትካ ምስ ረኸብኩ…… 
+   ዝያዳ ዝኸብር                             
+   ወቂጥካኒ ኣብ ኣእዳውካ ንዘልኣለም ጽሒፍካኒ                        
+   ሃሌሉ ሃሌ-ሉያ ኢለ’ውን ይዝምር(2) 
+            3.መንገዲ ዘልኣለም ኣባኻ ምስ ረኸብኩ                                 
+               ስጋኻ ተመጊበ……  
+               ደምካ’ውን ምስ ሰተኹ                         
+               ትጓስየኒ ዘሎኻ እሙን  ኮይንካ መራሒ            
+               ከማኻ ኣይረክብን ዋልታ (ጓሳ) ዝኾነኒ(2)`,
+    eng: `1.Mhreteka habeni ile mis tsewa’ku
+Qulih ilka temitkani
+Nabaka mis tera’ku
+Fewseka mis deleku b’idka betsihkani
+Kulu smi’it nay lbey bqereba tred’ani (2)
+
+Tedefa:Temesgen (3) Goytay (2)
+Kabti hmaq hywot zewtsa’ekani
+Kse’beka fiqirka deri’huni (2)
+Kse’beka fiqirka deri’huni
+
+2.Men koyne ye ane abaka zneber
+Mhreteka mis rekhebku
+Zyada zkebr
+Wqitkani ab a’edawka nzelalem tshifkani
+Halelu haleluya ile wun yzmmer (2)
+
+3.Mengedi zela’lem abaka mis rekhebku
+Sgaka temgibe
+Demka wun mis seteku
+Tgwas’eyeni zeloha emun koyneka merahi
+Kemaka ayrekhbin walta (gwasa) zkwenenni (2)`
+},
+    song26: {
+    title: { tig: "ረቡኒ ክብለካ", eng: "Rebuni Kibleka" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    cover: "images/album1.jpg",
+    tig: `1.ንንፋሳት ኣብ ዕምቆ ኢድካ እትእክቦም 
+   ንማዕበላት ብቓልካ እተህድኦም 
+   ንሰማያት ብዘይ ዓንዲ እተቑሞም 
+   ንግብርኻ መን’ይመስሎ መንከ ይወዳደሮ 
+      ተደ፦ኣብ ልዕሊ ኣኽራን እናነጠረ 
+              ኣብ ልዕሊ ኮሮቢት እናዘለለ 
+              ድምጽኻ ይሰምዕ ኣሎ የእዛነይ 
+              ብፍቕርኻ ኣሃሃ ይማሙቕ ኣሎ ልበይ 
+2.ቃልካ ኣምላኸይ ብሓቂ ንጹህ’ዩ 
+   ነቶም ኣባኻ ዝምዕቆቡ ዋልትኦም’ዩ 
+   ብጸጋኻ መንገዶም ይጅምሩ 
+   ኣብ ጽላልካ ባህ ኢልዎም(2) ይነብሩ 
+          3.ከም ሲላስ ክኸውን ሃዋርያኻ 
+             ከም ቨሮኒካ ክደርዞ ንገጽካ 
+             ከም መግደላዊት ረቡኒ(2) ክብለካ 
+             ጎይታየ ኣኽእለኒ ብጸጋኻ 
+4.ከም ሲላስ ክኸውን ሃዋርያኻ 
+   ከም ቨሮኒካ ክደርዞ ንገጽካ                                
+   ከም ቶማስ ክትንክፎ(2) ጎድ`,
+    eng: `1.Nnfasat ab emqo idka ette’ekbom
+Nma’eblat bqalka ettehde’om
+Nsemayat bze y’andi ettequmom
+Ngbrka men yimmeslo menka yiwedadero
+
+Tedefa:Ab le’li akhran enaneter
+Ab le’li korobit enazellele
+Dmtska yisem’ alo ye’ezaney
+Bfiqirka ahaha yimamuq alo lbey
+
+2.Qalka amlakey bhqi ntsuh yu
+Netom abaka zmi’qobu waltoom yu
+Btsgaka mengedom yjmr
+Ab tslalka bah ilwom (2) ynebru
+
+3.Kem Silas kkhwun hawarya ka
+Kem Veronika kderzo ngetska
+Kem Mgdelawit Rebuni (2) kibleka
+Goytayey akhelni btsgaka
+
+4.Kem Silas kkhwun hawarya ka
+Kem Veronika kderzo ngetska
+Kem Tomas ktenkfo (2) god`
+},
+    song27: {
+    title: { tig: "ኣምላኸይ ብሓቂ ፍቕሪ ኢኻ", eng: "Amlakay behaki fiqri ika" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    cover: "images/album1.jpg",
+    tig: `1.ንማርያም መግደላዊት ካብ ምንዝርና 
+ ንስምኦን ካብ ገፋፊ ዓሳ 
+ ንማቲዎስ ካብ መኽፈሊ ቀረጽ 
+ ንዘኪዎስ ካብ እንዳ ተገውቲ መሪጽካ 
+       ተደ፦ንስኻስ (ኣምላኸይ) ብሓቂ ፍቕሪ ኢኻ 
+             ኢየሱሰይ ብሓቂ ፍቕሪ ኢኻ 
+             ሕይወተይ ጥዒማትካ  
+             ንስኻስ ብሓቂ ፍቕሪ ኢኻ /2/ 
+2.ነታ ሳምራዊት ሰበይቲ ካብ ጽምኢ ማያ 
+  ንሓማት ስምኦን ዓሶ ሓሚማ ኸላ 
+  ነታ መበለት ኣብ ሞት ናይ ወዳ 
+  ነዞም ኩሎም ኣብ ከምዚ ከለዉ ኣፍቂርካ 
+           3.ንስጋይ ካብ ዓዘቕቲ ሓጢኣት 
+             ንነፍሰይ ካብ ግዝኣት ናይ ጸልማት 
+             ንሕይወተይ ካብ ዘልኣለም ጥፍኣት 
+             ዝተበጀኻያ ኢየሱስ ፍቅሪ ኢኻ 
+4.ናይ ውሽጠይ ብፍጹም ትፈልጦ 
+  ንሸኸመይ ቀንጢጥካ ተራግፎ 
+  ንጭንቂ ልበይ ከም ጸሎት ትርእዮ 
+  ንድኻመይ’ውን ኩሉ ትርድኦ 
+           5.ሰብ ነቲ ክቡር ክሓሪ ይደሊ 
+             ንስኻ ግን ነቲ ድኹም ትሓሪ 
+             ባህርያትካ ፍሉይ’ዩ መስተንክር 
+             ፍቕርኻ ሓሲበስ እኔኹ ይዕልል 
+     ስለ’ቲ ፍቅርኻ ዕልል(3) ዕልል’ውን ይብል 
+     ስለ’ቲ ሓልዮትካ ዕልል(3) ዕልል’ውን ይብል 
+     ስለ’ቲ ሰናይካ ዕልል(3) ዕልል’ውን ይብል`,
+    eng: `
+NeMaryam megdelawit kab menizrna
+NeSimon kab gefafi asa
+NeMatyos kab mekfeli qerets
+NeZekiyos kab enda tegewti meritska
+Tedfo niskas (Amlakay) behaki fiqri ika
+Iyesusey behaki fiqri ika
+Hiywetey tiimatka
+Niskas behaki fiqri ika /2/
+
+Neta Samrawit sebeyti kab tsimi maya
+Nehamat Simon aso hamima kela
+Neta mebelet ab mot nay weda
+Nezom kulom ab kemzi kelawu afqirka
+
+Nesgay kab azekti hatiat
+Nenfsey kab gziat nay tslmat
+Nehiywetey kab zelaalem tfiat
+Ztebejeqka Iyesus fiqri ika
+
+Nay weshtey befsum tefelto
+Neshexemey qentitka teragfo
+Nechenqi libey kem tslot teriyo
+Nedxameywun kulu terdio
+
+Seb neti kebur kehari yideli
+Neska gn neti dkhum tehari
+Bahriyatka fluuyiu mestenker
+Fiqrika hasibes enekhu yiilel
+Selti fiqrika ilil(3) ililwun yibl
+Selti halyotka ilil(3) ililwun yibl
+Selti senayka ilil(3) ililwun yibl`
+},
+    song23: {
     title: { tig: "", eng: "" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
@@ -1252,7 +1592,87 @@ song22: {
     tig: `10ናይ ሶንግ 10 ትርጉም ...`,
     eng: `10 Song 10 lyrics ...`
 },
-song23: {
+    song23: {
+    title: { tig: "", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: `10 Song 10 lyrics ...`
+},
+    song23: {
+    title: { tig: "", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: `10 Song 10 lyrics ...`
+},
+    song23: {
+    title: { tig: "", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: `10 Song 10 lyrics ...`
+},
+    song23: {
+    title: { tig: "", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: `10 Song 10 lyrics ...`
+},
+    song23: {
+    title: { tig: "", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: `10 Song 10 lyrics ...`
+},
+    song23: {
+    title: { tig: "", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: `10 Song 10 lyrics ...`
+},
+    song23: {
+    title: { tig: "", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: `10 Song 10 lyrics ...`
+},
+    song23: {
+    title: { tig: "", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: `10 Song 10 lyrics ...`
+},
+    song23: {
     title: { tig: "", eng: "" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
