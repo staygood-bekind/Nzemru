@@ -588,7 +588,7 @@ Are grum risti mets’i’uni
 Aye kindey te’adile (te’awite)
 Egziabher koyn’ka ristey (2)`
 },
-song13: {
+song11: {
     title: { tig: "ካብ ትንፋሰይ ትቐርብ", eng: "Kab Tinfasey Tik’erb" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
@@ -650,7 +650,7 @@ Mekray ab zibe’zhalu b’idka tenagfeni
 Kulu sime’it nay libey b’qereba tirda’ni
 O……`
 },
-song14: {
+song12: {
     title: { tig: "እሙን  ኢኻ", eng: "Emun Ika" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
@@ -725,7 +725,7 @@ Eamineka (3)
 Am’adika aytirey’en misay dea tineber
 Emun Ika (3)`
 },
-song15: {
+song13: {
     title: { tig: "ማርያም ዑንቂ ባሕሪ", eng: "Maryam ‘Unqi Bahri" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
@@ -780,7 +780,7 @@ Ab midrin semayn nigisti shemeki
 K’bri n’wdase’n zelalem n’akhi
 N’akhi zelalem n’akhi (2)`
 },
-song16: {
+song14: {
     title: { tig: "ሰላመይ ወሓዚ ጌርካዮ", eng: "Selamey Wehazi Gerkaio" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
@@ -860,7 +860,7 @@ K’gelts’elka fqrey zema gere
 Wo Amlak k’breyn libeyn anqiden
 Senayka kezintu ember kabaka’s ayfelsn (2)`
 },
-song17: {
+song15: {
     title: { tig: "ንኣምላኸይ ይኣምኖ’የ", eng: "N’Amalekhey Yiamnoye" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
@@ -927,7 +927,7 @@ Zbelkayo tfetsm emun Amalekhey ikha
 Hasabu ky kyern nso seb ay konen
 Zbelo ky telm wedi seb ay konen (2)`
 },
-song18: {
+song16: {
     title: { tig: "ፍልይ ዝበለ’ዩ ፍቕርኻ", eng: "Fely Zbeleyu Fekreka" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
@@ -976,7 +976,7 @@ Mermerti hgi enteguremremu
 Iyesus yimtweni alo bfeqru
 Gena kmrhani iyu bfeqru`
 },
-song19: {
+song17: {
     title: { tig: "ጓሳ ኮንካኒ", eng: "Gwasa Konkani" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
@@ -1018,7 +1018,7 @@ Nab zdenq brhan asgirkani
 Ntselai thtey nakqtkka
 Mengedey bawet namrahkka`
 },
-song10: {
+song18: {
     title: { tig: "ኣምላኽ  ምሳና  እንተዘይነብር", eng: "Amlak Msana Entazeyneber" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
@@ -1075,7 +1075,7 @@ Bgoyta serawit kianwu knr’iyom
 Bbrtu’ dmsna melekhetna nnfah
 Nay emnet qura’ r’esi ab r’esna ndfe`
 },
-song10: {
+song19: {
     title: { tig: "ሕዝብኻ በዝሐ", eng: "Hzibkha Bzha" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
@@ -1133,7 +1133,7 @@ Bkhyatom ysem’ mesakin dequ zeyti ykeb’om
 Ab betu ytekhlom ab ‘atsedatu
 Ye’ebuyom ba’lu siye kmeslu`
 },
-song10: {
+song20: {
     title: { tig: "ሩባ ሰላም", eng: "Ruba Selam" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
@@ -1182,7 +1182,7 @@ Mela’ek zebsera Amanuel ktweld
 Abo zmeretsa ktkono mer’atu
 Kebira ktnebr ab semayat betu`
 },
-song10: {
+song21: {
     title: { tig: "መን እዩ ዘፍቅር ከምቲ ናትካ", eng: "Men Eyu Zefqir Kemit Natka" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
@@ -1242,7 +1242,7 @@ Amik msitir alewo aboye fqurikha
 Neti zestew’elos Iyesus feluy ikha
 Halefa kulu ikha`
 },
-song10: {
+song22: {
     title: { tig: "", eng: "" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
@@ -1252,7 +1252,7 @@ song10: {
     tig: `10ናይ ሶንግ 10 ትርጉም ...`,
     eng: `10 Song 10 lyrics ...`
 },
-song10: {
+song23: {
     title: { tig: "", eng: "" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
