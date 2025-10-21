@@ -99,6 +99,32 @@ box-shadow:0 6px 18px rgba(59,130,246,0.12);}
 @media (max-width:560px){.topbar{padding:0 12px;}}
 
 #modalContent { white-space: pre-wrap; line-height:1.6; }
+  #lyricModalContent {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+#modalContent {
+  flex: 1;
+  overflow-y: auto;
+  margin-bottom: 60px; /* space for fixed buttons */
+}
+
+.modal-buttons {
+  position: sticky;
+  bottom: 0;
+  background: var(--card);
+  padding-top: 12px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  border-top: 1px solid rgba(0,0,0,0.1);
+}
+[data-theme="dark"] .modal-buttons {
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+
 </style>
 </head>
 <body data-theme="light">
@@ -153,8 +179,10 @@ box-shadow:0 6px 18px rgba(59,130,246,0.12);}
     <button id="closeModal">&times;</button>
     <h3 id="modalTitle"></h3>
     <p id="modalContent"></p>
-    <button id="tagBtn" class="btn">Tag/Untag</button>
-    <button id="langBtn" class="btn">TIG</button>
+    <div class="modal-buttons">
+  <button id="tagBtn" class="btn">Tag/Untag</button>
+  <button id="langBtn" class="btn">Tig/Eng</button>
+</div>
   </div>
 </div>
   
