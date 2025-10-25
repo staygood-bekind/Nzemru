@@ -265,6 +265,9 @@ songsArray.forEach(({ id, song }) => {
   card.dataset.id = id;
   if (song.taged) card.classList.add('taged');
 
+  card.dataset.genre = (song.genre.eng || 'other').toLowerCase();
+  card.dataset.date = song.date || new Date().toISOString();
+  
   // Add album art (song.cover should be the image URL or path)
   card.innerHTML = `
     <img src="${song.cover}" alt="${song.title.tig} cover"
@@ -418,23 +421,28 @@ const filterLinks = document.querySelectorAll('.filter-link');
 filterLinks.forEach(link => {
   link.addEventListener('click', (e) => {
     e.preventDefault();
-    const filter = link.dataset.filter;
+    const filter = link.dataset.filter.toLowerCase();
+
+    // Highlight active link
+    filterLinks.forEach(l => l.classList.remove('active'));
+    link.classList.add('active');
 
     cards.forEach(card => {
-      const id = card.dataset.id;
-      const song = lyricsData[id];
-      const matches = 
-        filter === 'all' ? true :
-        filter === 'tagged' ? card.classList.contains('taged') :
-        filter === 'worship' ? song.genre.tig.toLowerCase().includes('worship') :
-        filter === 'praise' ? song.genre.tig.toLowerCase().includes('praise') :
-        filter === 'recent' ? (new Date(song.date).getFullYear() >= new Date().getFullYear() - 1) :
-        true;
+      const isTagged = card.classList.contains('taged');
+      const genre = card.dataset.genre || 'other';
+      const dateAdded = new Date(card.dataset.date);
+      const daysAgo = (Date.now() - dateAdded.getTime()) / (1000 * 60 * 60 * 24);
 
-      card.style.display = matches ? 'block' : 'none';
+      let show = false;
+
+      if (filter === 'all') show = true;
+      else if (filter === 'tagged') show = isTagged;
+      else if (filter === 'recent') show = daysAgo <= 7;
+      else show = genre === filter; // genre like 'msgana' or 'amlko'
+
+      card.style.display = show ? 'block' : 'none';
     });
 
-    // Close sidebar after click (on mobile)
     sidebar.classList.remove('open');
     hamburger.classList.remove('active');
 
