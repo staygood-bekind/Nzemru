@@ -281,15 +281,17 @@ const modalContent = document.getElementById('modalContent');
 const closeModal = document.getElementById('closeModal');
 const tagBtn = document.getElementById('tagBtn');
 const langBtn = document.getElementById('langBtn');
-let currentCard=null;
-let currentLang='tig';
 const songLinkBtn = document.getElementById('songLinkBtn');
+
+let currentCard = null;
+let currentLang = 'tig';
 
 cards.forEach(card => {
   card.addEventListener('click', () => {
     currentCard = card;
     currentLang = primaryLang;
     langBtn.textContent = currentLang.toUpperCase();
+
     const id = card.dataset.id;
 
     // Set modal title and content
@@ -304,47 +306,35 @@ cards.forEach(card => {
     // Show modal
     lyricModal.style.display = 'flex';
 
-    // 🔹 Update the link button with the song URL
+    // Update the corner link button
     songLinkBtn.href = lyricsData[id].link || '#';
+    songLinkBtn.target = "_blank";
 
+    // Update Tag button text
     tagBtn.textContent = card.classList.contains('taged') ? 'Untag' : 'Tag';
   });
 });
 
-function updateSongCount(){
-  const visible = cards.filter(c=>c.style.display!=='none');
-  document.getElementById('songCount').textContent = 'Songs: '+visible.length;
-}
-updateSongCount();
-
-// Card click -> modal
-cards.forEach(card=>{
-  card.addEventListener('click', ()=>{
-    currentCard = card;
-    currentLang = primaryLang;
-    langBtn.textContent=currentLang.toUpperCase();
-    const id = card.dataset.id;
-    modalTitle.innerHTML = currentLang==='eng'?`<span class="eng-text">${lyricsData[id].title.eng}</span>`:lyricsData[id].title[currentLang];
-    modalContent.innerHTML = currentLang==='eng'?`<span class="eng-text">${lyricsData[id].eng}</span>`:lyricsData[id][currentLang];
-    lyricModal.style.display='flex';
-    tagBtn.textContent = card.classList.contains('taged')?'Untag':'Tag';
-  });
-});
-
 // Modal controls
-closeModal.addEventListener('click',()=>{lyricModal.style.display='none';});
-tagBtn.addEventListener('click',()=>{
-  if(!currentCard) return;
+closeModal.addEventListener('click', () => lyricModal.style.display = 'none');
+
+tagBtn.addEventListener('click', () => {
+  if (!currentCard) return;
   currentCard.classList.toggle('taged');
-  tagBtn.textContent = currentCard.classList.contains('taged')?'Untag':'Tag';
+  tagBtn.textContent = currentCard.classList.contains('taged') ? 'Untag' : 'Tag';
 });
-langBtn.addEventListener('click',()=>{
-  if(!currentCard) return;
-  const id=currentCard.dataset.id;
-  currentLang = currentLang==='tig'?'eng':'tig';
-  modalTitle.innerHTML = currentLang==='eng'?`<span class="eng-text">${lyricsData[id].title.eng}</span>`:lyricsData[id].title[currentLang];
-  modalContent.innerHTML = currentLang==='eng'?`<span class="eng-text">${lyricsData[id].eng}</span>`:lyricsData[id][currentLang];
-  langBtn.textContent=currentLang.toUpperCase();
+
+langBtn.addEventListener('click', () => {
+  if (!currentCard) return;
+  const id = currentCard.dataset.id;
+  currentLang = currentLang === 'tig' ? 'eng' : 'tig';
+  modalTitle.innerHTML = currentLang === 'eng'
+    ? `<span class="eng-text">${lyricsData[id].title.eng}</span>`
+    : lyricsData[id].title[currentLang];
+  modalContent.innerHTML = currentLang === 'eng'
+    ? `<span class="eng-text">${lyricsData[id].eng}</span>`
+    : lyricsData[id][currentLang];
+  langBtn.textContent = currentLang.toUpperCase();
 });
 
 // ===== PRIMARY ACTION LANGUAGE TOGGLE =====
