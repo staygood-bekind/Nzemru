@@ -383,6 +383,14 @@ document.getElementById('searchInput').addEventListener('input', function(){
 
   updateSongCount();
 });
+  // ===== SONG COUNT =====
+function updateSongCount() {
+  const visible = cards.filter(card => card.style.display !== 'none');
+  document.getElementById('songCount').textContent = `Songs: ${visible.length}`;
+}
+
+// Call once after cards are created
+updateSongCount();
 })();
 </script>
 </body>
