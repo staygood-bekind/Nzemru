@@ -306,23 +306,25 @@ cards.forEach(card => {
     // Show modal
     lyricModal.style.display = 'flex';
 
-    // Update the corner link button
-    songLinkBtn.href = lyricsData[id].link || '#';
-    songLinkBtn.target = "_blank";
+    // 🔹 Update the corner link button
+    if (lyricsData[id].link && lyricsData[id].link.trim() !== "") {
+      songLinkBtn.href = lyricsData[id].link;
+      songLinkBtn.target = "_blank";
+      songLinkBtn.style.opacity = "1";          // normal visibility
+      songLinkBtn.title = "Open Song";          // tooltip
+      songLinkBtn.style.pointerEvents = "auto"; // clickable
+    } else {
+      songLinkBtn.href = "#";
+      songLinkBtn.style.opacity = "0.5";         // dimmed
+      songLinkBtn.title = "No Link";             // tooltip
+      songLinkBtn.style.pointerEvents = "none";  // unclickable
+    }
 
     // Update Tag button text
     tagBtn.textContent = card.classList.contains('taged') ? 'Untag' : 'Tag';
   });
 });
 
-// Modal controls
-closeModal.addEventListener('click', () => lyricModal.style.display = 'none');
-
-tagBtn.addEventListener('click', () => {
-  if (!currentCard) return;
-  currentCard.classList.toggle('taged');
-  tagBtn.textContent = currentCard.classList.contains('taged') ? 'Untag' : 'Tag';
-});
 
 langBtn.addEventListener('click', () => {
   if (!currentCard) return;
