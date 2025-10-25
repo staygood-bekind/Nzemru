@@ -1582,65 +1582,312 @@ Selti fiqrika ilil(3) ililwun yibl
 Selti halyotka ilil(3) ililwun yibl
 Selti senayka ilil(3) ililwun yibl`
 },
-    song23: {
-    title: { tig: "", eng: "" },
+    song28: {
+    title: { tig: "ተስፋ ኣይቆርጽን እየ", eng: "Tesfa ayqortsn iye" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
     genre: { tig: "", eng: "" },
     date: "",
     cover: "images/album1.jpg",
-    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
-    eng: `10 Song 10 lyrics ...`
+    tig: `1.ሓጢኣተይ ከቢዱኒ ዓቢ ጽዕነት ኮይኑኒ 
+ ማርያም ኣማልድለይ ወድኺ ክምሕረኒ 
+     ተደ፦ተስፋ ኣይቆርጽን ኢየ(2) 
+           ክሳብ ተማልድለይ  
+           ኣነስ ኣብ ትሕቴኺ ኢየ 
+2.ሰይጣን እንተፈተነኒ ኢሉ ከውድቐኒ 
+  ርሕርሕቲ ወላዲተይ ንስኺ ኣለኽኒ 
+         3.ብሓጢኣተይ ዝኣክል ሕልናይ ከይወቕሰኒ 
+           ንድሕሪት ከይምለስ ኣደይ ሓግዝኒ 
+4.ሕልናይ ተሸቢሩ ሰላም እውን ስኢነ 
+  እልምን ኣለኹ ኣብ እግርኺ ኮይነ   `,
+    eng: `Hatiatey kebiduni abi tsiinet koynuni
+Maryam amalidley wedxi kmh̆reni
+Tedfo Tesfa ayqortsn iye (2)
+Kisab temalidley
+Anes ab tihtēki iye
+
+Seytan entefeteni ilu kewdkeni
+Rehrehti weladitey neski alekheni
+
+Behatyatey ziaekl hilnay keywekseni
+Nedhrit keymles adey hgezni
+
+Hilnay teshbiru selam ewun siine
+Elmen alekhu ab egreki koyne`
 },
-    song23: {
-    title: { tig: "", eng: "" },
+    song29: {
+    title: { tig: "ብፍቅርኻ ዝተማረኽኩ", eng: "Befqirka ztemarehku" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
     genre: { tig: "", eng: "" },
     date: "",
     cover: "images/album1.jpg",
-    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
-    eng: `10 Song 10 lyrics ...`
+    tig: `1.እቲ…… ካብ ወይኒ ዝጥዕም ፍቕርኻ ኣሃ…   
+  ኣብ ዓጻጽምተይ ኣትዩ ውሽጢ ሰጢሙ         
+  ኣብ ትሕቲ እግርኻ ክቕመጥ ጌሩኒ’ዩ    
+  ኣሃሃ… ኢየሱሰይ ማሪኹኒ’ዩ(2) 
+   ተደ፦ብፍቕርኻ ዝተማረኽኩ ምርኮኛ’የ(3)   
+            ኣእዳወይ ምስናይ ልበይ ናባኻ ኣልዒለየ(3)  
+            ብኢደይ ሒዝካ ናብ ትኸዶ ዘበለ           
+            ክትወስደኒ(2) ክትስሕበኒ                      
+            ምስተን መጓሴኻ ኣብ ዝለምዐ ሸኻኻ ከተውዕለኒ(3) 
+            ኢየሱሰይ ድላይ ኣሎኒ 
+2.ንስኻስ…… ናይ ዘልኣለም ሕይወት ቃል ኣሎካ   
+   ካባኻ‘ሞ ናበይ ክኸይድ’የ                     
+  ካብ ኣብ ዱንኳን ረሲኣን ምቅማጥሲ          
+   ኣብ ቤትካ’የ ወሲነ ዘልኣለም ምንባር(2) 
+         3.ኣብ ክንዲ…… ሕማቕ ዝገበርዎ ዝመውት የለን  
+            ንዝጸረፍዎ’ውን ዝምርቕ የለን                  
+          ገና ሓጥእ ከለኹ ብምማትካ                 
+            እታ ኣባይ ዘላትካ ፍቕሪ ገሊጽካ(2) `,
+    eng: `Eti kab weyni ztiim fqirka aha
+Ab atsatsmtey atyu wsti setimu
+Ab tihti egreka kqmet geruni yu
+Aha Iyesusey marikhuni yu (2)
+
+Tedfo Befqirka ztemarehku mrkonaye (3)
+Aedawey msnay lbey nabaka alyiley (3)
+Biidey hizka nab tkhedo zebele
+Ktwsedeni (2) ktshehbheni
+Msten mgwaseka ab zlem a shehaka ktwueleni (3)
+Iyesusey dlay aloni
+
+Neskaas nay zelaalem hiywet kal aloka
+Kabaka mo nabey kkheyid yie
+Kab ab dwnkwan resian mkmatsi
+Ab beytka yie wesine zelaalem mnbar (2)
+
+Ab kndi hmaq zgeberwo zmawt yelen
+Nztsrefwo wun zsmrq yelen
+Gena hati ekleku bmmaatka
+Eta abay zelatka fqri gelitska (2)`
 },
-    song23: {
-    title: { tig: "", eng: "" },
+    song30: {
+    title: { tig: "ተመስገን ክብል’የ", eng: "Temesgen kibliye" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
     genre: { tig: "", eng: "" },
     date: "",
     cover: "images/album1.jpg",
-    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
-    eng: `10 Song 10 lyrics ...`
+    tig: `1.ይመስለና ኣሎ ዝብጻሕ ጉዕዞ ስጋ 
+ ምስትውዓል ሃበና ክንበጽሕ ናባኻ 
+ ተምበርኪኽና እንተ ጠመትና ናባኻ 
+ ተገሊጹ ኢዩ ኣብ መስቀል ፍቕርኻ(2) 
+   ተደ፦ንኾንቱ ኣይኮነን ዝፈሰሰ ደም ጎያታ 
+         ንኾንቱ ኣይኮነን ስቓይ ናይ ጎልጎልታ(2) 
+         ደም ጎይታ ዝፈሰሰ ንኾንቱ ኣይኮነን(2) 
+         ብደም ጎይታ ዝደሓና ነፍሳት  
+         ይምስክራ ብድምጺ መለኸት(2) 
+           ተመስገን ክብል’የ(2) ብጸጋኻ ዓጊበ ፍቕርኻ ተመጊበ 
+           ተመስገን ክብል’የ(2) ብደምካ ተሓጺበ ጸርየ ነጺሐ 
+           ተመስገን ክብል’የ(2) ብጎይታ ዓጊበ ደሕነት ረኺበ 
+           ኣነ ኣሜን ክብል’የ 
+2.ክሳብ ክንደይ ዓሚቕ’ዩ ጎይታየ ፍቕርኻ 
+  ተቐዲሑ ዘይውዳእ ከም ምድራዊ ቀላይ  
+  ብዙሕ’ዩ ሃብትኻ ዘይውዳእ ጸጋኻ  
+  ኩሉ ኣሎ ኣብኡ ህያባት ፍቕርኻ(2) 
+       3.መስቀልካ ይነግር ንምስጢር ጉዕዞኻ 
+         ደሚቑ ይውላዕ ኣብቲ ለዋህ ገጽካ 
+         ርኣዮ ይብለና ንውጉእ ኣካልካ 
+         ጸጋኻ ክፈስስ ካብ ደመ ርሃጽካ(2) `,
+    eng: `Yimeslena alo zbtsh guezzo siga
+Msttwal habena knbetsih nabaka
+Tmberkihna ente tmetna nabaka
+Tgelitsu iyu ab meskel fqirka (2)
+
+Tedfo nkhontu aykonen zfeses dem goyata
+nkhontu aykonen sqay nay golgolta (2)
+dem goyta zfeses nkhontu aykonen (2)
+bidem goyta zdahana nefsat
+yimskra bidmtsi meleket (2)
+Temesgen kibliye (2) bitsagaqa agibe fqirka temegibe
+Temesgen kibliye (2) bidemka tehshibe tsariye netsiha
+Temesgen kibliye (2) bigoyta agibe dehnet rekhbe
+Ane amen kibliye
+
+Kisab kndey amiq yu goytaye fqirka
+Teqedihu zeywudae kem midrawi qelay
+Bizuh yu habtka zeywudae tsagaka
+Kulu alo abiu hyabat fqirka (2)
+
+Meskelka yineger nmsitir guezzoqa
+Demiqu yiwlae abti lewah gegtska
+Reao yiblena nwgu akalka
+Tsagaka kfeses kab deme rhatska (2)`
 },
-    song23: {
-    title: { tig: "", eng: "" },
+    song31: {
+    title: { tig: "ንዓይ ብምሕራይካ", eng: "Nay bmhrayka" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
     genre: { tig: "", eng: "" },
     date: "",
     cover: "images/album1.jpg",
-    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
-    eng: `10 Song 10 lyrics ...`
+    tig: `1.መዓልቲ ምድሓነይ ሕጂ ክባርኻ 
+  ስለ ዝኾንካለይ ናይ ሕይወተይ ጠበቓ 
+  ስምካ ጸዋዕኩኻ በልካኒ  
+  ምግላጹ ስኢነ ዓቢ’ዩ ኮይኑኒ 
+        ተደ፦ንዓይ ብምሕራይካ ንዓይ ብምምራጽካ 
+              ንዓይ ብምፍቃርካ  ክገልጾ ዘይክእል  
+              ካብ ኣእምሮይ ንላዕሊ’ዩ ጎይታይ 
+2.ካብ ሞት ናብ ሕይወት ዘሰጋገርካኒ  
+  ኣብ ልዕሊ ሰይጣን’ውን ዓወት ዝሃብካኒ  
+  ዝመልሰልካ የለን ንዝዓደልካኒ  
+  ናብ ዘገርም ብርሃን ዘምጻእካኒ  
+            3.ካብ ዘልዓለም ስቓይ ኢየሱስ ዘድሓንካኒ 
+              ናብ ሃገር ሕያዋን ንዓይ ዘምጻእካኒ 
+              ልበይ ብምስጋና ኣፈይ ብዕልልታ 
+              ክዝምረልካ’የ ኣታ ለዋህ ጎይታ 
+4.ሓደ ክልተ ኢልካ ዘይቁጸር  
+   እዝን እትን ኢልካ ዘይንገር 
+   ንዝገበርካለይ ውዕለታት 
+   ክሳብ ዘለኹ’ውን ከመስግነካ 
+            5.ኣፈይ ብምስጋና ብርሃን ተወልዐ 
+              እቲ ንዑቕ ጸላኢ ፈጽሙ ተዳህለ 
+              ብጭፍራ መልኣኽቲ ኢየሱሰይ ተመልአ 
+              ኣብ ሰማይ ኣብ ኣርያም ዕልልታ ተሰምዐ `,
+    eng: `
+1.Mealti mdhaney hgi kbarikha
+Sile zikhonkalei nay hiywotey tbeka
+Smka tsewaekuha belkani
+Mgllatsu siine abiyu koynuni
+
+Tede: Nay bmhrayka nay bmmmrskka
+Nay bmfmrakha n mfraskka
+Nay bmfqarka nkegelsto zeyykel
+Kab aemroyi nlaley goytay
+
+2.Kab mot nab hiywot zesegagarkani
+Ab leli seytan wun awet zhayabkani
+Zmelselka yalegn nzeladlkani
+Nab zegerm brrhan zemtsahkaani
+
+3.Kab zelalem sqay Iyesus zedhankani
+Nab hager hiyawan nay zemtseakani
+Lbey bmsgana afey bialilta
+Kizmmrelka ye ata lewah goyta
+
+4.Hade kilte ilka zeykutsr
+Ezun etin ilka zeynnger
+Nzegberkaley wualetat
+Kisab zelahku wun kemmesgineka
+
+5.Afey bmsgana brrhan tewola
+Eti nquk tsaali fetsmu tedahle
+Bchifra melaekti Iyesusey temlela
+Ab semay ab aryam alilta tesemaa`
 },
-    song23: {
-    title: { tig: "", eng: "" },
+    song32: {
+    title: { tig: "ንገሰለይ", eng: "Ngeseley" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
     genre: { tig: "", eng: "" },
     date: "",
     cover: "images/album1.jpg",
-    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
-    eng: `10 Song 10 lyrics ...`
+    tig: `1.ኣሎኒ ዝብሎ ዝምክሓሉ 
+ ኣብ ሕይወተይ ዝንየተሉ 
+ ብመንጽር ኩሉ ሰናይ ግብርኻ 
+ ኣይበቅዕን’ዩ ፍጹም ንዓኻ ውሒዱካ 
+    ተደ፦ንገሰለይ ክበረለይ 
+          ልዕል በለለይ ተባረኸለይ 
+          ንዓይ ፍሉይ’ዩ ሁሁ… ዝገበርካለይ /2/ 
+2.እንተበልኩ ልዕል በለለይ 
+  እንተበልኩ ንገሰለይ 
+  ኩሉ እንድዩ ዝብሎ ዘስተንትኖ 
+  እደሊ’ለኹ ልዕሊኡ እንተሎ ሰብ ዘይበሎ 
+        3.ክግዝኣካ’የ ብምሉእ ልበይ 
+          ብኣኻ እድነቕ ሃመይ ቀልበይ 
+          ኩሉ ሓሳበይ ብኣኻ ይዕዘም 
+          ምሳኻ’ለኹ ንዘልኣለም(2) 
+               እንተበልኩ ክበረለይ 
+               እንተበልኩ ተባረኸለይ 
+               ምስቲ ዘይድፈር ዓቢ ግርማኻ 
+               ከመይ’ሉ ይዳረግ ጎይታይ ንዓኻ  
+               ምስቲ ዝናኻ 
+4.ግና ንሕጂ ኣብ ልበይ ዘሎ 
+  ተቐበለኒ ልበይ ዝኽእሎ 
+  ክሳብ ዝበቅዕ ንምስጋናኻ 
+  ልዕል በለለይ ንገሰለይ ተባረኽ ኢኻ `,
+    eng: `1.Aloni zblolo zmkhalu
+Ab hiywetey znyetelu
+Bmnser kulu senay gbrkha
+Aybekinu ftsum nAka whiduka
+
+Tedfo: Ngeseley kberley
+Lel beleley tebarekheley
+Naay fluyyu huhu zgberkaley (2)
+
+2.Entbelku lel beleley
+Entbelku ngeseley
+Kulu endiyu zblolo zestenteno
+Edelilekhu lelilu entelo seb zeybelo
+
+3.Kegzaaka ye bmulu lbey
+BmAka edneq hamay kelbey
+Kulu hasabey bmAka yizem
+MsAka lekhu nzelalem (2)
+
+Entbelku kberley
+Entbelku tebarekheley
+Msti zeydfer abi grmAka
+Kemeylu yidareg goytay nAka
+Msti znAka
+
+4.Gna nhji ab lbey zelo
+Teqebelni lbey zkelo
+Kisab zbeke nmsganAka
+Lel beleley ngeseley tebarekhe ika`
 },
-    song23: {
-    title: { tig: "", eng: "" },
+    song33: {
+    title: { tig: "ኣምላኽ ሰማይ", eng: "Amlakh Semay" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
     genre: { tig: "", eng: "" },
     date: "",
     cover: "images/album1.jpg",
-    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
-    eng: `10 Song 10 lyrics ...`
+    tig: `1.ኣሻሕ ኣእላፍ መልኣኽትኻ 
+  ይሰግዱ’ለዉ ኣብ እግርኻ 
+  ስልጣንን ሓይልን ናትካ’ዩ 
+  ግርማን ክብርን እናበሉ 
+  ንሕና’ውን ኣብዛ ምድሪ ስለዘይብልካ መሳሊ 
+  ነምልኸካ ተቓኒና ንባርኸካ ደው ኢልና 
+     ተደ፦ኣምላኽ ሰማይ ንጉስ ኩላ ምድሪ(2) 
+             ስምካ ይባረኽ ኣብ ሰማይ ኣብ ምድሪ(2) /2/ 
+2.ግዝኣትካ ወሰን የብሉን 
+   ዕቤትካ ደረት የብሉን 
+   እታ መንግስትኻስ ሕያው‘ያ 
+   ዘይትነቓነቕ ውን’ያ 
+   ኣብ ሰማይ ኮነ ኣብ ምድሪ የለን ቦታኻ ዝትክኦ 
+   ዙፋንካ ንዘልኣለም ጸኒዑ ይነብር ኣሎ 
+         3.ኣታ ንፈትወካ ፍትውና 
+            ንባርኸካ ኣሎና 
+            ስምካ ምምስጋን ክብርና  
+            ንሱ’ዩ ዓቢ ሓጎስና 
+            ስለዚ ስቕ ኣይንብልን ምምስጋን ኣይነቋርጽን 
+            ከቢርካ ክንርኢ ከሎና ብኡ ትዓግብ ሕይወትና `,
+    eng: `
+1.Ashah ealf melAketka
+Yisegduelu ab egrekha
+Sltanan hayln natka yu
+Grman kbrn enabelu
+Nhnawn abza mdri slezyblka mesali
+Nemlekha teqenina nbarekheka dew elna
+
+Tedfo: Amlakh semay ngus kula mdri (2)
+Smka ybarekh ab semay ab mdri (2) (2)
+
+2.GzAatka wesn yeblun
+Ebetka deret yeblun
+Eta mengstkas hyaw ya
+Zeyteneqaneq wunya
+Ab semay kona ab mdri yelen botakha ztenko
+Zufanka nzelalem tseniu ynber alo
+
+3.Ata nfetweka ftiwna
+Nbarekheka alona
+Smka mmsgan kbrna
+Nsuyu abi hgosna
+Slezi sq aynbln mmsgan aynkwarcn
+Kebirka knrei kelona bu tAagb hiywetna`
 },
     song23: {
     title: { tig: "", eng: "" },
