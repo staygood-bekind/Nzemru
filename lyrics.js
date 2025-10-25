@@ -5,7 +5,7 @@ song1: {
     album: { tig: "", eng: "" },
     genre: { tig: "ምስጋና", eng: "msgana" },
     date: "",
-    link: "www.youtube.com/@MezmurLibrary",
+    link: "https://youtu.be/YTS3WI9spiU?si=WtwrybWv8UVr6hnB",
     cover: "images/album1.jpg",
     tig: `1.እንታይ’ሞ ክብል’የ እንታየ’ኸ ዘቕርቦ 
  ውዕለትካስ ካብ ዓቕመይ ንላዕሊ ኮይኑ /2/ 
