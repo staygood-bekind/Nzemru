@@ -288,12 +288,12 @@ const songLinkBtn = document.getElementById('songLinkBtn');
 let currentCard = null;
 let currentLang = 'tig';
 
+// Card click -> show modal
 cards.forEach(card => {
   card.addEventListener('click', () => {
     currentCard = card;
     currentLang = primaryLang;
     langBtn.textContent = currentLang.toUpperCase();
-
     const id = card.dataset.id;
 
     // Set modal title and content
@@ -308,26 +308,38 @@ cards.forEach(card => {
     // Show modal
     lyricModal.style.display = 'flex';
 
-    // 🔹 Update the corner link button
+    // Corner link button
     if (lyricsData[id].link && lyricsData[id].link.trim() !== "") {
       songLinkBtn.href = lyricsData[id].link;
       songLinkBtn.target = "_blank";
-      songLinkBtn.style.opacity = "1";          // normal visibility
-      songLinkBtn.title = "Open Song";          // tooltip
-      songLinkBtn.style.pointerEvents = "auto"; // clickable
+      songLinkBtn.style.opacity = "1";
+      songLinkBtn.style.pointerEvents = "auto";
+      songLinkBtn.title = "Open Song";
     } else {
       songLinkBtn.href = "#";
-      songLinkBtn.style.opacity = "0.5";         // dimmed
-      songLinkBtn.title = "No Link";             // tooltip
-      songLinkBtn.style.pointerEvents = "none";  // unclickable
+      songLinkBtn.style.opacity = "0.5";
+      songLinkBtn.style.pointerEvents = "none";
+      songLinkBtn.title = "No Link";
     }
 
-    // Update Tag button text
+    // Tag button text
     tagBtn.textContent = card.classList.contains('taged') ? 'Untag' : 'Tag';
   });
 });
 
+// Close modal
+closeModal.addEventListener('click', () => {
+  lyricModal.style.display = 'none';
+});
 
+// Tag/Untag button
+tagBtn.addEventListener('click', () => {
+  if (!currentCard) return;
+  currentCard.classList.toggle('taged');
+  tagBtn.textContent = currentCard.classList.contains('taged') ? 'Untag' : 'Tag';
+});
+
+// Language toggle
 langBtn.addEventListener('click', () => {
   if (!currentCard) return;
   const id = currentCard.dataset.id;
@@ -340,6 +352,7 @@ langBtn.addEventListener('click', () => {
     : lyricsData[id][currentLang];
   langBtn.textContent = currentLang.toUpperCase();
 });
+
 
 // ===== PRIMARY ACTION LANGUAGE TOGGLE =====
 const primaryAction = document.getElementById('primaryAction');
