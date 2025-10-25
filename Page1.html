@@ -183,6 +183,13 @@ box-shadow:0 6px 18px rgba(59,130,246,0.12);}
 <div id="lyricModal">
   <div id="lyricModalContent">
     <button id="closeModal">&times;</button>
+    <!-- Fancy corner button for external link -->
+<a id="songLinkBtn" href="#" target="_blank" title="Open Song" 
+   style="position:absolute; top:12px; right:48px; background:var(--accent); color:white; 
+          width:36px; height:36px; border-radius:50%; display:flex; align-items:center; 
+          justify-content:center; font-size:18px; text-decoration:none; box-shadow:0 4px 12px rgba(0,0,0,0.15);">
+  🎵
+</a>
     <h3 id="modalTitle"></h3>
     <p id="modalContent"></p>
     <div class="modal-buttons">
@@ -276,6 +283,33 @@ const tagBtn = document.getElementById('tagBtn');
 const langBtn = document.getElementById('langBtn');
 let currentCard=null;
 let currentLang='tig';
+const songLinkBtn = document.getElementById('songLinkBtn');
+
+cards.forEach(card => {
+  card.addEventListener('click', () => {
+    currentCard = card;
+    currentLang = primaryLang;
+    langBtn.textContent = currentLang.toUpperCase();
+    const id = card.dataset.id;
+
+    // Set modal title and content
+    modalTitle.innerHTML = currentLang === 'eng'
+      ? `<span class="eng-text">${lyricsData[id].title.eng}</span>`
+      : lyricsData[id].title[currentLang];
+
+    modalContent.innerHTML = currentLang === 'eng'
+      ? `<span class="eng-text">${lyricsData[id].eng}</span>`
+      : lyricsData[id][currentLang];
+
+    // Show modal
+    lyricModal.style.display = 'flex';
+
+    // 🔹 Update the link button with the song URL
+    songLinkBtn.href = lyricsData[id].link || '#';
+
+    tagBtn.textContent = card.classList.contains('taged') ? 'Untag' : 'Tag';
+  });
+});
 
 function updateSongCount(){
   const visible = cards.filter(c=>c.style.display!=='none');
