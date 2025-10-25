@@ -279,6 +279,13 @@ songsArray.forEach(({ id, song }) => {
   lyricsGrid.appendChild(card);
   cards.push(card);
 });
+  // ===== Load Saved Tags =====
+const savedTags = JSON.parse(localStorage.getItem('taggedSongs') || '[]');
+savedTags.forEach(savedId => {
+  const card = cards.find(c => c.dataset.id === savedId);
+  if (card) card.classList.add('taged');
+});
+
 
 
 // ===== Modal =====
@@ -337,12 +344,21 @@ closeModal.addEventListener('click', () => {
   lyricModal.style.display = 'none';
 });
 
-// Tag/Untag button
+// ===== Tag/Untag with Save =====
 tagBtn.addEventListener('click', () => {
   if (!currentCard) return;
   currentCard.classList.toggle('taged');
   tagBtn.textContent = currentCard.classList.contains('taged') ? 'Untag' : 'Tag';
+
+  // Save tagged songs
+  const taggedIds = cards
+    .filter(c => c.classList.contains('taged'))
+    .map(c => c.dataset.id);
+  localStorage.setItem('taggedSongs', JSON.stringify(taggedIds));
+
+  updateSongCount();
 });
+
 
 // Language toggle
 langBtn.addEventListener('click', () => {
