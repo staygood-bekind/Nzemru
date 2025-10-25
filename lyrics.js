@@ -42,7 +42,7 @@ song2: {
     title: { tig: "ተማሪኩ ልበይ ብኣኻ", eng: "temariku lbey beaka" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
-    genre: { tig: "", eng: "" },
+    genre: { tig: "ኣምልኾ", eng: "Amlko" },
     date: "",
     cover: "images/album1.jpg",
     tig: `
