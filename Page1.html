@@ -182,22 +182,24 @@ box-shadow:0 6px 18px rgba(59,130,246,0.12);}
 
 <div id="lyricModal">
   <div id="lyricModalContent">
-    <button id="closeModal">&times;</button>
     <!-- Fancy corner button for external link -->
-<a id="songLinkBtn" href="#" target="_blank" title="Open Song" 
-   style="position:absolute; top:12px; right:48px; background:var(--accent); color:white; 
-          width:36px; height:36px; border-radius:50%; display:flex; align-items:center; 
-          justify-content:center; font-size:18px; text-decoration:none; box-shadow:0 4px 12px rgba(0,0,0,0.15);">
-  🎵
-</a>
+    <a id="songLinkBtn" href="#" target="_blank" title="Open Song"
+       style="position:absolute; top:12px; right:48px; background:var(--accent); color:white; 
+              width:36px; height:36px; border-radius:50%; display:flex; align-items:center; 
+              justify-content:center; font-size:18px; text-decoration:none; box-shadow:0 4px 12px rgba(0,0,0,0.15);">
+      🎵
+    </a>
+
+    <button id="closeModal">&times;</button>
     <h3 id="modalTitle"></h3>
     <p id="modalContent"></p>
     <div class="modal-buttons">
-  <button id="tagBtn" class="btn">Tag/Untag</button>
-  <button id="langBtn" class="btn">Tig/Eng</button>
-</div>
+      <button id="tagBtn" class="btn">Tag/Untag</button>
+      <button id="langBtn" class="btn">Tig/Eng</button>
+    </div>
   </div>
 </div>
+
   
 <script src="lyrics.js"></script>
 <script>
