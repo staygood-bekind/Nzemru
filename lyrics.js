@@ -2655,12 +2655,13 @@ Megwaseka z’gberka Meskana hoy Meskana
 Dqi brrhan knk’wn z’bqa’kana Meskana hoy Meskana`
 },
     song47: {
-    title: { tig: "", eng: "" },
+    title: { tig: "Okay", eng: "" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
     genre: { tig: "", eng: "" },
     date: "",
-    link: "",    
+    youtube: "https://youtube.com/...",
+    spotify: "https://open.spotify.com/...",   
     cover: "images/album1.jpg",
     tig: `10ናይ ሶንግ 10 ትርጉም ...`,
     eng: `10 Song 10 lyrics ...`
