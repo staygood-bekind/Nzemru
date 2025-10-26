@@ -1890,15 +1890,78 @@ Nsuyu abi hgosna
 Slezi sq aynbln mmsgan aynkwarcn
 Kebirka knrei kelona bu tAagb hiywetna`
 },
-    song23: {
-    title: { tig: "", eng: "" },
+    song44: {
+    title: { tig: "ከማኻስ የለን", eng: "Kemakhas yelen" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
     genre: { tig: "", eng: "" },
-    date: "",
+    date: "26-10-2025",
     cover: "images/album1.jpg",
-    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
-    eng: `10 Song 10 lyrics ...`
+    tig: `
+1.ኣብቲ ናይ ምድረበዳ ናይ ጽምዋ ጉዕዞይ 
+   ንበይነይ ክሽገር ረዳኢ ዘይብለይ  
+   ኣብዚ ከምዚ እዋን ኣለኻ ጎይታ ኢየሱስ ኣሎኻ 
+   ባዕልኻ ትረድኣኒ ተድምቖ ንብርሃነይ 
+   ካብ ሽግረይ ኣውጺእካ ተህድኦ ንልበይ 
+   ከማኻስ የለን’ዩ ከማኻ ጎይታ ኢየሱስ ከማኻ 
+        ተደ፦ከምዚ ናትካ ጌሩ ንልበይ ዘዕርፍ 
+                 ውሽጠይ ተረዲኡ ንሕቶይ ዝምልስ 
+                 ከቶ ኣይርከብን ዘህድኣ ንነብሰይ  
+                 ስለቲ ሓልዮትካ ተመስገን ኢየሱሰይ 
+2.ጸላእተይ ክትንስኡ ብሓይሊ ከጥፍኡኒ 
+   ኣብ ዙርያይ እናጓዘሙ ብዙሕ ክኸሱኒ  
+   ኣብዚ ከምዚ እዋን ኣለኻ ጎይታ ኢየሱስ ኣሎኻ 
+   ጠበቓ ትኾነለይ ተሕፍሮም ንጸላእተይ 
+   ካብ ሃጽፊ ናይ ዲያብሎስ ትኾነኒ ዕርደይ  
+   ከማኻስ የለን’ዩ ከማኻ ጎይታ ኢየሱስ ከማኻ 
+             3.ኩነታት እናረኤኹ ክወድቀኒ ፍርሓት  
+                ክጥሕል’ውን ክጅምር ናብቲ ባሕሪ ሓጢኣት 
+                ኣብዚ ከምዚ እዋን ኣለኻ ጎይታ ኢየሱስ ኣሎኻ 
+                ኣእዳውካ ትሰደለይ መንዚዕካ ተውጸኣኒ 
+                ኣብ ልዕሊ ጸላእተይ’ውን ዓወት ትህበኒ 
+                ከማኻስ የለን’ዩ ከማኻ ጎይታ ኢየሱስ ከማኻ 
+4.ድኻመይ እናረኣየ ኩሉ ክርሕቀኒ  
+   ሓደ’ኳ ክስእን ተስፋ ዝህበኒ 
+   ኣብዚ ከምዚ እዋን ኣለኻ ጎይታ ኢየሱስ ኣሎኻ 
+    
+ 
+ 
+ጎደለይ ንምምላእ ባዕልኻ ትቐርበኒ                                  
+ኣብራኸይ ወለል ክብላ’ውን ሓይሊ ትኾነኒ 
+ከማኻስ የለን’ዩ ከማኻ ጎይታ ኢየሱስ ከማኻ `,
+    eng: `
+
+Abti nay mdrebda nay tsimwa guuzoey
+Nbeyney kshger redae zeybley
+Abzi kemzi ewan alekha goyta Iyesus alokha
+Baelka tredani tedmqo nbrhaney
+Kab shgirey awtsiEka tehdo nlbeiy
+Kemakhas yelen yu kemakha goyta Iyesus kemakha
+Tedfo: Kemzi natka geru nlbeiy zeErf
+Weshtey terediu nhetoy zmelis
+Keto ayrekbn zehdea nnbsey
+Sleti halyotka temesgen Iyesusey
+
+TslaEtey ktnsEu bhayli ktfUni
+Ab zuryay enaguazemu bzh kkesuni
+Abzi kemzi ewan alekha goyta Iyesus alokha
+Tebeka tkwnelay tehfrom ntslaEtey
+Kab hatsfi nay diablos tkwneni Erdey
+Kemakhas yelen yu kemakha goyta Iyesus kemakha
+
+Kunetat enareEku kwedkeni frhat
+KtHlhun kjmr nabti bahri hatiat
+Abzi kemzi ewan alekha goyta Iyesus alokha
+AEdawka tsedeley menziEka tewtseAni
+Ab lEli tslaEteywn awet thbeni
+Kemakhas yelen yu kemakha goyta Iyesus kemakha
+
+Dkhamey enarayE kulu krHkeni
+Hadekwa ksEn tesfa zhbheni
+Abzi kemzi ewan alekha goyta Iyesus alokha
+Godeley nmemlaE baelka tkErbeni
+Abrakhey welal kblawn hayli tkwneni
+Kemakhas yelen yu kemakha goyta Iyesus kemakha`
 },
     song23: {
     title: { tig: "", eng: "" },
