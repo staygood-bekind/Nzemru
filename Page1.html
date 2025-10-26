@@ -308,7 +308,7 @@ cards.forEach(card => {
   card.addEventListener('click', () => {
     currentCard = card;
     currentLang = primaryLang;
-    langBtn.textContent = currentLang === 'tig' ? 'ትግርኛ' : 'English';
+    langBtn.textContent = currentLang === 'tig' ? 'English' : 'ትግርኛ';
     const id = card.dataset.id;
 
     // Set modal title and content
@@ -374,7 +374,7 @@ langBtn.addEventListener('click', () => {
   modalContent.innerHTML = currentLang === 'eng'
     ? `<span class="eng-text">${lyricsData[id].eng}</span>`
     : lyricsData[id][currentLang];
-  langBtn.textContent = currentLang === 'tig' ? 'ትግርኛ' : 'English';
+  langBtn.textContent = currentLang === 'tig' ? 'English' : 'ትግርኛ';
 });
 
 
@@ -383,7 +383,7 @@ const primaryAction = document.getElementById('primaryAction');
 let primaryLang = 'tig';
 primaryAction.addEventListener('click', ()=>{
   primaryLang = primaryLang==='tig'?'eng':'tig';
- primaryAction.textContent = primaryLang === 'tig' ? 'ትግርኛ' : 'English';
+ primaryAction.textContent = primaryLang === 'tig' ? 'English' : 'ትግርኛ';
   // Update all cards
   cards.forEach(card=>{
     const id = card.dataset.id;
