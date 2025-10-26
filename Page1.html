@@ -140,7 +140,7 @@ box-shadow:0 6px 18px rgba(59,130,246,0.12);}
     <button class="hamburger" id="hamburgerBtn"><span class="bars"><span></span><span></span><span></span></span></button>
   </div>
   <div class="top-controls">
-    <button class="btn" id="primaryAction">TIG</button>
+    <button class="btn" id="primaryAction">ትግርኛ</button>
     <!-- NEW THEME TOGGLE -->
     <button class="theme-toggle" id="themeToggle">
       <span class="icon sun">☀️</span>
@@ -308,7 +308,7 @@ cards.forEach(card => {
   card.addEventListener('click', () => {
     currentCard = card;
     currentLang = primaryLang;
-    langBtn.textContent = currentLang.toUpperCase();
+    langBtn.textContent = currentLang === 'tig' ? 'ትግርኛ' : 'English';
     const id = card.dataset.id;
 
     // Set modal title and content
@@ -374,7 +374,7 @@ langBtn.addEventListener('click', () => {
   modalContent.innerHTML = currentLang === 'eng'
     ? `<span class="eng-text">${lyricsData[id].eng}</span>`
     : lyricsData[id][currentLang];
-  langBtn.textContent = currentLang.toUpperCase();
+  langBtn.textContent = currentLang === 'tig' ? 'ትግርኛ' : 'English';
 });
 
 
@@ -383,7 +383,7 @@ const primaryAction = document.getElementById('primaryAction');
 let primaryLang = 'tig';
 primaryAction.addEventListener('click', ()=>{
   primaryLang = primaryLang==='tig'?'eng':'tig';
-  primaryAction.textContent = primaryLang.toUpperCase();
+ primaryAction.textContent = primaryLang === 'tig' ? 'ትግርኛ' : 'English';
   // Update all cards
   cards.forEach(card=>{
     const id = card.dataset.id;
