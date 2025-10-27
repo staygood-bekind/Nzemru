@@ -2655,6 +2655,203 @@ Megwaseka z’gberka Meskana hoy Meskana
 Dqi brrhan knk’wn z’bqa’kana Meskana hoy Meskana`
 },
     song47: {
+    title: { tig: "ተሓጒስና ነመስግኖ", eng: "Tehagwsna Nmesgno" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: ` 
+1.ክርስትያን ኣይትሕዘን በዛ ናይ’ዛ ዓለም ናብራ 
+   ኩሉ ጊዜ ኣሎ ድኻም ሽግር ወይ መከራ 
+   ስለዚ ንቕድሚት ኣቕንዓዮ መንገድኻ 
+   ናይ ዘልኣለም ጎይታ ኣይተሕዝኖ ሓደራኻ 
+      ተደ፦ተሓጒስና ነመስግኖ ነቲ ተስፋ ዝሃበና 
+               ክወስደና ኪመጽእ‘ዩ ናብታ ሰማያዊት ቤትና 
+2.ድኻም ሓዘን ሽግር እንተኸበበ ኣብ ዙርያኻ 
+   ብእምነት ጸሊ’ሞ ረዲኤቱ ክህበካ 
+   ጸልማት ተመሲሉ እትርእዮ ነገር ኩሉ 
+   ጎይታ ኣይድርብየካን እሙን እዩ በቲ ቃሉ 
+           3.ኢየሱስ ኪመጽእ’ዩ ብመላእኽቱ ተዓጂቡ 
+              ክወስደና እዩ ናብታ ሰማያዊት ቤቱ 
+              ጎይታ ይሕሸና ሰላም ሓጎስ ዚህበና 
+              ኣብቲ መጨረሽታ ኣብ መንግስቱ ከእትወና `,
+    eng: `
+Kristyan ayt’hzen beza nay za alem nabra
+Kulu gize alo d’ham shg’r wey mekera
+Silezi n’qdmti aQn’ayo menGedka
+Nay zelalem Goyta ayt’hzeno had’raka
+Teda: Tehagwsna Nmesgno neti tesfa zhabena
+Kwesd’na kimets’ey yu nabta semayawit betna
+
+D’ham hazen shg’r ent’kebebe ab zur’yaka
+B’emnet tseli’mo redi’etu khbeka
+Tselmat temesilu etr’eyo neger kulu
+Goyta aydrbyekan emun yu beti kalu
+
+Iyesus kimets’ey yu bmel’aekhtu te’ajibu
+Kwesd’na yu nabta semayawit betu
+Goyta yhshena selam h’agos zhbena
+Abti mechereshta ab mengestu k’itwena`
+},
+    song48: {
+    title: { tig: "እንታይ ይሰኣነካ", eng: "Entay Yseaneka" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: ` 
+1.እዚ ዘይከኣል’ዩ ኦሮማይ 
+   ዝተባህለ ዘይስገር ዓቢ ቀላይ(2) 
+   ኣነ ግና ስጊረዮ ኣምላኸይሲ እንታይ ይጨንቆ  
+   ኩሉ (ከቶ) ኣብ ኢዱ ኣብ ኢዱ’ዩ 
+   ከቶ (ኩሉ) ኣብ ኢዱ ኣብ ኢዱ’ዩ(2) 
+           ተደ፦እንታይ ይሰኣነካ’ድዩ እግዚኣብሔር(4) 
+                   ነገር ኩሉ ኣብ ቅድሜኻ ቀሊል(3) /4/ 
+2.ካብ ሓዊ ምምንዛዕ ናትካ’ዩ 
+   ካብ ሞት ምትራፍ’ውን ናትካ’ዩ(2) 
+   ነፍሰይሲ ርእያትካ ገለ’ኳ ከም ዘይጨንቀካ 
+   ስለዚ’ያ ተኽብረካ(2)   
+   ስለዚ’ውን ተምልኸካ(2) 
+                3.ኣብቲ ብርቱዕ ምንዋጽ ዘለዎ 
+                   ንኣእምሮይ ሰላምካ ገዚእዎ(2) 
+                   ለውሃትካ ይበልጽ ካብ ሕይወት 
+                   ድምጽኻ ኣለዎ ዕጋበት 
+                   ብሳላኻ ‘ለኹ ብሕይወት(4)  `,
+    eng: `
+Ezi zeyk’al yu oromay
+Ztebahle zeysg’r abi qelay (2)
+Ane gna s’gireyo amlakhay si entay ychenqo
+Kulu (keto) ab idu ab idu yu
+Keto (kulu) ab idu ab idu yu (2)
+Teda: Entay yseaneka dyu Egziabher (4)
+Neger kulu ab qdmeka qelil (3) /4/
+
+Kab hawi mmnzae natka yu
+Kab mot mtr’af wun natka yu (2)
+Nefsey si r’eyatka gelekwa kem zeychenqeka
+Silezi ya tehkbreka (2)
+Silezi wun temlh’eka (2)
+
+Abti brtuh mnwats zleyo
+N’aemroy selamka geziwo (2)
+Lewhatka ybelts kab hywet
+Dmtska alo y’gabet
+Bsala’ka lehu bhywet (4)`
+},
+    song49: {
+    title: { tig: "ካብ ምሕረትካ ዝተላዕለ", eng: "Kab Mhretka Ztlaele" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: ` 
+1.ካብ ምሕረትካ ዝተላዕለ'ዩ ደው ኢለ ዘለኹ 
+   ምእታወይ ምውጽአይ ብኣኻ ተሓልዩ 
+   ማዕበል ክገላበጥ ክናወጽ ኣኽራናት 
+   ቅልጽምካ ተተርኢሰ ኣሎኹ ብህድኣት (ዓመታት) /2/ 
+     ተደ፦ምሕረትካ’ ዩ…(4) ፍቕርኻ’ዩ…(4) 
+              ኣብዚ ዘብጽሓኒ ካባይ ዝኾነ ነገር የለን(2) 
+              ብኣኻ’ዩ ኡሁሁ…  ኩሉ ብኣኻ’ዩ(2) 
+              ብኣኻ’ዩ ጸቢቑለይ ብኣኻ ኮይኑለይ(6)  
+2.ፍትሐይ ካብ ገጽካ ይወጽእ ብትርኢትካ እጸግብ 
+   ፍቕርኻ ተዓንጊለ መከራይ ይርስዕ 
+   ዉሉደይ ክትብለኒ ብኣባታዊ ፍቕርኻ 
+   ምንባረይ ጸቢቑ ብሙዃነይ ናትካ /2/`,
+    eng: `
+Kab mhretka ztlaele yu dew ile zlekhu
+M’etawey mwts’ay b’akha tehalyu
+Maebel kgelabet knawets akhranat
+Qltsmka tet’erise alokhu bhd’at (ametat) /2/
+Teda: Mhretka yu… (4) Fq’rkha yu… (4)
+Abzi zbetshani kabay zkone neger yelen (2)
+B’akha yu uhuhu… kulu b’akha yu (2)
+B’akha yu tsebiquley b’akha koynuley (6)
+
+Ft’hay kab gtska ywets’e b’tr’itkha ets’egb
+Fq’rkha te’angile mk’ray yrs’
+Wludey ktbleni b’abatawi fq’rkha
+Mnbarey tsebiqu b’mu’ane natka /2/`
+},
+    song50: {
+    title: { tig: "ኦ ናይ ሰላም ኣምላኽ", eng: "O Nay Selam Amlak" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `  
+1.እቲ ሰላምካ ንኽንደልዮ 
+  ንልብና ኣንቅሓዮ 
+  ኦ ጐይታይ ድኹማት ኢና 
+  ብመንፈስካ ኣጽንዓና 
+       ተደ፦ኦ ናይ ሰላም ኣምላኽ 
+               ሰላምካ ኣውርደልና 
+               ብብዝሒ ምሕረትካ  
+               ደምስስ ኣበሳና 
+2.ቀደም ዝነበረ መንፈስ 
+   ሕጂ’ውን ኣባና ይፍሰስ 
+   ሓቢርና ንልምነካ 
+   ስምዓና ጐይታይ ጽን ኢልካ 
+           3.ልመናኹም ተሰሚዑ 
+              ኣጆኹም ደቀየ ጽንዑ 
+              ክትብለና ብሃረርታ 
+            ንጽበየካ ኦ ጐይታይ `,
+    eng: `
+Eti selamka nkhndelyo
+Nlbna anqhayo
+O goytay dkhumat ina
+Bmenfeska atsnaana
+Teda: O nay selam Amlak
+Selamka awrdelna
+Bbzihi mhretkha
+Demsis abesana
+
+Qedem znebere menfes
+Hijiwn abana yfses
+Habirna nlmnkha
+Smana goytay tsn ilka
+
+Lmenakhum tesemiu
+Ajokhum dekye tsniu
+Ktbelna bharerta
+Ntsbeyka o goytay`
+},
+    song47: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: `10 Song 10 lyrics ...`
+},
+    song47: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: `10 Song 10 lyrics ...`
+},
+    song47: {
     title: { tig: "Okay", eng: "" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
@@ -2666,6 +2863,42 @@ Dqi brrhan knk’wn z’bqa’kana Meskana hoy Meskana`
     tig: `10ናይ ሶንግ 10 ትርጉም ...`,
     eng: `10 Song 10 lyrics ...`
 },
-                 
+    song47: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "https://youtube.com/...",
+    spotify: "https://open.spotify.com/track/3Aq3StmMxZ4DNnorhziSI1?si=16b0805623014123&nd=1&dlsi=966d715193d84220",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: `10 Song 10 lyrics ...`
+},
+    song47: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "https://youtube.com/...",
+    spotify: "https://open.spotify.com/track/3Aq3StmMxZ4DNnorhziSI1?si=16b0805623014123&nd=1&dlsi=966d715193d84220",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: `10 Song 10 lyrics ...`
+},
+    song47: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "https://youtube.com/...",
+    spotify: "https://open.spotify.com/track/3Aq3StmMxZ4DNnorhziSI1?si=16b0805623014123&nd=1&dlsi=966d715193d84220",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: `10 Song 10 lyrics ...`
+},
+                                    
 // … continue incrementally up to song64
 };
