@@ -2661,7 +2661,7 @@ Dqi brrhan knk’wn z’bqa’kana Meskana hoy Meskana`
     genre: { tig: "", eng: "" },
     date: "",
     youtube: "https://youtube.com/...",
-    spotify: "https://open.spotify.com/...",   
+    spotify: "https://open.spotify.com/track/3Aq3StmMxZ4DNnorhziSI1?si=16b0805623014123&nd=1&dlsi=966d715193d84220",   
     cover: "images/album1.jpg",
     tig: `10ናይ ሶንግ 10 ትርጉም ...`,
     eng: `10 Song 10 lyrics ...`
