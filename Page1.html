@@ -134,16 +134,31 @@ box-shadow:0 6px 18px rgba(59,130,246,0.12);}
 </style>
 </head>
 <body data-theme="light">
- <div id="loginSection" style="text-align:center; margin:20px;">
-  <input id="phoneNumber" type="text" placeholder="+256700000000" style="padding:6px;"/>
-  <div id="recaptcha-container"></div>
-  <button id="sendCodeBtn">Send Code</button>
+<div id="loginSection" style="
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 64px; /* just below the topbar */
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+  text-align: center;
+  background: var(--bg);
+  z-index: 20;
+">
+  <input id="phoneNumber" type="text" placeholder="+256700000000" style="padding:8px; font-size:16px; width:250px; max-width:90%; margin-bottom:10px;"/>
+  <div id="recaptcha-container" style="margin-bottom:10px;"></div>
+  <button id="sendCodeBtn" style="padding:8px 16px; font-size:16px; cursor:pointer;">Send Code</button>
 
   <div id="verifySection" style="display:none; margin-top:10px;">
-    <input id="verificationCode" type="text" placeholder="Enter code"/>
-    <button id="verifyCodeBtn">Verify</button>
+    <input id="verificationCode" type="text" placeholder="Enter code" style="padding:8px; font-size:16px; width:250px; max-width:90%; margin-bottom:10px;"/>
+    <button id="verifyCodeBtn" style="padding:8px 16px; font-size:16px; cursor:pointer;">Verify</button>
   </div>
 </div>
+
 
 <header class="topbar">
   <div class="brand">
