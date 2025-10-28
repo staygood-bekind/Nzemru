@@ -179,7 +179,7 @@ box-shadow:0 6px 18px rgba(59,130,246,0.12);}
   </div>
 </aside>
 
-<main class="main">
+<main class="main" style="display:none;">
   <section id="home" class="home-choices">
     <div class="section-header">
       <h2 class="section-title">Welcome to Lyric Site</h2>
@@ -226,6 +226,13 @@ box-shadow:0 6px 18px rgba(59,130,246,0.12);}
 </div>
 
  <script type="module">
+   import { 
+  getAuth, 
+  RecaptchaVerifier, 
+  signInWithPhoneNumber, 
+  onAuthStateChanged 
+} from "https://www.gstatic.com/firebasejs/11.0.1/firebase-auth.js";
+
   import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js";
   import { getAuth, RecaptchaVerifier, signInWithPhoneNumber } 
     from "https://www.gstatic.com/firebasejs/11.0.1/firebase-auth.js";
@@ -244,47 +251,50 @@ box-shadow:0 6px 18px rgba(59,130,246,0.12);}
   const app = initializeApp(firebaseConfig);
   const auth = getAuth(app);
 
-  // ---- Phone Auth ----
-  const sendCodeBtn = document.getElementById('sendCodeBtn');
-  const verifyCodeBtn = document.getElementById('verifyCodeBtn');
-  const verifySection = document.getElementById('verifySection');
+// ---- Phone Auth ----
+const sendCodeBtn = document.getElementById('sendCodeBtn');
+const verifyCodeBtn = document.getElementById('verifyCodeBtn');
+const verifySection = document.getElementById('verifySection');
 
+document.addEventListener('DOMContentLoaded', () => {
   window.recaptchaVerifier = new RecaptchaVerifier(auth, 'recaptcha-container', {
     size: 'normal'
   });
+});
 
-  sendCodeBtn.addEventListener('click', async () => {
-    const phoneNumber = document.getElementById('phoneNumber').value;
-    const appVerifier = window.recaptchaVerifier;
-    try {
-      window.confirmationResult = await signInWithPhoneNumber(auth, phoneNumber, appVerifier);
-      verifySection.style.display = 'block';
-      alert('Verification code sent!');
-    } catch (error) {
-      alert(error.message);
-    }
-  });
+sendCodeBtn.addEventListener('click', async () => {
+  const phoneNumber = document.getElementById('phoneNumber').value.trim();
+  const appVerifier = window.recaptchaVerifier;
+  try {
+    window.confirmationResult = await signInWithPhoneNumber(auth, phoneNumber, appVerifier);
+    verifySection.style.display = 'block';
+    alert('✅ Verification code sent!');
+  } catch (error) {
+    alert('⚠️ ' + error.message);
+  }
+});
 
-  verifyCodeBtn.addEventListener('click', async () => {
-    const code = document.getElementById('verificationCode').value;
-    try {
-      const result = await window.confirmationResult.confirm(code);
-      alert('Login successful!');
-      document.getElementById('loginSection').style.display = 'none';
-    } catch (error) {
-      alert(error.message);
-    }
-  });
-     // ✅ ---- Show/Hide UI based on login ----
-  onAuthStateChanged(auth, user => {
-    if (user) {
-      document.getElementById('loginSection').style.display = 'none';
-      document.querySelector('main').style.display = 'block';
-    } else {
-      document.getElementById('loginSection').style.display = 'block';
-      document.querySelector('main').style.display = 'none';
-    }
-  });
+verifyCodeBtn.addEventListener('click', async () => {
+  const code = document.getElementById('verificationCode').value.trim();
+  try {
+    await window.confirmationResult.confirm(code);
+    alert('🎉 Login successful!');
+  } catch (error) {
+    alert('⚠️ ' + error.message);
+  }
+});
+
+// ---- Handle login state ----
+onAuthStateChanged(auth, user => {
+  if (user) {
+    document.getElementById('loginSection').style.display = 'none';
+    document.querySelector('main').style.display = 'block';
+  } else {
+    document.getElementById('loginSection').style.display = 'block';
+    document.querySelector('main').style.display = 'none';
+  }
+});
+
 </script>
 
   
