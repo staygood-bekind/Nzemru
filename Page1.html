@@ -7,17 +7,6 @@
 <link rel="icon" type="image/png" href="Favicon.png">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Lora:wght@400;500;600&display=swap" rel="stylesheet">
 
-  <div id="loginSection" style="text-align:center; margin:20px;">
-  <input id="phoneNumber" type="text" placeholder="+256700000000" style="padding:6px;"/>
-  <div id="recaptcha-container"></div>
-  <button id="sendCodeBtn">Send Code</button>
-
-  <div id="verifySection" style="display:none; margin-top:10px;">
-    <input id="verificationCode" type="text" placeholder="Enter code"/>
-    <button id="verifyCodeBtn">Verify</button>
-  </div>
-</div>
-
   
 <style>
 :root{
@@ -145,6 +134,16 @@ box-shadow:0 6px 18px rgba(59,130,246,0.12);}
 </style>
 </head>
 <body data-theme="light">
+ <div id="loginSection" style="text-align:center; margin:20px;">
+  <input id="phoneNumber" type="text" placeholder="+256700000000" style="padding:6px;"/>
+  <div id="recaptcha-container"></div>
+  <button id="sendCodeBtn">Send Code</button>
+
+  <div id="verifySection" style="display:none; margin-top:10px;">
+    <input id="verificationCode" type="text" placeholder="Enter code"/>
+    <button id="verifyCodeBtn">Verify</button>
+  </div>
+</div>
 
 <header class="topbar">
   <div class="brand">
@@ -226,15 +225,11 @@ box-shadow:0 6px 18px rgba(59,130,246,0.12);}
   </div>
 </div>
 
-  <script type="module">
-  // Import the functions you need from the SDKs you need
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.4.0/firebase-app.js";
-  import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.4.0/firebase-analytics.js";
-  // TODO: Add SDKs for Firebase products that you want to use
-  // https://firebase.google.com/docs/web/setup#available-libraries
+ <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js";
+  import { getAuth, RecaptchaVerifier, signInWithPhoneNumber } 
+    from "https://www.gstatic.com/firebasejs/11.0.1/firebase-auth.js";
 
-  // Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
   const firebaseConfig = {
     apiKey: "AIzaSyD8geRJfJ1CO7KhCwmdOmCdV_31SZqABpk",
     authDomain: "nzemr-41.firebaseapp.com",
@@ -247,38 +242,51 @@ box-shadow:0 6px 18px rgba(59,130,246,0.12);}
 
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
+  const auth = getAuth(app);
 
-    // --- Phone auth setup ---
-const sendCodeBtn = document.getElementById('sendCodeBtn');
-const verifySection = document.getElementById('verifySection');
-const verifyCodeBtn = document.getElementById('verifyCodeBtn');
+  // ---- Phone Auth ----
+  const sendCodeBtn = document.getElementById('sendCodeBtn');
+  const verifyCodeBtn = document.getElementById('verifyCodeBtn');
+  const verifySection = document.getElementById('verifySection');
 
-window.recaptchaVerifier = new RecaptchaVerifier(auth, 'recaptcha-container', {});
+  window.recaptchaVerifier = new RecaptchaVerifier(auth, 'recaptcha-container', {
+    size: 'normal'
+  });
 
-sendCodeBtn.addEventListener('click', async () => {
-  const phoneNumber = document.getElementById('phoneNumber').value;
-  const appVerifier = window.recaptchaVerifier;
-  try {
-    window.confirmationResult = await signInWithPhoneNumber(auth, phoneNumber, appVerifier);
-    verifySection.style.display = 'block';
-    alert('Verification code sent!');
-  } catch (error) {
-    alert(error.message);
-  }
-});
+  sendCodeBtn.addEventListener('click', async () => {
+    const phoneNumber = document.getElementById('phoneNumber').value;
+    const appVerifier = window.recaptchaVerifier;
+    try {
+      window.confirmationResult = await signInWithPhoneNumber(auth, phoneNumber, appVerifier);
+      verifySection.style.display = 'block';
+      alert('Verification code sent!');
+    } catch (error) {
+      alert(error.message);
+    }
+  });
 
-verifyCodeBtn.addEventListener('click', async () => {
-  const code = document.getElementById('verificationCode').value;
-  try {
-    const result = await window.confirmationResult.confirm(code);
-    alert('Login successful!');
-    document.getElementById('loginSection').style.display = 'none';
-  } catch (error) {
-    alert(error.message);
-  }
-});
+  verifyCodeBtn.addEventListener('click', async () => {
+    const code = document.getElementById('verificationCode').value;
+    try {
+      const result = await window.confirmationResult.confirm(code);
+      alert('Login successful!');
+      document.getElementById('loginSection').style.display = 'none';
+    } catch (error) {
+      alert(error.message);
+    }
+  });
+     // ✅ ---- Show/Hide UI based on login ----
+  onAuthStateChanged(auth, user => {
+    if (user) {
+      document.getElementById('loginSection').style.display = 'none';
+      document.querySelector('main').style.display = 'block';
+    } else {
+      document.getElementById('loginSection').style.display = 'block';
+      document.querySelector('main').style.display = 'none';
+    }
+  });
 </script>
+
   
 <script src="lyrics.js"></script>
 <script>
