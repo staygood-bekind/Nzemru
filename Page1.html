@@ -140,7 +140,7 @@ box-shadow:0 6px 18px rgba(59,130,246,0.12);}
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 64px; /* just below the topbar */
+  top: 64px;
   left: 0;
   right: 0;
   bottom: 0;
@@ -149,14 +149,22 @@ box-shadow:0 6px 18px rgba(59,130,246,0.12);}
   background: var(--bg);
   z-index: 20;
 ">
-  <input id="phoneNumber" type="text" placeholder="+256700000000" style="padding:8px; font-size:16px; width:250px; max-width:90%; margin-bottom:10px;"/>
-  <div id="recaptcha-container" style="margin-bottom:10px;"></div>
-  <button id="sendCodeBtn" style="padding:8px 16px; font-size:16px; cursor:pointer;">Send Code</button>
-
-  <div id="verifySection" style="display:none; margin-top:10px;">
-    <input id="verificationCode" type="text" placeholder="Enter code" style="padding:8px; font-size:16px; width:250px; max-width:90%; margin-bottom:10px;"/>
-    <button id="verifyCodeBtn" style="padding:8px 16px; font-size:16px; cursor:pointer;">Verify</button>
-  </div>
+  <h2>Login to access lyrics</h2>
+  <button id="googleSignInBtn" style="
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: white;
+    box-shadow: var(--shadow);
+  ">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" style="width:20px; height:20px;">
+    Sign in with Google
+  </button>
 </div>
 
 
@@ -241,75 +249,51 @@ box-shadow:0 6px 18px rgba(59,130,246,0.12);}
 </div>
 
  <script type="module">
-   import { 
+  import { 
   getAuth, 
-  RecaptchaVerifier, 
-  signInWithPhoneNumber, 
+  signInWithPopup, 
+  GoogleAuthProvider,
   onAuthStateChanged 
 } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-auth.js";
 
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js";
-  import { getAuth, RecaptchaVerifier, signInWithPhoneNumber } 
-    from "https://www.gstatic.com/firebasejs/11.0.1/firebase-auth.js";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js";
 
-  const firebaseConfig = {
-    apiKey: "AIzaSyD8geRJfJ1CO7KhCwmdOmCdV_31SZqABpk",
-    authDomain: "nzemr-41.firebaseapp.com",
-    projectId: "nzemr-41",
-    storageBucket: "nzemr-41.firebasestorage.app",
-    messagingSenderId: "628529055447",
-    appId: "1:628529055447:web:030cd27de89fc9e4e51292",
-    measurementId: "G-G4FY1172QS"
-  };
+const firebaseConfig = {
+  apiKey: "AIzaSyD8geRJfJ1CO7KhCwmdOmCdV_31SZqABpk",
+  authDomain: "nzemr-41.firebaseapp.com",
+  projectId: "nzemr-41",
+  storageBucket: "nzemr-41.firebasestorage.app",
+  messagingSenderId: "628529055447",
+  appId: "1:628529055447:web:030cd27de89fc9e4e51292",
+  measurementId: "G-G4FY1172QS"
+};
 
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const auth = getAuth(app);
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const auth = getAuth(app);
+const provider = new GoogleAuthProvider();
 
-// ---- Phone Auth ----
-const sendCodeBtn = document.getElementById('sendCodeBtn');
-const verifyCodeBtn = document.getElementById('verifyCodeBtn');
-const verifySection = document.getElementById('verifySection');
+const googleSignInBtn = document.getElementById('googleSignInBtn');
 
-document.addEventListener('DOMContentLoaded', () => {
-  window.recaptchaVerifier = new RecaptchaVerifier(auth, 'recaptcha-container', {
-    size: 'normal'
-  });
-});
-
-sendCodeBtn.addEventListener('click', async () => {
-  const phoneNumber = document.getElementById('phoneNumber').value.trim();
-  const appVerifier = window.recaptchaVerifier;
+googleSignInBtn.addEventListener('click', async () => {
   try {
-    window.confirmationResult = await signInWithPhoneNumber(auth, phoneNumber, appVerifier);
-    verifySection.style.display = 'block';
-    alert('✅ Verification code sent!');
-  } catch (error) {
-    alert('⚠️ ' + error.message);
-  }
-});
-
-verifyCodeBtn.addEventListener('click', async () => {
-  const code = document.getElementById('verificationCode').value.trim();
-  try {
-    await window.confirmationResult.confirm(code);
+    await signInWithPopup(auth, provider);
     alert('🎉 Login successful!');
   } catch (error) {
     alert('⚠️ ' + error.message);
   }
 });
 
-// ---- Handle login state ----
+// Handle login state
 onAuthStateChanged(auth, user => {
   if (user) {
     document.getElementById('loginSection').style.display = 'none';
     document.querySelector('main').style.display = 'block';
   } else {
-    document.getElementById('loginSection').style.display = 'block';
+    document.getElementById('loginSection').style.display = 'flex';
     document.querySelector('main').style.display = 'none';
   }
 });
-
 </script>
 
   
