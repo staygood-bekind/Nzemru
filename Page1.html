@@ -259,8 +259,9 @@ box-shadow:0 6px 18px rgba(59,130,246,0.12);}
     <h3 id="modalTitle"></h3>
     <p id="modalContent"></p>
     <div class="modal-buttons">
-      <button id="tagBtn" class="btn">Tag/Untag</button>
+      <button id="tagBtn" class="btn">Tag</button>
       <button id="langBtn" class="btn">Tig/Eng</button>
+      <button id="shareBtn" class="btn">Share 🔗</button>
     </div>
   </div>
 </div>
@@ -554,6 +555,32 @@ function updateSongCount() {
 
 // Call once after cards are created
 updateSongCount();
+  // ===== SHARE BUTTON =====
+const shareBtn = document.getElementById('shareBtn');
+
+shareBtn.addEventListener('click', async () => {
+  if (!currentCard) return;
+  const id = currentCard.dataset.id;
+  const song = lyricsData[id];
+  const shareUrl = `${window.location.origin}${window.location.pathname}?song=${id}`;
+
+  if (navigator.share) {
+    try {
+      await navigator.share({
+        title: song.title.tig,
+        text: `Check out this song: ${song.title.tig}`,
+        url: shareUrl
+      });
+    } catch (err) {
+      console.error('Share failed:', err);
+      alert('Could not share. You can copy the link manually.');
+    }
+  } else {
+    navigator.clipboard.writeText(shareUrl);
+    alert('📋 Link copied to clipboard!');
+  }
+});
+
    // ===== AUTO OPEN SONG FROM LINK =====
 const urlParams = new URLSearchParams(window.location.search);
 const songIdFromLink = urlParams.get('song');
