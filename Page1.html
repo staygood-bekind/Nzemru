@@ -210,7 +210,7 @@ box-shadow:0 6px 18px rgba(59,130,246,0.12);}
     <li><a href="#" class="filter-link" data-filter="tagged">💖 Tagged</a></li>
     <li><a href="#" class="filter-link" data-filter="Amlko">🕊️ Amlko</a></li>
     <li><a href="#" class="filter-link" data-filter="Msgana">🙏 Msgana</a></li>
-    <li><a href="#" class="filter-link" data-filter="recent">📅 Recently Added</a></li>
+    <li><a href="#" class="filter-link" data-filter="recent">📅 Recent Release</a></li>
   </ul>
 </nav>
   <div class="datetime">
@@ -568,7 +568,7 @@ shareBtn.addEventListener('click', async () => {
     try {
       await navigator.share({
         title: song.title.tig,
-        text: `Check out this song: ${song.title.tig}`,
+        text: `Mezmur: ${song.title.tig}`,
         url: shareUrl
       });
     } catch (err) {
@@ -598,7 +598,7 @@ closeModal.addEventListener('click', () => {
   window.history.replaceState({}, '', newUrl);
   lyricModal.style.display = 'none';
   });
-  // ====== SIDEBAR FILTERS ======
+// ====== SIDEBAR FILTERS ======
 const filterLinks = document.querySelectorAll('.filter-link');
 
 filterLinks.forEach(link => {
@@ -610,18 +610,27 @@ filterLinks.forEach(link => {
     filterLinks.forEach(l => l.classList.remove('active'));
     link.classList.add('active');
 
+    const threeMonthsAgo = new Date();
+    threeMonthsAgo.setMonth(threeMonthsAgo.getMonth() - 3);
+
     cards.forEach(card => {
+      const id = card.dataset.id;
       const isTagged = card.classList.contains('taged');
       const genre = card.dataset.genre || 'other';
-      const dateAdded = new Date(card.dataset.date);
-      const daysAgo = (Date.now() - dateAdded.getTime()) / (1000 * 60 * 60 * 24);
+      const song = lyricsData[id];
+      const songDate = song?.date ? new Date(song.date) : null;
 
       let show = false;
 
       if (filter === 'all') show = true;
       else if (filter === 'tagged') show = isTagged;
-      else if (filter === 'recent') show = daysAgo <= 7;
-      else show = genre === filter; // genre like 'msgana' or 'amlko'
+      else if (filter === 'recent') {
+        // ✅ show only if song date is within 3 months
+        if (songDate && songDate >= threeMonthsAgo) show = true;
+      } else {
+        // genre filters like 'msgana', 'amlko', etc.
+        show = genre === filter;
+      }
 
       card.style.display = show ? 'block' : 'none';
     });
@@ -632,6 +641,7 @@ filterLinks.forEach(link => {
     updateSongCount();
   });
 });
+
 
 })();
 </script>
