@@ -1,10 +1,11 @@
+//✅ Use YYYY-MM-DD format//
 const lyricsData = {
 song1: {
     title: { tig: "ስምካ ይኽበር", eng: "smka ykber" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
     genre: { tig: "ምስጋና", eng: "msgana" },
-    date: "",
+    date: "2025-10-28",
     link: "https://youtu.be/YTS3WI9spiU?si=WtwrybWv8UVr6hnB",
     cover: "images/album1.jpg",
     tig: `1.እንታይ’ሞ ክብል’የ እንታየ’ኸ ዘቕርቦ 
