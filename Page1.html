@@ -498,23 +498,6 @@ tagBtn.addEventListener('click', () => {
   localStorage.setItem('taggedSongs', JSON.stringify(taggedIds));
 
   updateSongCount();
-
-  // ===== AUTO OPEN SONG FROM LINK =====
-const urlParams = new URLSearchParams(window.location.search);
-const songIdFromLink = urlParams.get('song');
-if (songIdFromLink) {
-  const cardToOpen = cards.find(c => c.dataset.id === songIdFromLink);
-  if (cardToOpen) {
-    cardToOpen.click();
-  }
-}
-
-// When modal closes, remove the ?song= part from the URL
-closeModal.addEventListener('click', () => {
-  const newUrl = new URL(window.location);
-  newUrl.searchParams.delete('song');
-  window.history.replaceState({}, '', newUrl);
-  lyricModal.style.display = 'none';
 });
   
 
@@ -571,6 +554,23 @@ function updateSongCount() {
 
 // Call once after cards are created
 updateSongCount();
+   // ===== AUTO OPEN SONG FROM LINK =====
+const urlParams = new URLSearchParams(window.location.search);
+const songIdFromLink = urlParams.get('song');
+if (songIdFromLink) {
+  const cardToOpen = cards.find(c => c.dataset.id === songIdFromLink);
+  if (cardToOpen) {
+    cardToOpen.click();
+  }
+}
+
+// When modal closes, remove the ?song= part from the URL
+closeModal.addEventListener('click', () => {
+  const newUrl = new URL(window.location);
+  newUrl.searchParams.delete('song');
+  window.history.replaceState({}, '', newUrl);
+  lyricModal.style.display = 'none';
+  });
   // ====== SIDEBAR FILTERS ======
 const filterLinks = document.querySelectorAll('.filter-link');
 
