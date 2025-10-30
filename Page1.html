@@ -142,12 +142,25 @@ box-shadow:0 6px 18px rgba(59,130,246,0.12);}
   border-top: 1px solid rgba(255,255,255,0.1);
 }
   /* English text style */
+.choice-card p,
+#lyricModalContent p {
+  margin: 2px 0;
+}
+
+.choice-card p strong,
+#lyricModalContent strong {
+  display: inline-block;
+  min-width: 70px; /* keeps labels aligned if you use <strong> in future */
+}
+
 .eng-text {
   font-family: "Lora", Georgia, serif;
-  font-size: 16px;
+  font-size: 13px;
   line-height: 1.7;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.1px; /* tighter look for English */
+  margin-left: -1px; /* reduce space after colon */
 }
+
   .sidebar .theme-toggle {
   margin-top: 12px;
   width: 50px;
