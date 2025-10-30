@@ -6,7 +6,8 @@ song1: {
     album: { tig: "", eng: "" },
     genre: { tig: "ምስጋና", eng: "msgana" },
     date: "2025-10-28",
-    link: "https://youtu.be/YTS3WI9spiU?si=WtwrybWv8UVr6hnB",
+    youtube: "https://youtube.com/...",
+    spotify: "",
     cover: "images/album1.jpg",
     tig: `1.እንታይ’ሞ ክብል’የ እንታየ’ኸ ዘቕርቦ 
  ውዕለትካስ ካብ ዓቕመይ ንላዕሊ ኮይኑ /2/ 
@@ -2828,8 +2829,8 @@ Ajokhum dekye tsniu
 Ktbelna bharerta
 Ntsbeyka o goytay`
 },
-    song47: {
-    title: { tig: "Okay", eng: "" },
+    song51: {
+    title: { tig: "ክሳብ ሕጂ", eng: "Kisab hiji" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
     genre: { tig: "", eng: "" },
@@ -2837,8 +2838,73 @@ Ntsbeyka o goytay`
     youtube: "",
     spotify: "",   
     cover: "images/album1.jpg",
-    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
-    eng: `10 Song 10 lyrics ...`
+    tig: `  
+1.ማዕበል ሞት ኣየፍርሓንን 
+   ነድሪ‘ኽራን ኣየስጠመንን 
+   ብማእከል ሓዊ ሓሊፈ  
+   ሃልሃልታ ኣይሀሞኸንን… 
+   ርእያ ዘደንቕ ሳህልኻ  
+   ከም ትቐርብ ካብ ትንፋሳ 
+  ሳላኻ ደው ኢላ ተመስገን  
+   ካብ ሰዓርቲ በሊጻ(4) 
+     ተደ፦ክሳብ ሕጂ ዝጾራኒ ብሩኻት ኣእዳውካ 
+             ክሳብ ሕጂ ዝተሰከማኒ ብሩኻት ኣእዳውካ 
+             ኣየ ቲ’ትዕግስትኻ  
+             እዋይ ምሕረት ለውሃትካ 
+             እናተደነቕኩ……  
+             እባርኸካ ጎይታ አመስግነካ…  
+             ንስኻስ ምስጋናይ ኢኻ 
+2.ብጓሂ ተኪዘ ይመጽእ  
+   ኣብ ትሕቲ እግርኻ ይወድቕ 
+   ድንጋጽካ ኣይተኸልከለንን  
+   ብትርኢት ገጽካ እጸግብ… 
+   ታ’ሃረርታ ትሑታት ትሰምዖ  
+   ንልቦም’ውን ተበርትዖ 
+   ዉሉደይ ኢልካ ደጊፍካኒ 
+   ምጽንናዕካ ከቢብካኒ(4) 
+          3.ብልዕልናኻ ረዲኤተይ 
+              ኣብ ሰማይ ዝተወጥሕካ 
+              ጸበባ ድነ ሞት ሰጊረ  
+            ተጸይረ ኣብ ኣእዳውካ… 
+              ኣዝዩ ንምእማኑ ዘሸግር 
+              ኩነታት ኣሳጊርካያ 
+              ታ’ሞት ዝተፈርደት ሕይወተይ  
+            እንሆ ትዝምረልካ(8)`,
+    eng: `
+1.Maebel mot ayferhanen
+Nedri khran ayestemenen
+Bmaekel hawi halife
+Halhalta ayhamokhnen
+Reya zedenq sahlkha
+Kem tkereb kab tnifasa
+Salakha dew ila temesgen
+Kab seaty belitsa(4)
+
+Teda: Kisab hiji ztsorani brkhat aedawka
+Kisab hiji ztsekemani brkhat aedawka
+Aye titigstkha
+Eway mhret lewihatkha
+Enadenekhku
+Ebarikeka goyta amesgineka
+Nskhas msganay ika
+
+2.Bgwahi tekize ymetse
+Ab thti egrkha yewedq
+Dengatskha aytekhelkhelenen
+Btrit gegtskha etsageb
+Taharerta tihutat tesemio
+Nlbomwn tebertio
+Wludey ilka degifkani
+Mtsnnaeka kebibkani(4)
+
+3.Blel’lnakha rediety
+Ab semay ztewetsihka
+Tsebe’ba dine mot segire
+Tetseyre ab aedawka
+Azyu nmimanuel zeshegr
+Kunetat asagirkhaya
+Tahmot zteferdet heywetey
+Enho tizmerelka(8)`
 },
     song47: {
     title: { tig: "Okay", eng: "" },
