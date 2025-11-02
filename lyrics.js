@@ -2906,6 +2906,199 @@ Kunetat asagirkhaya
 Tahmot zteferdet heywetey
 Enho tizmerelka(8)`
 },
+    song52: {
+    title: { tig: "ይብጻሕኪ ምስጋናይ", eng: "Yibtsahki msganay" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "ማርያም", eng: "Mariam" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `
+1.ብጩራ ኣእዳውኪ መሊስኪ ልመናይ 
+   ብተኣምር ማዕተብ ጸጋኺ ኣፍሲስክለይ  
+   ብጸሎት መቑጸርያ ንሰይጣን ክስዕር 
+   ወሊድክኒ ኣደይ ይብጻሕኪ ምስጋናይ(2) 
+           ተደ፦ይብጻሕ ሓጎሰይ ምስጋናይ ናባኺ  
+                     ኦ ንግስቲ ሰላም ውዳሰይ ንዓኺ(2) 
+2.ፍቕርኺ ጥዒመ ብሓጎስ እነብዕ 
+   ሓዘንኪ ዘኪረ መሊሰ እብርትዕ 
+   ደገፍ ትኾንኒ ኣብ እምነተይ ክጸንዕ 
+   ምስጋናይ ይብጻሕኪ ኣደየ ሓበነይ(2) 
+                 3.ለይቲ ምስ መዓልቲ ብኣኺ’ዩ ሓሳበይ 
+                    ኣደየ እንዲኺ ሕልፊ እትሓልይለይ 
+                    ኣደይ እወ ኣደይ ወትሩ እትጽልይለይ 
+                    ምስጋናይ ይብጻሕኪ ብሌን ዓይኒ ናተይ(2) 
+4.መንገዲ ኮንክኒ ክበጽሕ ናብ ኢየሱስ 
+   ከምኡ’ውን  ጽላለይ ማህደር መንፈስ ቁዱስ 
+   ስለዚ’ስ ማርያመይ ኣነ ብኣኺ ይሕጎስ  
+   እኔኹ የመስግን ኣፈይ እኸፍት(2) `,
+    eng: `
+1.Bchura aedawki meliski lmenay
+Bteamr maeteb tsegakhi afsiskeley
+Btselot meqtserya nseyetan ksiir
+Welidkni adey yibtsahki msganay(2)
+Teda: Yibtsah hgosy msganay nabaki
+O ngsti selam wdasay naki(2)
+
+2.Fqerki t’ime bhagos eneb’e
+Hazenki zekire melise ebrti
+Degef tkhonkni ab emnetey ktsen’e
+Msganay yibtsahki adeye habeney(2)
+
+3.Leyti ms mealti bhaki yu hasabey
+Adeye endiki hlfy ethayleyley
+Adey ewo adey wetru etseliley
+Msganay yibtsahki bleyn ayni natey(2)
+
+4.Mengedi konkni kbts’h nab Iyesus
+Kem’uwn tslaley mahder menfes qudus
+Slezis Maryamey ane bhaki yhgos
+Eneku yemesgn afey ekheft(2)`
+},
+    song53: {
+    title: { tig: "ሓለፋ ኣለዎ", eng: "Halefa alewo" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: ` 
+1.ክሓስብ ክጭነቕ እናነባዕኩ 
+  ንብዓተይ ይደርዝ ብበረኸቱ 
+  ስለይ ይሓልፈለይ ይብጀወለይ 
+  ንዓይ ምፍቃሩሲ ሓለፋ’ለዎ 
+    ተደ፦ሓለፋ ኣለዎ(2)    
+          ኣምላኸይ ፍቕርኻ ሓለፋ ኣለዎ 
+          ኢየሱሰይ ፍቕርኻ(2) በይኑ’ዩ በይኑ(2) 
+          ኣብ ውሽጢ ልበይ(2)  
+          ጓህሪ ፈጢሩ የንድደኒ’ሎ(2) 
+2.ስለይ ንኽትብል መስቀል ዝወዓልካ 
+  ምእንታይ ኢልካ’ውን ደምካ ዝረሃጽካ 
+  ኣምላኸይ ፍቕርኻ ብሓቂ ፍሉይ’ዩ 
+  ሓለፋ’ለዎ ጎይታየ ፍቕርኻ 
+        3.ንዓይ ንባርያኻ ኣፍቂርካኒ ኢኻ 
+          ስለ ፍቕረይ ኢልካ ብዙሕ ተሳቐኻ 
+          ክሳዕ ኣብ መስቀል’ውን ሕይወትካ ዘሕለፍካ 
+          ሓለፋ’ለዎ ኣምላኸይ ፍቕርኻ `,
+    eng: `
+1.Khasb kchineq enaneba’ku
+Nb’atey yiderz bbereketu
+Sley yhalfeley ybjeweley
+Nay mfk’arusi halefa lewo
+Teda: Halefa alewo(2)
+Amlakhey fqerka halefa alewo
+Iyesusey fqerka(2) beyinu yu beyinu(2)
+Ab wush’ti lbey(2)
+Gwahri feti’ru yenideni lo(2)
+
+2.Sley nkhtbl mesqel zewa’alka
+M’ntay ilka wn demka zrehatska
+Amlakhey fqerka bhqi fluy yu
+Halefa lewo goytaye fqerka
+
+3.Nay nbaryaka afqirkani ika
+Sle fqrey ilka bzuh tesaqeka
+Ksa’e ab mesqel wn hywotka zehlefka
+Halefa lewo amlakhy fqerka`
+},
+    song54: {
+    title: { tig: "ኣንቅሓና ኣበርትዓና", eng: "Anqhana abertana" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: ` 
+1.እግዚ/ር ከምዚ’ናበለ ብነብያት ንደቁ ይምሕጸን 
+ ኣብ ድቃስኩም ከይትጠፍኡ ነፍስ ወከፍ ይበራበር 
+ ከምተን ለባማት ደናግል ቀንዴልኩም ዘይትመልእዎ 
+ እቲ ሕያው ኣምላኽ ምስ መጸ በሪህኩም ተቐበልዎ 
+       ተደ፦ዎ…… እግዚ/ር ኣንቅሓና ኣበርትዓና 
+             ፈሊና ከነለልዮ ዘለናዮ ዘመና(2) 
+               ቆጽሊ በለስ ምስ ዓምበበ 
+               ክረምቲ ከም ዝፍለጥ 
+               ኩሉ ሰብ’ውን ዝህንጠዮ ፍሪኡ ንኽምገብ  
+               ንሕና’ውን ፍረ ድሕነት ንኽንረክብ  
+               ኣኽእለና ዎ እግዚኣብሔር 
+2.ሰይጣን ዝበልዖ ደልዩ ከም ዝጥሕር ኣንበሳ 
+  ኣብ ዙርያኹም ይጓዝም ኣሎ ንነብስኹም ክርምሳ 
+  ስለዚ ፍለጥዎ ኣቶኪርኩም ቶቓመትዎ 
+  ብሓይሊ ኲናት ናይ ኣምላኽ ዓጢቕኩም ተዋግእዎ  
+            3.መዓልቲ ከም ሰራቒ ኮይኑ እዩ ዝመጽእ 
+              ትኽስታኹም ኣጥፍእዎ ሓደ እኳ ኣይዘንግዕ 
+              ዕጠቑ ተዳለዉ ኣጽዋር ኣምላኽ ልበሱ 
+              ልብኻትኩም ኣጽርይዎ ጹኑዕ መንፈስ ተሓደሱ 
+4.ድሌትና እዩ ሃረርታና ክንረክብ ሕይወት ዘልኣለም 
+  ፍጹም ኣይጠቕመናን እዩ ሓጎስ ናይዛ ዓለም 
+  ብሳህልን ምሕረትን ማሚቕና ክንነብር ኣብ ሕቕፎኻ 
+  መወዳእታና ኣጸብቕ ጠምተና ብምሕረትካ `,
+    eng: `
+1.Egzih’r kemzi nabbele bneb’yat ndeku yimhtsen
+Ab dkas’kum keyttf’u nefs wekf yberaber
+Kemten lebamat denagel qen’delkum zeytmel’o
+Eti hyaw Amlak ms metsa berihkum teqebel’o
+Teda: Wo… Egzih’r anqhana abert’ana
+Felina kenel’elyo zlenayo zemena(2)
+Qotsli beles ms ambebe
+Kremti kem zifleth
+Kulu seb wn zhenteyo fri’u nkhmgheb
+Nhna wn fre dhnet nkhnerkeb
+Akh’elena wo Egzihaber
+
+2.Seytan zbelyo delyu kem zthhr anbesa
+Ab zurya’khum yigwazm alo nneb’skhum kirmesa
+Slez flet’o atokirkum toqamet’o
+Bhayli khunat nay Amlak atikh’kum tewag’e’o
+
+3.Me’alti kem seraqi koynu iyu zmets’e
+Tkhs’takhum atf’o hade kwa ayzeng’e
+Et’equ tedalewu atswar Amlak lb’su
+Lbkhat’khum atsriyo tsunu’ menfes tehadesu
+
+4.Dletna iyu harertana knrekeb hywot zelalem
+Ftsum aytqmenan iyu hgos nay za alem
+Bsahl’n mhrtn mamikna knneber ab hqfokha
+Meweda’atana atsebkq temt’na bmhretkha`
+},
+    song55: {
+    title: { tig: "ዘልኣለም", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: ` 
+1.ዝሓይሽ ኣለዎ ኣብ ቤትካ ምንባረይ(2)          
+  ኣብ ምድሪ ዘይኮነ ክውሰን ዕድለይ(2)  
+      ግዜ ዘይውስኖ ኣብታ ሓዳስ ቤትካ   
+      ይናፍቕ ኣለኹ ክርኢ ንገጽካ(2)   
+      ክዓርፍ ኣብ ሕቕፎኻ  
+        ተደ፦ዘልኣለም ኣብ ቤትካ ወሲነ (መሪጸ)  
+              ምሳኻ ምንባር ኢየሱሰይ ምሳኻ ምንባር(2)  
+2.ካብ ጸልማት ናብ ብርሃን ኣሰጋጊርካኒ ኢየሱስ ኣኽቢርካኒ  
+   መንግስትን ካህናትን ንዓኻ ክኸውን ነዚ መዲብካኒ 
+      እዚ ክቡር ዕጫ ካባኻ ኮይኑለይ    
+      ይሕጎስ ኣለኹ ንዓኻ ምርካበይ(2)  
+      ኣብ ቤትካ  ምንባረይ  
+      3.ዘይጠፍእ ዘይበርስ ኣብ ነባሪ ርስቲ ተሰሪታ ነብሰይ 
+        ብሓጎስ ይወጽእ ብሰላም ይስነ ኩሉ መሊኡለይ 
+             ካብዚ ሓሊፈ’ውን ናብ ናይ ክብሪ ቦታ  
+             ክሰጋገር‘የ ናብቲ ዕረፍትኻ(2) 
+             ኢየሱሰይ ምሳኻ 
+4.ዓለም ምስ ፍትወታ ደጊም ኣይምነያን ክርእያ ኣይደልን 
+   ካብኣ ብምውጻአይ ይሕጎስ ደኣ እምበር ሓዚነ ኣይፈልጥን 
+      እንታይ ከይተርፈኒ ንዓኣ ገዲፈ  
+      እቲ ዝበለጸ ካባኻ `,
+    eng: `10 Song 10 lyrics ...`
+},
     song47: {
     title: { tig: "Okay", eng: "" },
     author: { tig: "", eng: "" },
@@ -2914,54 +3107,6 @@ Enho tizmerelka(8)`
     date: "",
     youtube: "",
     spotify: "",   
-    cover: "images/album1.jpg",
-    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
-    eng: `10 Song 10 lyrics ...`
-},
-    song47: {
-    title: { tig: "Okay", eng: "" },
-    author: { tig: "", eng: "" },
-    album: { tig: "", eng: "" },
-    genre: { tig: "", eng: "" },
-    date: "",
-    youtube: "https://youtube.com/...",
-    spotify: "https://open.spotify.com/track/3Aq3StmMxZ4DNnorhziSI1?si=16b0805623014123&nd=1&dlsi=966d715193d84220",   
-    cover: "images/album1.jpg",
-    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
-    eng: `10 Song 10 lyrics ...`
-},
-    song47: {
-    title: { tig: "Okay", eng: "" },
-    author: { tig: "", eng: "" },
-    album: { tig: "", eng: "" },
-    genre: { tig: "", eng: "" },
-    date: "",
-    youtube: "https://youtube.com/...",
-    spotify: "https://open.spotify.com/track/3Aq3StmMxZ4DNnorhziSI1?si=16b0805623014123&nd=1&dlsi=966d715193d84220",   
-    cover: "images/album1.jpg",
-    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
-    eng: `10 Song 10 lyrics ...`
-},
-    song47: {
-    title: { tig: "Okay", eng: "" },
-    author: { tig: "", eng: "" },
-    album: { tig: "", eng: "" },
-    genre: { tig: "", eng: "" },
-    date: "",
-    youtube: "https://youtube.com/...",
-    spotify: "https://open.spotify.com/track/3Aq3StmMxZ4DNnorhziSI1?si=16b0805623014123&nd=1&dlsi=966d715193d84220",   
-    cover: "images/album1.jpg",
-    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
-    eng: `10 Song 10 lyrics ...`
-},
-    song47: {
-    title: { tig: "Okay", eng: "" },
-    author: { tig: "", eng: "" },
-    album: { tig: "", eng: "" },
-    genre: { tig: "", eng: "" },
-    date: "",
-    youtube: "https://youtube.com/...",
-    spotify: "https://open.spotify.com/track/3Aq3StmMxZ4DNnorhziSI1?si=16b0805623014123&nd=1&dlsi=966d715193d84220",   
     cover: "images/album1.jpg",
     tig: `10ናይ ሶንግ 10 ትርጉም ...`,
     eng: `10 Song 10 lyrics ...`
