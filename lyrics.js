@@ -3067,7 +3067,7 @@ Bsahl’n mhrtn mamikna knneber ab hqfokha
 Meweda’atana atsebkq temt’na bmhretkha`
 },
     song55: {
-    title: { tig: "ዘልኣለም", eng: "" },
+    title: { tig: "ዘልኣለም", eng: "Zelalem" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
     genre: { tig: "", eng: "" },
@@ -3097,9 +3097,104 @@ Meweda’atana atsebkq temt’na bmhretkha`
    ካብኣ ብምውጻአይ ይሕጎስ ደኣ እምበር ሓዚነ ኣይፈልጥን 
       እንታይ ከይተርፈኒ ንዓኣ ገዲፈ  
       እቲ ዝበለጸ ካባኻ `,
-    eng: `10 Song 10 lyrics ...`
+    eng: `
+1.
+Zihayish alewo ab betka menbarey (2)
+Ab midri zeykone kwesen idley (2)
+Gize zeywusno abta hadas betka
+Yinafeq alekhu kri ngecka (2)
+Kiarf ab hekfokha
+Tedefo Zelalem ab betka wesine (meritse)
+Misakha menbar Iyesusey misakha menbar (2)
+
+2.
+Kab selmat nab berhan aseggagirkani
+Iyesus akhbirkani
+Mengestin kahenatin n'aka kkewen
+Nezi medibkani
+Ezi kibur icha kabakha koynuley
+Yihgos alekhu n'aka merkabey (2)
+Ab betka menbarey
+
+3.
+Zeytefe zeybers ab nebari risti
+Teserita nebsay
+Bhagos yiwetse bselam yisena
+Kulu meliu ley
+Kabzi halifeun nab nay kibri bota
+Ksegagerye nabti areftkha (2)
+Iyesusey misakha
+
+4.
+Alem mis fetwta degim ayimeneyan
+Kreya ayidelin
+Kaba bmuwtsaay yihgos dea
+Ember hazina ayfeltin
+Entay keyterfeni n'a gedife
+Eti zbelekse kaba`
 },
-    song47: {
+    song56: {
+    title: { tig: "ኣሜን ኣሜን", eng: "Amen Amen" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: ` 
+1.ስጋኻን ደምካን ወፊኻለይ  
+ ንኽበልዖ ንኽሰትዮ 
+ ዓጽምኻን ስጋኻን ከስኪስካለይ 
+ ንኽድሕን ንኽነጽሕ 
+        ተደ፦ኣሜን(3) ሃሌ ሉያ ኣሜን 
+              ኣሜን(3) ተዓዊተ ኣሜን 
+              ኣሜን(3) ሃሌ ሉያ ኣሜን 
+              ኣሜን(3) ተሓጒሰ ኣሜን 
+2.ጥፍጣፍን ርሃጽን ገጽካ መሊኡ  
+  ንኽነጽሕ(2) 
+  ስጋኻን ደምካን ተመጊበ 
+  ንድሕነተይ(2) 
+           3.ብስሙር ዓጽምኻ’ውን ተኸቢበ 
+             ካብ ጸላእተይ እውን ድሒነ 
+             ኣብ ትሕቲ ኣኽናፍካ ውን’ኣጽሊለ  
+             ብፍቕርኻ እውን ማሙቐ 
+4.ኣብ ዛራ ማይ ፍቕርኻ ኣንሳፊፈ  
+  ኣብ ኣእዳውካ ተሓቚፈ 
+  ስጋኻን ደምካን ተመጊበ
+  ባህ ኢሉኒ እውን ዓጊበ `,
+    eng: `
+1.
+Sigakhan demkhan wefikhaley
+Nikhbelio nikhsetio
+Atsimkhan sigakhan keskiskhaley
+Nikhdehen nikhenetsih
+
+Tedefo Amen (3) Hale luya Amen
+Amen (3) Teawite Amen
+Amen (3) Hale luya Amen
+Amen (3) Tehaguse Amen
+
+2.
+Tiftaf'n rehats'n getska meliu
+Nikhenetsih (2)
+Sigakhan demkhan temegibe
+Nidhenetey (2)
+
+3.
+Bismur atsimkhaun tekhibibe
+Kab tslayetey iun dhine
+Ab tihti akhnafkha wun atsilile
+Bifekrkha iun mamuke
+
+4.
+Ab zara may fekrkha ansafife
+Ab eedawkha tehahpife
+Sigakhan demkhan temegibe
+bah eluni wn agibe`
+},
+    
+    song57: {
     title: { tig: "Okay", eng: "" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
