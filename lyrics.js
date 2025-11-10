@@ -22,30 +22,14 @@ song1: {
       3.ሰላመይ ከም ወሓዚ ረሓቦት ጌርካዮ ዙርያይ 
         ጸጋኻ ንዘልኣለም ከስፋሕፍሕ ኣብ ዘርአይ /2/ 
                 እንታይ’ሞ ክብል’የ……… .`,
-    eng: `1.eNtaye’mo kibl’e eNtaye’Ke zeqerbo
-wuOletkas kab ‘aqmey nLa‘li koynu /2/
-
-tede: kab Hamed Al‘ilka seb endiKa tigeber
-nezeteres‘as libka yizker
-simka yikheber Egzi/r /2/
-simka yikheber nezela‘lem simka yikheber
-bah iluKa kibur meswa‘etey enka teqebel
-simka yikheber Egzi/r (8)
-
-2.kenafrey nsimka kewurya’ye nserahKa
-zgeberkalei bezihu’s mesgana yihbeka /2/
-
-3.selamey kem weHazi reHabot gerKayo zuryay
-xegaKa nezela‘lem kesfahfih ab zer‘ay /2/
-
-eNtaye’mo kibl’e ……….`
+    eng: `.`
 },
 song2: {
     title: { tig: "ተማሪኩ ልበይ ብኣኻ", eng: "temariku lbey beaka" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
     genre: { tig: "ኣምልኾ", eng: "Amlko" },
-    date: "",
+    date: "2025-07-28",
     cover: "images/album1.jpg",
     tig: `
 ክንደይከ ይጽብቕ ቲ’ትርኢትካ
@@ -77,43 +61,14 @@ song2: {
 ዘለኺ ጽብቕተይ ካብኡ ንዒ ውጺ (2)
 ድምጽኺ ኣስምዕኒ ገጽኪ’ውን ኣርእይኒ
 ምስ በልካ ጎይታይ ውኖይ መሲጥካኒ`,
-    eng: `
-1. kinḍeyka yixibx q t’i tiri’itka
- gexka ye nixibark ni zir’a yeka (2)
- a’igarka kem ab ḥagodo ziresene asirazi iyu
- a’intka’wn kem ḥalḥalta ḥawi’yu
-   tede: temariku libey b’aka (2)
-        mesiṭka’yo w’noy nisika (2)
-        temariku’lo libey libey libey libey b’aka
-        temesiṭu’lo w’noy w’noy qelbey misa’ka (2)
-
-2. inho fiṭwey xibux i’ka
-  zifes’s qibe’i’wn alewo t’i simka (2)
-  me’aza ḥiywet alewo goyta’ye t’i d’mxka
-  ḥalefa weyni k’ne’do’ye fiqirka
-
-3. ab ma’ekel a’iwam dur kem ‘embeba
-   fetawi yey beyin’ka aloka ḥalefa (2)
-   fiṭwey natey i’ka ane d’ma iye natka
-   ṭi’imu’ni lo marik’uni fiqirka
-
-4. nay genet ‘ayni may alo’baka
-   zelalem ḥiywet’yu felfali ‘ilaka (2)
-   kab akhran enazelele dmxka mis’yzmeceni
-   ḥayley yihdes ḥagos yimel’ani
-
-5. abti ab qaqura abti xedfi
-   zelek’i xibxtey kabu n’i w’xi (2)
-   dmxki asmi’ini gexki’wn ar’e’ini
-   mis belka goytay w’noy mesiṭkani
-`
+    eng: ``
 },
 song3: {
     title: { tig: "ከም ስመይ ኮይኑለይ", eng: "kemsm" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
     genre: { tig: "ምስጋና", eng: "" },
-    date: "",
+    date: "2025-8-10",
     cover: "images/album1.jpg",
     tig: ` 
 1.ድርሳናት ናይ ልበይ… ሓደ ክልተ ኢሉ ክቖጽር ጀመረ 
@@ -137,36 +92,14 @@ song3: {
        ንእግዚ/ር ዝደልዩ… ’ቲ ሰናይ ዘበለ ከቶ ኣይጎድሎምን 
        ናብኡ ዝጥምቱ… የንጸባርቑ ገጾም ኣይሓፍርን 
        ኣብኡ ዝውከል ሰብ……… ብጹእ እዩ`,
-    eng: `
-    Dirsanat nay libey… hade klte ilu kqts’r jemere
-Azyu kab mig’nfal… ke-m k’ltuf br’i kts’hf jemere
-Bemesetnkr fquru… enategereme enatedenqe
-Kemey’lka yiwda’e… kemey’lka yiwda’e eti bahryatu
-Eti ‘abi fquru……… mlu’ mheretu
-
-Tedefo: ayyyyy… ke-m Igzi/’r zebele men’yu (2)
-Hasab seb zefelt… nay wushti zird’a’e
-Teredi’u dma… shgirka zefet’h
-Ayyyyy…… ke-m Igzi/’r zebele men’yu
-
-Bmedrawi kwankwa… ktizarbelu kemiy’lu yiwda’e
-Kemti ‘abi bahri… b’hanti ch’lfa m’ch’laf
-Beemro ayigm’tin’yu… b’aser aser keto ayb’shan’yu
-Wedaje me’amuq… wedaje me’amuq iyu fquri amlak
-Menke yestewe’lo……… menke ytsbtsbo
-
-Korakur anabs… ysi’nu ytem’yu
-Etom ngoyta “Yesus… zeyrekhebwo ych’neq’nu
-N’igzi/’r zedelyu… ’ti senay zebele keto aygodlomn
-Nabu z’t’m’tu… yen’tsebarqu gets’om ayhafrn
-Abu z’w’kel seb……… btsu’ iyu`
+    eng: ``
 },
 song4: {
     title: { tig: "ኣኽቢርካኒ", eng: "akbirkani" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
     genre: { tig: "", eng: "" },
-    date: "",
+    date: "2025-9-10",
     cover: "images/album1.jpg",
     tig: `
      ተደ፦ኣኽቢርካኒ ‘ንዲኻ ኣምላኸይ 
@@ -194,42 +127,7 @@ song4: {
    ደመና ኣይረኤኹን ዝናብ ድማ የለን 
    ጎዳጉደይ ግና ማያት ተጎልቢቡ 
    ብጸጋን በረኸትን ኣዚኻ ተንጀርብቦ(2) `,
-    eng: `ʼTede:
-ʼAkbirka-ni ʼndika Amlakhey
-ʼAkbirka-ni ʼndika Iyesusey
-Kab nay tslmat nabra awtsiʼeka-ni
-Ab nay brhan hiywet aseggagir-ka-ni (x2)
-
-1.
-Hiywetka siley bimḥlafka
-Fqirka bezi gelitskaley ixa
-Asey anes teʼadile
-Ab beytka kinebber temeritse
-
-2.
-Iyesusey fluy’yu bahrika
-Yimarkhʼzi tuʼum fqirka
-Zemeney misa-ka kehilfo
-Nlibey azzu bah yiblo’lo
-
-3.
-Ab maʼekel bahri godena aloka
-Ab maʼekel berekha mengedi aloka
-Nʼakaʼs Igziʼr entay yichenʼneka
-Nʼnfasn nbahrn tʼezzez bʼqalka (x2)
-
-Tede:
-Natka bmuʼan-ey
-Neskaʼun natey Iyesuseyʼun natey
-Aziyu bah yiblo’lo yiḥgos alo libey
-Bibluts meswaʼti yeqʼrbo ab qidmeyka (x2)
-Goytayen Amlakheyʼn men alo-ni bzeika-ka
-
-4.
-Nfas ayreʼekhun zynab dima yelen
-Demena ayreʼekhun zynab dima yelen
-Godagudey gna mayat tegolbibu
-Btsagan berekhetn azikha tenjerbbo (x2)`
+    eng: ``
 },
 song5: {
     title: { tig: "ኣብቲ ቅዱስ ቤትካ", eng: "Abti Kudus Betka" },
@@ -256,29 +154,7 @@ song5: {
   ሰብከ እንታይ ከይገብረና ፍጹም ኣይንርዕድን 
   ኣብ ትሕቲ ኣኽናፉ ክንዕቆብ ኢና 
   እቲ እኩይ ሓይሊ’ውን ፍጹም ኣይቀርበናን `,
-    eng: `1.Niu nimalak bihagos nizemerelu
-Nikuhi medhina bihabar nichaderelu
-Ab zifanu kinbetsih bilul misgana
-Kinizmerelu ina bitum kana
-
-Tede:
-Abti kudus betka zemelalsena
-Bimenfes hayli tsidki feteralna (×2)
-
-2.Ab lieli kulun amlakay ngus yu
-Tefer hawahun inun miskir yu
-Bahri un natu yu nissu zifetero
-Nikuts midri un tilul zigabero
-
-3.Nitsimiti nefsi bitsaga’u a’gibu
-Nitfiti nefsi nab senay sihibu
-Nissu amlakna yu nihna dima hizbu
-Abti limu’a shekha akibu sihibu
-
-4.Amlak misana yu kito ayniferhin
-Sebke entay keygebrena fitsum ayniredin
-Ab tihti aknafu kiniqob ina
-Eti ikuy hayli un fitsum aykerbena’n`
+    eng: ``
 },
 song6: {
     title: { tig: "ስድራቤቱ ንኣምላኽ", eng: "Sidra Betu Nimalak" },
@@ -306,28 +182,7 @@ song6: {
   ማህደር መንፈስ ቅዱስ ብመንፈስ ክንከውን ሓቢርና 
   ኣብ ቤቱ ኣብ ሕቕፉ ኣብ ጽላል ኣኽናፉ 
   ክንጽምበር ኣብ ኣርያም ምስቶም ቅዱሳኑ(2`,
-    eng: `Tede:Sidra Betu nay Amlak bimu’ana
-Azina hruyat fɨtret ina
-Bimhirret habtam goyta hizna
-Mis Kristos hiyawan geberna
-
-1.Qedem zirehaqna zineberna higi gin natu koyna
-Beti kibur waga te’adiqna sidra bet Amlak ina
-Izi biluts iqcha zibets’hana bigoyta koynulna
-Nemesgino (2) nemesgino ngoyta
-Bit’um zimatat mis dmuq ililta (2)
-
-2.Kilte zineberu bidemu hade zigebera
-Ab mengo zinebera kelekali qetsri un zefr’se
-Re’su awfiyulna moytulna tseyru un mesqelu
-Neti tsl’i (2) bisga’u sɨi’ru
-Ab mesqel seqilu selam abesiru (2)
-
-3.Iyesus r’ese me’azen zelayyo hɨnsa bɨmɨndaqqna
-Zelalem ab hɨqfu knenebber ʕɨdl bɨmɨrkabna
-Mahder menfes kudus bɨmenfes knkewun ḥabirna
-Ab betu ab hɨqfu ab tslal aḥnafu
-Knets’mber ab aryam mis tom kudusanu (2)`
+    eng: ``
 },
 song7: {
     title: { tig: "እግዚ/ር ሰላምና’ዩ", eng: "Egziher Selamna Yu" },
@@ -362,37 +217,7 @@ song7: {
         ብሸብሸባ ልዕል ነብሎ 
         ብሳዕሲዒት ልዕል ነብሎ 
         ብዕልልታ ልዕል ነብሎ `,
-    eng: `1.Kulu birki zisegdelu
-Rema’e gema’e wun ziblela
-Atum hizbi amesginu
-Ni Amlakna alilu (2)
-
-Tede:Egziher selamna yumo
-Ni Egziher kibri nihabo
-Egziher Amlakna yumo
-Bimisagana li’el neblo (2)
-Bimisagana li’el neblo
-
-2.Bimhirretu zitemetna
-Ab a’edawu ziweqetena
-Ida k’filu hiywet hibuna
-Yiwihdo kwa sibhat misgana (2)
-
-3.Nisu hasiru zekiberena
-Re’ese me’azen zigeberena
-Qetsirtatna ab aynu yu
-Halawina aytakhsen yu (2)
-
-4.Lisanatna sihaq ililta
-Libatna wun ḥagos mis desta
-Zenjerbebe dinqi Goyta yu
-Ab zemenat mestenker sirhu (2)
-
-Bimisagana li’el neblo
-Biwudase li’el neblo
-Bishebsheba li’el neblo
-Bisa’si’it li’el neblo
-Bi’ililta li’el neblo`
+    eng: ``
 },
 song8: {
     title: { tig: "ብጎይታ ዝያዳ ከቢራ", eng: "Bigoyta Zy’ada Kebira" },
@@ -426,34 +251,7 @@ song8: {
              ስልምቲ ከም ጸሓይ ጩራ  
              መድሓኒ ኣብ ከብዳ ጸይራ 
              ንማርያም ረኺብና  ክብረት ለቢስና(2)`,
-    eng: `1.Nikhedhena Goyta mis deleye
-Eno kitkono ni Maryam meretse
-Bilitsi kab fitret Adam
-Mis hati’at zeybila kidan
-Ni Maryam rehɨbna kibret lebisna (2)
-
-Tede:Bigoyta zy’ada kebira
-Tinibr zelalem demika
-Tebeka nay fitret Adam
-Adena Maryam ya Maryam Maryam
-Ewe Maryam ya Maryam
-Semaya tslala gera
-Nihati’at regitsa bi’igra
-Sala kibret lebisna
-Rehrɨhti ade rehɨbna
-Ewe ade rehɨbna
-
-2.Rehrɨhti ade diletka tifelit
-Weda hatita godelo timli’
-Nigisti afdege semay
-Bilitsi mesalel semay
-Ni Maryam rehɨbna kibret lebisna (2)
-
-3.Gwal seb kinsa niseb zeymeselät
-Bilitsi fitret Goyta zeyehezenet
-Silimti kem tsihay chura
-Medhane ab kebda tseyra
-Ni Maryam rehɨbna kibret lebisna (2)`
+    eng: ``
 },
 song9: {
     title: { tig: "ኣዳልዩለይ ኣሎ", eng: "Adalyuley Alo" },
@@ -491,41 +289,7 @@ song9: {
     በቲ ኮኾብ ጽባሕ ዘልኣለም ሕያው’ዩ 
     ኣነ ዝጽበዮ ተስፋይ ኢየሱስ’ዩ /2/ 
     ኣዳልዩ ሁሁ…… ኣዳልዩ(8)  `,
-    eng: `1.Abti dagmay hiywet mɨnbar tejmire
-Zelalem ḥagos yu ɨti zimeqere
-Nɨmɨntay yich’neq nɨkhenebber ile
-Aywedq aydekem mis Iyesusey koyne
-
-Tede:Adalyuley, Adalyuley alo
-Azyu kibur bota
-Adalyuley, Adalyuley alo
-Azyu biluts sifra
-Adalyuley, Adalyuley alo
-Waga zeykeflelu
-Adalyuley, Adalyuley alo
-Wushtey zya’rfelu
-
-Tesfay ezi iyu
-Nebsey itdeliyo (2)
-Akhlil kibri hiywet
-Nebsey tikbelo (2)
-
-2.Tsihay ayedl’yon birhan nkhikhon
-Werhi kewakbti ni’u aybeq’in
-Wehazi may hiywet zifesis zwi’hiz
-Iyesus Adalyuley neti birhan qen’del
-
-3.Azyu biluts bota ayni zeyre’ayeto
-Timal kone lomi izni zeysem’a’to
-A’imro wed seb fitsum zeymrmro
-Iyesus iti hiyaw Adalyuley alo
-
-Qesine nkhenebber mirch’u koynu
-N’ay n’wludu kibri hibuni yu
-Beti kokhob tsbah zelalem hiyaw yu
-Ane zitsbeyo Tesfay Iyesus yu (2)
-
-Adalyu huhu…… Adalyu (8)`
+    eng: ``
 },
 song10: {
     title: { tig: "ኣይርስዖን’የ", eng: "Ayrson’ye" },
@@ -560,36 +324,7 @@ song10: {
                  አረ ግሩም ርስቲ መጺኡኒ  
                  ኣየ ክንደይ ተዓዲለ (ተዓዊተ)       
                  እግዚኣብሔር ኮይንካ ርስተይ (2) /2/`,
-    eng: `1.Tserkani alo kha…
-Kab me’alti ni me’alti
-Bimhirretka enakhelelka ooo…
-Dew ile alekhu abti hiyaw qalka
-Ooo… tetekhile alekhu abti hiyaw qalka
-
-Tede:Ayrson’ye… ti mhirretka aha-ha…
-Ayrson’ye… ti fqirka aha-ha…
-Ayrson’ye… ti halyotka aha-ha…
-Ayrson’ye… gusnetka aha-ha…
-
-2.Keydekhem keyħlel ajoḵi enabelka…
-Tselmat ab zikhonelu birhanka enabrahka
-Nigobotat meda gerkayo’m
-Asagirka’ni biruk Goyta
-Kemzi kemmakha men alo ni’ay
-Kindi khulu zikhonelay (2)
-
-3.Kisab shibet kisab ergnay
-Tiskemeni Amlakhay…
-Kiamneka’ye mlu’e zemena’y
-Hazilka hangirka kem tegwa’ezni
-Nab mefets’emta kem tebtsiħani
-Emun’ika jemari imnetey
-Aytirt’rka’n mlu’e zemena’y (2)
-
-Ab bah zebl ‘itsa bets’huni
-Are grum risti mets’i’uni
-Aye kindey te’adile (te’awite)
-Egziabher koyn’ka ristey (2)`
+    eng: ``
 },
 song11: {
     title: { tig: "ካብ ትንፋሰይ ትቐርብ", eng: "Kab Tinfasey Tik’erb" },
@@ -623,35 +358,7 @@ song11: {
    መከራይ ኣብ ዝበዝሓሉ ብኢድካ ተናግፈኒ 
    ኩሉ ስምዒት ናይ ልበይ ብቐረባ ትርድኣኒ 
   ኦ……`,
-    eng: `1.Limenay tise’m’ ni b’atey tire’i
-Tsaw’itey tise’m’ani milash dima t’ħeb
-Mis zikerb k’demeka alekhu tible’ni
-Men’yu zimesleka o… medhane
-O……
-
-Tede:Fqri zikhonka Amlak ziwedader neyblka
-Qereba koynkani k’s’ɨb as’aserrka
-Men’ka alo kemmakha zikhonelay
-Kab tinfasey zikerb
-Zefqreni zihalyelay
-
-2.Dkhamey tirda’e hayli it’ɛtk’eni
-Megibka enaberta’ekka ab h’qufoka te’rfeni
-Mikhad mis se’anku menkubka tits’orni
-Ab aqebet qulkulete neyitf’le’yeni
-O……
-
-3.Ishnetey tifelt men’gedi timerhani
-Tehakiyuka neyf’elt ni k’etered’ani
-Keysimbed ‘mo keyfalel qes ilka timekhrani
-Beti t’qum d’mtska f’qadka timhireni
-O……
-
-4.Libey mis zishber t’senani
-Menfesey mis ziqt’qet dima tedhheni
-Mekray ab zibe’zhalu b’idka tenagfeni
-Kulu sime’it nay libey b’qereba tirda’ni
-O……`
+    eng: ``
 },
 song12: {
     title: { tig: "እሙን  ኢኻ", eng: "Emun Ika" },
@@ -692,41 +399,7 @@ song12: {
          እኣምነካ(3) 
          ኣማዕዲኻ ኣይትርእየንን ምሳይ ደኣ ትነብር 
          እሙን ኢኻ(3) `,
-    eng: `1.Kemey kem tiserho entezeyfel’tku’kwa
-Siltanka amine shigre yeqerbelka
-Tesfatatey zequrts ts’egemey entebezha
-Niska kem tifeṭhalei argitse efelt’ye
-Hayal ‘abi Amlak te’amrat tigebber
-Eamineka (3)
-Mahtem ntegebro kem hadish tijmer
-Emun Ika (3)
-
-2.Nabray enats’elmete entekedeni ekwa
-Zetsebeko neger entezeykonelay dima
-Gzi’u halika niska ika teberho
-Ni’akha bimhazey bi’awet zehalfo
-Tesfatatka biluts nihywetey zehadis
-Eamineka (3)
-Mekray algiska berekhet tefsis
-Emun Ika (3)
-
-3.Mengedey nay resi’ b’amet’ k’ek’enalu
-Eri’leku b’ayney b’bzuḥ k’sel’telu
-B’haqka b’mikhadey kem ‘asha enteqts’erni
-B’hati’at kab zirekebos misanu yibeltseni
-Nay ‘ilet eng’eray si’ine neyf’elt
-Eamineka (3)
-Tihali weladi zedliyeni tifelt
-Emun Ika (3)
-
-4.Kefu’ r’sun menteg werwiru k’ek’etleni
-Kem halay temesilu’wn mets’eni kefu’ ts’elai
-D’letu aykonelu’n haseerka’ya n’hywetey
-Mlu’e ‘erefeti aloni silzikhonka guasayeyi
-Jigna tewagai simka Egziher
-Eamineka (3)
-Am’adika aytirey’en misay dea tineber
-Emun Ika (3)`
+    eng: ``
 },
 song13: {
     title: { tig: "ማርያም ዑንቂ ባሕሪ", eng: "Maryam ‘Unqi Bahri" },
@@ -757,31 +430,7 @@ song13: {
            ኣብ ምድርን ሰማይን ንግስቲ ሸመኪ 
            ክብርን ውዳሴን ዘልኣለም ንዓኺ 
            ንዓኺ ዘልኣለም ንዓኺ /2/ `,
-    eng: `Tedefa:Maryamey kab kulen zikheberki
-Rikheset albo kab kulen n’tsehti
-Semeyawi fqri zitewge’a libki
-Tewahibuki’lo bil’ul fetari (2)
-Sile kulu ewun ts’eri
-N’t’fu’at ewun k’timelsi
-Sile kulu f’tur tinbe’bi
-N’hati’an mis fetari k’tiarqi
-
-Maryam ‘Unqi Bahri
-Zilebeski zelalem k’bri
-Yedunqe’ki alekhu (2)
-Maryam k’bri wetru n’beri
-
-1.Amaladnetki wetru n’tsew’e
-Sile fqur wedkhi dege n’tsen’e
-Libki k’feti awy’atna k’sem’e
-Ts’ega albsu menfesna k’ts’n’e
-K’ts’n’e menfesna k’ts’n’e
-
-2.Kab kulen denagel ablitshu hareyeki
-Mahderu k’tikoni b’qed’sna k’ebaki
-Ab midrin semayn nigisti shemeki
-K’bri n’wdase’n zelalem n’akhi
-N’akhi zelalem n’akhi (2)`
+    eng: ``
 },
 song14: {
     title: { tig: "ሰላመይ ወሓዚ ጌርካዮ", eng: "Selamey Wehazi Gerkaio" },
@@ -824,44 +473,7 @@ song14: {
    ክገልጸልካ ፍቕረይ ዜማ ጌረ 
    ዎ ኣምላኽ ክብረይን ልበይን ኣንቂደን 
    ሰናይካ ከዘንቱ እምበር ካባኻ’ስ ኣይፍለን(2) `,
-    eng: `1.Kabaka r’hiqe nabey’ye k’kheyd
-Entay’ke k’rekb kabaka zibelts
-Ayde’ln (2) k’fleyeka
-Hansae n’zelalem merits’eka
-Senayka endyu lemidu libey
-K’fley zeygebreley
-Tsbukeka endyu lemidu libey
-K’fley zeygebreley (2)
-
-Tedefa:Ayden’l’ey k’rh’q kabaka
-Ayden’l’ey k’fleyeka
-Entay’do ts’buk aloni’yu
-Iyesus b’zeyka’kha
-Tsbak’ey k’biretey z’mek’halu habtey
-Nay zelalem ristey
-Niska endikha…wo… Iyesusey
-N’zelalem zeytberes habtey
-
-2.Ane n’kekheber z’t’war’dkaley
-Hywet n’krekb niska motkaley
-Selamey (2) Wehazi Gerkaio
-B’smb’ratka qusley fewiskaio
-Ezi endar’e’kus ane fets’ime neyf’ley
-Entedelkhu ke’a libey aygebreley (2)
-
-3.Ab mengo amalekhti kemakha z’bele
-B’ebetu z’ferah gebar te’amrat
-Kemakha (2) z’kheber men’yu
-L’el z’bele’khe entawaye’yu
-Niztebej’kayo b’mheret t’merrh
-Nebse’ b’ftota b’dhereka t’tebq’ (2)
-
-4.B’zeyka’kha emo men’yu kal’ amlak
-Ewe b’zey b’akha men’ke alo kewli
-Kab libey (2) yefqreka iye
-K’gelts’elka fqrey zema gere
-Wo Amlak k’breyn libeyn anqiden
-Senayka kezintu ember kabaka’s ayfelsn (2)`
+    eng: ``
 },
 song15: {
     title: { tig: "ንኣምላኸይ ይኣምኖ’የ", eng: "N’Amalekhey Yiamnoye" },
@@ -898,37 +510,7 @@ song15: {
    ዝበልካዮ ትፍጽም.… እሙን ኣምላኽ ኢኻ…                
         ሓሳቡ ከይቅየር… ንሱ ሰብ ኣይኮነን…            
         ዝበሎ ከይጠልም… ወዲ ሰብ ኣይኮነን…(2) `,
-    eng: `Tedefa:Anesi nAmalekhey yiamnoye yiamno
-Anesi nIyesusey yiamnoye yiamno
-Kulu kem z khel yiamno
-Zbelo kem zeytelm
-Yiamnoye yiamno yiamno (2)
-
-1.Anes nAmalekhey ewe kemti zbelo
-Kemu kem zgebr ats’ebiq yiamno
-Newu aminas arifa la nebsay
-Habene k biretey koynuni tmikhtey
-Haqqeka n zelalem
-Emun muhaneka
-Nwulud weledo
-Nzelalem yinber (2)
-
-2.Senay tsbuk k biretey kabti mmellas
-Tslalot zeyblu brhanat ye zqebel
-Ndletey btsbuk neger ets igb
-Mnghi kulu senayey ikamo
-Nakha k birey yihb
-Abakha tewekile ftsum ay hafrekun
-Nsmka tsewi a wala hade aysan kun
-Abakha tewekile ftsum ay hafrekun
-Memelise dea yikheber alekhu
-
-3.Ti senay hasabeka thasbo nhywetey
-Ftsum ay kyern zmetse tmetse
-Kulu kem tkhel ay ney riatka
-Zbelkayo tfetsm emun Amalekhey ikha
-Hasabu ky kyern nso seb ay konen
-Zbelo ky telm wedi seb ay konen (2)`
+    eng: ``
 },
 song16: {
     title: { tig: "ፍልይ ዝበለ’ዩ ፍቕርኻ", eng: "Fely Zbeleyu Fekreka" },
@@ -956,28 +538,7 @@ song16: {
   መርመርቲ ሕጊ እንተጉረምረሙ 
   ኢየሱስ ይምጥወኒ ኣሎ ብፍቕሩ 
   ጌና ክመርሓኒ ኢዩ ብፍቕሩ `,
-    eng: `1.Misti hatayu ztebahle
-Iyesus ab betu meadi tekhele
-Mlash koynwo kem meten mhretu
-Rwyet koynwo kem bzhi lewhatu
-Tedefa Fely Zbeleyu Fekreka (2)
-Are nBeynu yu Fekreka
-Mistoem nUqat tiseri meadka
-
-2.Rwyetom Ikha netom tsmuat
-Tsgebom Ikha netom tmuayat
-Mkhutom Ikha netom zqereru
-Fekreka riyom agibom yinberu
-
-3.Darba Aemnat ayagtekank
-Tselot ferisawi ayagtekank
-Nzmmelskaley nay nbat debdabe
-Bmsganka melekaeyo lbey
-
-4.Felatat hgi entaezmezmu
-Mermerti hgi enteguremremu
-Iyesus yimtweni alo bfeqru
-Gena kmrhani iyu bfeqru`
+    eng: ``
 },
 song17: {
     title: { tig: "ጓሳ ኮንካኒ", eng: "Gwasa Konkani" },
@@ -1002,24 +563,7 @@ song17: {
          ናብ ዘደንቕ ብርሃን ኣስጊርካኒ 
          ንጸላኢ ትሕተይ እናቐጥቀጥካ 
          መንገደይ ብዓወት እናመራሕካ`,
-    eng: `1.Kabt mengezi ms algesku
-Kabt dembka ms rehakku
-Bmhretka shibkani
-Nab mwq betka meliskani
-Tedefa ms korerku tsega telbseni
-Ms tsmaeku may hywet testyeni
-Ms dekhmku hayli thibeni
-Hyaway Gwasa Konkani
-
-2.May ms tsmaeku terwieni
-Kab kulu dkhamey teerfeni
-Biday hizka tmrhani
-Etom ebuayat mayat keyethluni
-
-3.Kab barnet gbtsi nab harnet
-Nab zdenq brhan asgirkani
-Ntselai thtey nakqtkka
-Mengedey bawet namrahkka`
+    eng: ``
 },
 song18: {
     title: { tig: "ኣምላኽ  ምሳና  እንተዘይነብር", eng: "Amlak Msana Entazeyneber" },
@@ -1050,33 +594,7 @@ song18: {
    ብጐይታ ሰራዊት ኪዓንዉ ክንርእዮም 
    ብብርቱዕ ድምጽና መለኸትና ንንፋሕ 
    ናይ እምነት ቁራዕ ርእሲ ኣብ ርእስና ንድፋእ`,
-    eng: `Yira lo tsela’i kebibu zuryana
-Kab kuluy yibrt hizli nay amlakna
-Melekhet nfhuwo tsela’i kbarrer
-Bimnet dew nbel Iyesus yu zsir
-Tedefa Amlak msana antazeyneber
-Entazey wagnalna
-Hayli tsela’ina bertyau kab mdri metfana
-Selezi Igeziaheber yimsgn
-Sele kulu neger
-
-2.
-Bbzhi bhidet zkea’lo mdhan
-Nsu msana yu zdefrena ylbun
-Bkulu merihu absihuna abzi
-Frena kri ydeliena hji
-
-3.
-Hager alatna nebaret ketema
-Bkhyat hazen gwahi ahtta zybla
-Ngadel alo na ksab enatwa
-Amlak yirdena ab gize dkhamna
-
-4.
-Tqawmo amalq serawit nay Fer’awn
-Bgoyta serawit kianwu knr’iyom
-Bbrtu’ dmsna melekhetna nnfah
-Nay emnet qura’ r’esi ab r’esna ndfe`
+    eng: ``
 },
 song19: {
     title: { tig: "ሕዝብኻ በዝሐ", eng: "Hzibkha Bzha" },
@@ -1109,32 +627,7 @@ song19: {
             ብኽያቶም ይሰምዕ መሳኪን ደቁ ዘይቲ ይቐብኦም…  
           ኣብ ቤቱ ይተኽሎም ኣብ ዓጸዳቱ  
             የዕብዮም ባዕሉ ስየ ክመስሉ `,
-    eng: `1.‘Ilama hizu zteselafe
-Bzuh zferh serawit Amlak
-Ntetsarertu wetru zsir
-Leytin mealtin bnatu hayli
-Bahri tesagiru ab mdre-beda kulu regagitsu
-Zwuḥz Hzbi msakha koynu
-Ristu rekhebe kulu si’ru
-Tedefa Hzibkha bzha
-Wosenat ewn aziyu sefha
-Nay mdhan wengel abna bts’ha
-
-2.Kem fre adri ab mdri zera’a
-Goyta k’ebya bzuh ktifri
-Eti ‘ebuy metse regtsa bhaylu
-Hasibu neyru ketfa’ ab mdri
-Gn aytekha’lo amlita wts’et kdet ‘abeyet
-Goyta yimsgn chenfera sefha
-Nzdekhemu metslelit konet
-
-3.O Halle-luya --- Halle Halle-luya
-Enas’ar zle’alem zneber
-Kem Amlaknado alo medhani
-Zwedadero keto ayrkebn
-Bkhyatom ysem’ mesakin dequ zeyti ykeb’om
-Ab betu ytekhlom ab ‘atsedatu
-Ye’ebuyom ba’lu siye kmeslu`
+    eng: ``
 },
 song20: {
     title: { tig: "ሩባ ሰላም", eng: "Ruba Selam" },
@@ -1162,28 +655,7 @@ song20: {
    መልኣኽ ዘበሰራ ኣማኑኤል ክትወልድ                    
    ኣቦ ዝመረጻ ክትኮኖ መርዓቱ                            
    ከቢራ ክትነብር ኣብ ሰማያት ቤቱ `,
-    eng: `1.Selam ziqnatta nab kulu tiznbi
-Rhrhti ad’ya nkhulu tnabi
-Bwludawi fquri nkhulu tetati
-Ade alatna nay semay ngisti
-Tedefa ade nay hzunat walta nay dkhumat
-Nefsei nfeṭari te’biyo zbelt
-Maryam ya Maryam Ruba Selam
-
-2.Bnefsi bsga semay zfeleset
-Nay abona Adam hti’at zeywereset
-Bhaki zte’adelet nay zemenna grma
-Ade alatna nu nsalema
-
-3.Ab semay ab mdri nsa’ya tesfana
-Ade Amlak koyna dhenet zmtse’atlna
-Ajokum tibelna ms weda qeriba
-Tsa’ida hyab kem lul zeybla sebeba
-
-4.Muse zre’aya berha ktinedd
-Mela’ek zebsera Amanuel ktweld
-Abo zmeretsa ktkono mer’atu
-Kebira ktnebr ab semayat betu`
+    eng: ``
 },
 song21: {
     title: { tig: "መን እዩ ዘፍቅር ከምቲ ናትካ", eng: "Men Eyu Zefqir Kemit Natka" },
@@ -1216,34 +688,7 @@ song21: {
          ዓሚቕ ምስጢር ኣለዎ ኣቦየ ፍቕርኻ 
          ነቲ ዘስተውዕሎስ ኢየሱስ ፍሉይ ኢኻ(2) 
          ሓለፋ ኩሉ ኢኻ `,
-    eng: `TeDefa:Menuyu eti zhalyele’ley kemit natka
-Menuyu khe eti zhalyele’ley kemit natka
-Yebleyen goytaya kemakha
-Niskhasi n’ay feluy abo ikha
-
-1.Dekime entera’akani haylika tihbeni
-Wedike entera’akani bmhret tele’lni
-Ayitsbtsbon ikha nbezhi gudletay
-Bfqurikha tikhwlo nkulu snfeti
-Nkulu dekmatey
-
-2.N’ay ktkeltselay eti bluts fqurikha
-Mekqtsa’tey teqebilka ab meskel teshankirka
-Men imo’yu zgebr goyta kemzi natka
-Kulu mestenker iyu Iyesus tegbaratka
-Yelbon zmseleka
-
-3.Bseri hti’atay krekbo zgibani
-Kem bzi bedley’won eti ztsbeyeni
-Nay zelalem mot neru eti natay gide
-Gin anta lewah Amlakey motey niskha motkaliy
-Hywetka yehlifkaliy
-
-4.Kulu gize tmekhrani metan nkheytfe
-Gudletay’won ter’eyeni metan nkheytfe
-Amik msitir alewo aboye fqurikha
-Neti zestew’elos Iyesus feluy ikha
-Halefa kulu ikha`
+    eng: ``
 },
 song22: {
     title: { tig: "ኣይነበር", eng: "Ayneber" },
@@ -1272,29 +717,7 @@ song22: {
             ኣብ ቤትካ ይሕሸኒ ምሳኻ ሙዃን 
             ካባኻ ዘይኮነስ ኣይኹነኒ 
             ንሙሉእ ዘመነይ ይትረፈኒ(7)`,
-    eng: `1.Nay zelalem hywet qal aloka
-Nabey kkeyd iye mokabkha
-Mrchay ez’yu nzelalem
-Kab betkha wetsa’es ayneber (7)
-
-Tedefa:Sgumt tatay kulu (ykhun) ab aserka
-Kal’it (deqiq) aydelnn kflet kabkha (2)
-Aydelnn kflet kabkha
-Ayreknn delye’wn (Iyesusy) kemakha (2)
-Nebseysi embza (2) fetyatkha
-Aydelnn ayflenn ila kabkha
-Ttetebk ala (2) bdhreka
-Ttetebk ala bdhreka (2)
-
-2.Msakha mu’anyu nebsey yrefta
-Ab kdmi gtskha’yu ygbeta
-Brkhkh tbel ktta’rf kab tsa’ra
-Mlia ttse’s bmsgana (7)
-
-3.Kab shh me’alti ab dembe resi’an
-Ab betkha yhshe’ni msakha mu’an
-Kabkha zeykones aykhuneni
-Nmulu’e zemney yttrefeni (7)`
+    eng: ``
 },
 song23: {
     title: { tig: "ተመስገን ኢየሱስ", eng: "Temesgen Iyesus" },
@@ -1332,39 +755,7 @@ song23: {
    እዚ እናረአኹስ ከመይ ስቕ ክኽእሎ 
    ኣብ ዝፋንካ ኣትየ ዕጣነይ ኣዕርጎ(2) 
    ዕጣነይ ኣዕርጎ እንካ ተቐበሎ `,
-    eng: `1.Ab meqdaska kiatu hizye tqum shito
-Nkhibrkash Iyesus fetwey isebro afsso (2)
-Kduss (3) ile amlekeka
-Ab zemenat kulu menuymo kemakha (2)
-Menuymo kemakha menu yu zmesleka
-
-Tedefa:Temesgen Iyesus temesgen (3) temesgen
-Nefsei tekhbreskala temesgen
-Nefsei tebybioka temesgen
-Nefsei tengeska la temesgen
-Nefsei temlikeka la temesgen
-Temesgen (2) bnegir kulu tsadq ikha mo temesgen
-Tebarek (3) bnegir kulu hyaw ikha mo tebarek
-
-2.Abern menkebn fatsimu zeybelka
-Inta kone etar zeyterekhbekka (2)
-Nismka kekhibr timikhtey yu nay
-Baakha ktshwa kurna tehabeni
-Bismka ktshwae sim kbretyu nay
-Kabey yu koynuley eqayi tsebikuley
-
-3.Kab degetat nay mot sibhbka tewtsani
-Ab berekhti bota dagim tequmeni (2)
-Kemakhas men eyu nay zikerbeni
-Ab kefu ab tsbuq kalay zikhoneni
-Ab rahwa ab tsebeba kalay zikhoneni
-Btsay zikhoneni zestenanani
-
-4.Tsbukey zeyfetu haman ketfaani
-Kab laeli kab aryam ktizkreni (2)
-Ezi enaraekus kemey sk kkhilo
-Ab zefanka atye eqtany aergu (2)
-Eqtany aergu enkah teqebelo`
+    eng: ``
 },
     song24: {
     title: { tig: "ከመስግነካ እደሊ’ለኹ", eng: "Kemmesgineka Edeli leku" },
@@ -1394,30 +785,7 @@ Eqtany aergu enkah teqebelo`
         ንወትሩ ይኽበር…  ሕይወትና ኣንጽሓዮ… 
         ልብና ኣቕንዓዮ…  ጸጋኻ መሊኡ…   
         መንፈስካ ተሓዲሱ…`,
-    eng: `1.Kemmesgineka edeli leku
-Kiwdiseka edeli leku
-Kekhbreka edeli leku
-Nzelalem (2)
-
-Tedefa:Hitsret qalat yu ember tkista yebliyn (4)
-Ezi kulu senayka
-Misti kulu halyotka
-Mesferi ayrekhbon yu goytay amiq yu tifqirka
-Misti kulu senayka ti mestenker gibrka
-Mesferi ayrekhbon yu Iyesus amiq yu tifqirka
-
-2.Kibri msgana sgdet n’aakha
-Wdase elilta amlkho nzufanka
-Nzelalem hywot zelekum
-Kuluhkum ftratat akhranat gobotat
-W’hayz rubatat
-Amesgino
-
-3.Mhretu zeywudae siltanu zeydfer
-Ebetu zeymrmer l’ul Amlakna
-Nwetr ykber hywotna antsahayo
-Lbna aqn’ayo tsegaka meliu
-Menfeska tehaddisu`
+    eng: ``
 },
     song25: {
     title: { tig: "ተመስገን ጎይታይ", eng: "Temesgen Goytay" },
@@ -1445,28 +813,7 @@ Menfeska tehaddisu`
                ደምካ’ውን ምስ ሰተኹ                         
                ትጓስየኒ ዘሎኻ እሙን  ኮይንካ መራሒ            
                ከማኻ ኣይረክብን ዋልታ (ጓሳ) ዝኾነኒ(2)`,
-    eng: `1.Mhreteka habeni ile mis tsewa’ku
-Qulih ilka temitkani
-Nabaka mis tera’ku
-Fewseka mis deleku b’idka betsihkani
-Kulu smi’it nay lbey bqereba tred’ani (2)
-
-Tedefa:Temesgen (3) Goytay (2)
-Kabti hmaq hywot zewtsa’ekani
-Kse’beka fiqirka deri’huni (2)
-Kse’beka fiqirka deri’huni
-
-2.Men koyne ye ane abaka zneber
-Mhreteka mis rekhebku
-Zyada zkebr
-Wqitkani ab a’edawka nzelalem tshifkani
-Halelu haleluya ile wun yzmmer (2)
-
-3.Mengedi zela’lem abaka mis rekhebku
-Sgaka temgibe
-Demka wun mis seteku
-Tgwas’eyeni zeloha emun koyneka merahi
-Kemaka ayrekhbin walta (gwasa) zkwenenni (2)`
+    eng: ``
 },
     song26: {
     title: { tig: "ረቡኒ ክብለካ", eng: "Rebuni Kibleka" },
@@ -1494,29 +841,7 @@ Kemaka ayrekhbin walta (gwasa) zkwenenni (2)`
 4.ከም ሲላስ ክኸውን ሃዋርያኻ 
    ከም ቨሮኒካ ክደርዞ ንገጽካ                                
    ከም ቶማስ ክትንክፎ(2) ጎድ`,
-    eng: `1.Nnfasat ab emqo idka ette’ekbom
-Nma’eblat bqalka ettehde’om
-Nsemayat bze y’andi ettequmom
-Ngbrka men yimmeslo menka yiwedadero
-
-Tedefa:Ab le’li akhran enaneter
-Ab le’li korobit enazellele
-Dmtska yisem’ alo ye’ezaney
-Bfiqirka ahaha yimamuq alo lbey
-
-2.Qalka amlakey bhqi ntsuh yu
-Netom abaka zmi’qobu waltoom yu
-Btsgaka mengedom yjmr
-Ab tslalka bah ilwom (2) ynebru
-
-3.Kem Silas kkhwun hawarya ka
-Kem Veronika kderzo ngetska
-Kem Mgdelawit Rebuni (2) kibleka
-Goytayey akhelni btsgaka
-
-4.Kem Silas kkhwun hawarya ka
-Kem Veronika kderzo ngetska
-Kem Tomas ktenkfo (2) god`
+    eng: ``
 },
     song27: {
     title: { tig: "ኣምላኸይ ብሓቂ ፍቕሪ ኢኻ", eng: "Amlakay behaki fiqri ika" },
@@ -1552,38 +877,7 @@ Kem Tomas ktenkfo (2) god`
      ስለ’ቲ ፍቅርኻ ዕልል(3) ዕልል’ውን ይብል 
      ስለ’ቲ ሓልዮትካ ዕልል(3) ዕልል’ውን ይብል 
      ስለ’ቲ ሰናይካ ዕልል(3) ዕልል’ውን ይብል`,
-    eng: `
-NeMaryam megdelawit kab menizrna
-NeSimon kab gefafi asa
-NeMatyos kab mekfeli qerets
-NeZekiyos kab enda tegewti meritska
-Tedfo niskas (Amlakay) behaki fiqri ika
-Iyesusey behaki fiqri ika
-Hiywetey tiimatka
-Niskas behaki fiqri ika /2/
-
-Neta Samrawit sebeyti kab tsimi maya
-Nehamat Simon aso hamima kela
-Neta mebelet ab mot nay weda
-Nezom kulom ab kemzi kelawu afqirka
-
-Nesgay kab azekti hatiat
-Nenfsey kab gziat nay tslmat
-Nehiywetey kab zelaalem tfiat
-Ztebejeqka Iyesus fiqri ika
-
-Nay weshtey befsum tefelto
-Neshexemey qentitka teragfo
-Nechenqi libey kem tslot teriyo
-Nedxameywun kulu terdio
-
-Seb neti kebur kehari yideli
-Neska gn neti dkhum tehari
-Bahriyatka fluuyiu mestenker
-Fiqrika hasibes enekhu yiilel
-Selti fiqrika ilil(3) ililwun yibl
-Selti halyotka ilil(3) ililwun yibl
-Selti senayka ilil(3) ililwun yibl`
+    eng: ``
 },
     song28: {
     title: { tig: "ተስፋ ኣይቆርጽን እየ", eng: "Tesfa ayqortsn iye" },
@@ -1603,20 +897,7 @@ Selti senayka ilil(3) ililwun yibl`
            ንድሕሪት ከይምለስ ኣደይ ሓግዝኒ 
 4.ሕልናይ ተሸቢሩ ሰላም እውን ስኢነ 
   እልምን ኣለኹ ኣብ እግርኺ ኮይነ   `,
-    eng: `Hatiatey kebiduni abi tsiinet koynuni
-Maryam amalidley wedxi kmh̆reni
-Tedfo Tesfa ayqortsn iye (2)
-Kisab temalidley
-Anes ab tihtēki iye
-
-Seytan entefeteni ilu kewdkeni
-Rehrehti weladitey neski alekheni
-
-Behatyatey ziaekl hilnay keywekseni
-Nedhrit keymles adey hgezni
-
-Hilnay teshbiru selam ewun siine
-Elmen alekhu ab egreki koyne`
+    eng: ``
 },
     song29: {
     title: { tig: "ብፍቅርኻ ዝተማረኽኩ", eng: "Befqirka ztemarehku" },
@@ -1643,27 +924,7 @@ Elmen alekhu ab egreki koyne`
             ንዝጸረፍዎ’ውን ዝምርቕ የለን                  
           ገና ሓጥእ ከለኹ ብምማትካ                 
             እታ ኣባይ ዘላትካ ፍቕሪ ገሊጽካ(2) `,
-    eng: `Eti kab weyni ztiim fqirka aha
-Ab atsatsmtey atyu wsti setimu
-Ab tihti egreka kqmet geruni yu
-Aha Iyesusey marikhuni yu (2)
-
-Tedfo Befqirka ztemarehku mrkonaye (3)
-Aedawey msnay lbey nabaka alyiley (3)
-Biidey hizka nab tkhedo zebele
-Ktwsedeni (2) ktshehbheni
-Msten mgwaseka ab zlem a shehaka ktwueleni (3)
-Iyesusey dlay aloni
-
-Neskaas nay zelaalem hiywet kal aloka
-Kabaka mo nabey kkheyid yie
-Kab ab dwnkwan resian mkmatsi
-Ab beytka yie wesine zelaalem mnbar (2)
-
-Ab kndi hmaq zgeberwo zmawt yelen
-Nztsrefwo wun zsmrq yelen
-Gena hati ekleku bmmaatka
-Eta abay zelatka fqri gelitska (2)`
+    eng: ``
 },
     song30: {
     title: { tig: "ተመስገን ክብል’የ", eng: "Temesgen kibliye" },
@@ -1693,30 +954,7 @@ Eta abay zelatka fqri gelitska (2)`
          ደሚቑ ይውላዕ ኣብቲ ለዋህ ገጽካ 
          ርኣዮ ይብለና ንውጉእ ኣካልካ 
          ጸጋኻ ክፈስስ ካብ ደመ ርሃጽካ(2) `,
-    eng: `Yimeslena alo zbtsh guezzo siga
-Msttwal habena knbetsih nabaka
-Tmberkihna ente tmetna nabaka
-Tgelitsu iyu ab meskel fqirka (2)
-
-Tedfo nkhontu aykonen zfeses dem goyata
-nkhontu aykonen sqay nay golgolta (2)
-dem goyta zfeses nkhontu aykonen (2)
-bidem goyta zdahana nefsat
-yimskra bidmtsi meleket (2)
-Temesgen kibliye (2) bitsagaqa agibe fqirka temegibe
-Temesgen kibliye (2) bidemka tehshibe tsariye netsiha
-Temesgen kibliye (2) bigoyta agibe dehnet rekhbe
-Ane amen kibliye
-
-Kisab kndey amiq yu goytaye fqirka
-Teqedihu zeywudae kem midrawi qelay
-Bizuh yu habtka zeywudae tsagaka
-Kulu alo abiu hyabat fqirka (2)
-
-Meskelka yineger nmsitir guezzoqa
-Demiqu yiwlae abti lewah gegtska
-Reao yiblena nwgu akalka
-Tsagaka kfeses kab deme rhatska (2)`
+    eng: ``
 },
     song31: {
     title: { tig: "ንዓይ ብምሕራይካ", eng: "Nay bmhrayka" },
@@ -1748,36 +986,7 @@ Tsagaka kfeses kab deme rhatska (2)`
               እቲ ንዑቕ ጸላኢ ፈጽሙ ተዳህለ 
               ብጭፍራ መልኣኽቲ ኢየሱሰይ ተመልአ 
               ኣብ ሰማይ ኣብ ኣርያም ዕልልታ ተሰምዐ `,
-    eng: `
-1.Mealti mdhaney hgi kbarikha
-Sile zikhonkalei nay hiywotey tbeka
-Smka tsewaekuha belkani
-Mgllatsu siine abiyu koynuni
-
-Tede: Nay bmhrayka nay bmmmrskka
-Nay bmfmrakha n mfraskka
-Nay bmfqarka nkegelsto zeyykel
-Kab aemroyi nlaley goytay
-
-2.Kab mot nab hiywot zesegagarkani
-Ab leli seytan wun awet zhayabkani
-Zmelselka yalegn nzeladlkani
-Nab zegerm brrhan zemtsahkaani
-
-3.Kab zelalem sqay Iyesus zedhankani
-Nab hager hiyawan nay zemtseakani
-Lbey bmsgana afey bialilta
-Kizmmrelka ye ata lewah goyta
-
-4.Hade kilte ilka zeykutsr
-Ezun etin ilka zeynnger
-Nzegberkaley wualetat
-Kisab zelahku wun kemmesgineka
-
-5.Afey bmsgana brrhan tewola
-Eti nquk tsaali fetsmu tedahle
-Bchifra melaekti Iyesusey temlela
-Ab semay ab aryam alilta tesemaa`
+    eng: ``
 },
     song32: {
     title: { tig: "ንገሰለይ", eng: "Ngeseley" },
@@ -1810,35 +1019,7 @@ Ab semay ab aryam alilta tesemaa`
   ተቐበለኒ ልበይ ዝኽእሎ 
   ክሳብ ዝበቅዕ ንምስጋናኻ 
   ልዕል በለለይ ንገሰለይ ተባረኽ ኢኻ `,
-    eng: `1.Aloni zblolo zmkhalu
-Ab hiywetey znyetelu
-Bmnser kulu senay gbrkha
-Aybekinu ftsum nAka whiduka
-
-Tedfo: Ngeseley kberley
-Lel beleley tebarekheley
-Naay fluyyu huhu zgberkaley (2)
-
-2.Entbelku lel beleley
-Entbelku ngeseley
-Kulu endiyu zblolo zestenteno
-Edelilekhu lelilu entelo seb zeybelo
-
-3.Kegzaaka ye bmulu lbey
-BmAka edneq hamay kelbey
-Kulu hasabey bmAka yizem
-MsAka lekhu nzelalem (2)
-
-Entbelku kberley
-Entbelku tebarekheley
-Msti zeydfer abi grmAka
-Kemeylu yidareg goytay nAka
-Msti znAka
-
-4.Gna nhji ab lbey zelo
-Teqebelni lbey zkelo
-Kisab zbeke nmsganAka
-Lel beleley ngeseley tebarekhe ika`
+    eng: ``
 },
     song33: {
     title: { tig: "ኣምላኽ ሰማይ", eng: "Amlakh Semay" },
@@ -1867,30 +1048,7 @@ Lel beleley ngeseley tebarekhe ika`
             ንሱ’ዩ ዓቢ ሓጎስና 
             ስለዚ ስቕ ኣይንብልን ምምስጋን ኣይነቋርጽን 
             ከቢርካ ክንርኢ ከሎና ብኡ ትዓግብ ሕይወትና `,
-    eng: `
-1.Ashah ealf melAketka
-Yisegduelu ab egrekha
-Sltanan hayln natka yu
-Grman kbrn enabelu
-Nhnawn abza mdri slezyblka mesali
-Nemlekha teqenina nbarekheka dew elna
-
-Tedfo: Amlakh semay ngus kula mdri (2)
-Smka ybarekh ab semay ab mdri (2) (2)
-
-2.GzAatka wesn yeblun
-Ebetka deret yeblun
-Eta mengstkas hyaw ya
-Zeyteneqaneq wunya
-Ab semay kona ab mdri yelen botakha ztenko
-Zufanka nzelalem tseniu ynber alo
-
-3.Ata nfetweka ftiwna
-Nbarekheka alona
-Smka mmsgan kbrna
-Nsuyu abi hgosna
-Slezi sq aynbln mmsgan aynkwarcn
-Kebirka knrei kelona bu tAagb hiywetna`
+    eng: ``
 },
     song34: {
     title: { tig: "ከማኻስ የለን", eng: "Kemakhas yelen" },
@@ -1925,45 +1083,10 @@ Kebirka knrei kelona bu tAagb hiywetna`
 4.ድኻመይ እናረኣየ ኩሉ ክርሕቀኒ  
    ሓደ’ኳ ክስእን ተስፋ ዝህበኒ 
    ኣብዚ ከምዚ እዋን ኣለኻ ጎይታ ኢየሱስ ኣሎኻ 
-    
- 
- 
 ጎደለይ ንምምላእ ባዕልኻ ትቐርበኒ                                  
 ኣብራኸይ ወለል ክብላ’ውን ሓይሊ ትኾነኒ 
 ከማኻስ የለን’ዩ ከማኻ ጎይታ ኢየሱስ ከማኻ `,
-    eng: `
-
-Abti nay mdrebda nay tsimwa guuzoey
-Nbeyney kshger redae zeybley
-Abzi kemzi ewan alekha goyta Iyesus alokha
-Baelka tredani tedmqo nbrhaney
-Kab shgirey awtsiEka tehdo nlbeiy
-Kemakhas yelen yu kemakha goyta Iyesus kemakha
-Tedfo: Kemzi natka geru nlbeiy zeErf
-Weshtey terediu nhetoy zmelis
-Keto ayrekbn zehdea nnbsey
-Sleti halyotka temesgen Iyesusey
-
-TslaEtey ktnsEu bhayli ktfUni
-Ab zuryay enaguazemu bzh kkesuni
-Abzi kemzi ewan alekha goyta Iyesus alokha
-Tebeka tkwnelay tehfrom ntslaEtey
-Kab hatsfi nay diablos tkwneni Erdey
-Kemakhas yelen yu kemakha goyta Iyesus kemakha
-
-Kunetat enareEku kwedkeni frhat
-KtHlhun kjmr nabti bahri hatiat
-Abzi kemzi ewan alekha goyta Iyesus alokha
-AEdawka tsedeley menziEka tewtseAni
-Ab lEli tslaEteywn awet thbeni
-Kemakhas yelen yu kemakha goyta Iyesus kemakha
-
-Dkhamey enarayE kulu krHkeni
-Hadekwa ksEn tesfa zhbheni
-Abzi kemzi ewan alekha goyta Iyesus alokha
-Godeley nmemlaE baelka tkErbeni
-Abrakhey welal kblawn hayli tkwneni
-Kemakhas yelen yu kemakha goyta Iyesus kemakha`
+    eng: ``
 },
     song35: {
     title: { tig: "ኣይተለወጥካንን", eng: "Aytelewetkanin" },
@@ -1991,29 +1114,7 @@ Kemakhas yelen yu kemakha goyta Iyesus kemakha`
    ኣይተለወጥካንን ንዓይ ንባርያኻ 
    እንተተቐመጥኩ እንተተላዓልኩ 
    ኣይተለወጥካንን እፈልጥ ኣሎኹ `,
-    eng: `
-
-Wo bruk genshel Iyesus beyenka
-Aytelewetkanin naAy nbarayka
-Entedekhmku entebertaEku
-Aytelewetkanin efelt aleku
-Tedfo: Aytelewetkanin(2) naAy Iyesus
-Aytelewetkanin(3) goytay Iyesus
-
-Wo Abi Amlakh Iyesus beyenka
-Aytelewetkanin naAy nbarayka
-Entawedekku entetensaEku
-Kemzeytgedfeni efelt aleku
-
-Wo fekar medhn Iyesus nseka
-Aytelewetkanin naAy nwuludka
-Anes ygermeni naAy bmfkarika
-Khasbo kleku klu srah natka
-
-Nay tniti Amlakh goytay nseka
-Aytelewetkanin naAy nbarayka
-Entetqemetku entetlaAlku
-Aytelewetkanin efelt aloku`
+    eng: ``
 },
     song36: {
     title: { tig: "ተስፋ ሕዙናት", eng: "Tesfa Hzunat" },
@@ -2046,31 +1147,7 @@ Aytelewetkanin efelt aloku`
            ንሕና ደቅኺ ግን ንቕጽል ጉዕዞ ምሳኺ 
            ልዕሊ ክብሪ ሰብ ክብሪ ስለዘሎኪ 
            ስለዚ ንዝምረልኪ ንዘልኣለም ንምስክረልኪ `,
-    eng: `
-Kedem atihizu zmeretseki
-Ndhnet Adam ztehareki
-Mlashki admets kem zbelkani ykhunelay
-Ane wun kemu kem natki meritse aleku
-Aser aserki kseEb des iluni alo
-Slezi mlashay ehhb kem zbelkani ykhunelay
-Tedfo: O Maryam Adena
-Amaladnetki nAmin alona(2)
-Sle leul tHhtnaki
-Zkebere btsiEnetki
-Nefkreki(2) nwudseki(2)
-
-Tesfa Hzunat metsnaNet
-Medhn wladit mbrhit tslmat
-Tesfa tHhbi tberati ndkhum ftrt
-Hyawan ina bdemu znetshna
-BzHi mHtAena gn seferu rHiqna
-Slezi ina nlmneki mdeyaybo ktkonna
-3. Etom meEzemzemt rEesom kkhbru
-Tebiit mliOm kkraKheru
-Bkhntu fltet kab tHhtnas lbom zetreru
-Nhna dekki gn nktsl guEzo msaKi
-Leli kbri seb kbri sle zeloKi
-Slezi nzmrleki nzlalem nmskreleki`
+    eng: ``
 },
     song37: {
     title: { tig: "ካብ ጸጋኻ ኢዩ ኮይኑልና", eng: "Kab TsegaKha Iyuu Koynulna" },
@@ -2105,32 +1182,7 @@ Slezi nzmrleki nzlalem nmskreleki`
           እቲ ጅግና ብሓይሉ ክናገፍ እየ ኢሉ ኣሎ 
             ኣነ ግን ብጸጋኻ ንኹሉ ሰጊረዮ 
             ንኹሉ ሓይሊ ሓጢኣት ብእግረይ ረጊጸዮ(2) `,
-    eng: `
-LaElin taHtin kertet zbelnayo akhilu
-Kem bwalta btsega Hiywotna tekhelilu
-Kabti abana zelo tsega Amlak koynulna
-Bharnet knAtu knwetseE wun kIlna(2)
-Tedfo: TsegaKhan mHhrtkhan entzeybezhhalna
-Abzi kemey ilna dew mbelna
-Bhiwot mnbarna mnglgalna
-Mzmarnna Iyyesus mmmsganna
-Kab tsegakha iyu koynulna
-MeAs kab kElt Haylna
-Hade lbi hade Hhasab muaAnna
-Bhagos mEtauna mwtsaEna
-Mnbarna dmtskha msmaEna
-Kulu kabakha ember meAs kabana
-Iyyesus tsegakha entzeybezhhalna
-Ewo nsedomn gomeran mmselna(2)
-
-Wo EgziEr kurakha nqtsbet Ayini iyu
-TsegaKha gn mlue Edeme ytsenH iyu
-mHhrtkhan saHlKhan ysyEbana alewa
-Keto aytefeleyenan nay tsegakha Halewa(2)
-3. Ngus bsrawitu zdHn iyu zmeslo
-Eti jgna bhaylu knagef iye ilu alo
-Ane gn btsegakha nkhulu sgireyo
-Nkhulu Hayli HaTiAt bEgray regitseyo(2)`
+    eng: ``
 },
     song38: {
     title: { tig: "ክዝምረሉ’የ", eng: "Kizmerelu ye" },
@@ -2165,33 +1217,7 @@ Nkhulu Hayli HaTiAt bEgray regitseyo(2)`
   ክርስቶስ ካብ ፈተወ ከድሕነኒ ንዓይ 
   ክዘልል’የ ክዕልል ብዘሎኒ ዓቕመይ 
   እንታይ’ዩ ዝዓግተኒ ካባኻ ዝፈልየኒ `,
-    eng: `
-Ab gize neesnetey nesu kab afkereni
-Mis kulu dikhamay neay tekebiluni
-Goytay e’deli lo ab zemen neesnetey
-Nesu tiray kihza neza eshel heywotey
-Degimsi abqiu yu ewan quliinetey
-Iyesus kab delaya neza dikhmiti nebsay
-Degimsi hgigi entay keyhezeni
-Nesukwa fetyu fikru kab arayeni
-Teda: Kizmerelu ye kizmerelu (2)
-Nezi ngus kibri kizmerelu (kqanielu) (4)
-Kqanielu ye kqanielu (2)
-Nezi ngus kibri kqanielu (kizmerelu) (4)
-
-Mis alem siga seytan fitsum tebatikhna
-Kfu emalttat keyibts’ha abana
-Ezi kulu keymetse ab lomi enkelena
-Neesnet halifu zebqalu gubzhnana
-NeIyesus nekhbir tihzazu ab libna
-Amlak yihshena misu kembrna
-Nesu tiray kebiru kinrei ab heywotna
-Kemta ftihti ilu kibret kihbena
-
-Nay fikrka melesey kesmi misgana
-Kirstos kab fetew kedhheni neay
-Kzelil ye kihlil bizeloni aqmey
-Entay yu zyagteni kaba kha zfel yeny`
+    eng: ``
 },
     song39: {
     title: { tig: "ውሽጣዊ ሰላም", eng: "Wushtawi Selam" },
@@ -2223,30 +1249,7 @@ Entay yu zyagteni kaba kha zfel yeny`
   በቲ ሰና…ይ ቆፎይ መሊአ(2) 
     ብሰመያዊ ሃብቲ መንገደይ ኣጣጢሐ 
     ሰመያዊ ሰላም… ብሓጎስ ክጽበ(2)`,
-    eng: `
-Amlak yelen kib’l bilbey kirbesh
-Hatiat kebiduni nidrit kgutet (2)
-Niska gn amlakhay reda’i dkhumat
-Adhheni kabti nay menfes chin’qet (2)
-Teda: Wushtawi selam nay menfes erfti
-Zeytef’e birhan misakha yu zelo
-O amlakh semayat misakha yu zelo
-O ngus negesitat
-Hale... luya (4)
-
-Menfesey kchneq selam wun s’ine
-La’lin tahten kib’l erefti s’ine (2)
-Ayrekhebkun Iyesus kemakha zbele
-Fetihkayo ikha... tsegamey zbele (2)
-3. Niska kab konkha ti emun medhheney
-Iyesusey kab konkha neay red’etey (2)
-Neaysi kemakha men aloni
-Loms ks’beka... misakha yihsheni (2)
-
-Zehlefkwo hmaq bitsbuq khise
-Beti sena... yi qofoy melia (2)
-Bisemeyawi habti mengedey atatiha
-Semeyawi selam... bihagos kts’be (2)`
+    eng: ``
 },
     song40: {
     title: { tig: "ኤልሻዳይ ሙዃንካ", eng: "Elshadai Muanka" },
@@ -2277,29 +1280,7 @@ Semeyawi selam... bihagos kts’be (2)`
    ክሳዕ ዝመውት’ውን ተሃንጠኹ ምምጻእካ 
    ሞይቱ ምስ ጨነወ ተስፋ ምስ ቆረጽኩ 
    ደበኽ ኢልካ ደኣ ተኣምራትካ ረኤኹ `,
-    eng: `
-Bilagtsi penina menfesey teseyru
-Mekhan bimu’aney ti nabray meriru
-Abti kibur betkha zlemenkwo tselot
-Fre awhibuni bizgerm kts’bet
-Teda: Bihazen b’gwahi znebere nbe’atay
-Hiji kab bizhi hagos yifeses kab ayney
-Men muanka r’eye tedeneqe libey
-Elshadai muanka t’i’imato nebsey
-
-Yehawi do khon ile genzebey weda’ku
-Alo nab ztebahle nabkulu enakhedu
-Demey enafesese haylkha amine
-Kdanka tenkifes kab kusley dhine
-3. Ab l’eli tsebebay shigr getimuni
-Mebelet bimu’aney hade wedey moytuni
-Hazeney felitka resay atensa’ka
-Nhiznti nebsey bihagos fenchahka
-
-Ti tfet’wo hawey hamimu ile tswa’ekukha
-Ksa’e zmewt wun tehanthku memtsa’ekha
-Moytu mis chenewo tesfa mis qoretsku
-Debekh ilka dea te’amratkha re’ekhu`
+    eng: ``
 },
     song41: {
     title: { tig: "ቤትካ ሰላመይ እዩ", eng: "Betkha Selamey Iyu" },
@@ -2332,31 +1313,7 @@ Debekh ilka dea te’amratkha re’ekhu`
   እቲ ዘድልየኒ ኩሉ መሊኡለይ 
   ንቤትካ መሪጸ ሕቕፎካ ኢየሱስይ 
   ልበይ ተሓጒሱ ኣሜን ኣሰይ ኣሰይ(2) `,
-    eng: `
-Aqley tsebibu’ni kab aqen kshger
-Nebsey awadiqe atye ab mewatr
-Nska gn Iyesus sedidkhaley idka
-Sehibka awtsi’ekani wludey endabelka (2)
-Teda: Betkha selamey iyu
-Betkhas yreftetey iyu
-Betkha kulu iyu
-Silezi goytay kemlekheka
-Wesine (2) kneber misakha
-Nzelalem Iyesus ab hqfokha
-
-Tegbarey kefiu mergem bezihuni
-Sefom endamezezu sebat ketf’uni
-Zeremo zeremo koyne keyrhq kab betkha
-Fekar Iyesusey mtsa’e hderakha (2)
-3. Bibahri tekheduku t’tihl merkabey
-Bimeret tekheduku ytemamer egrey
-Hansab n’hawaru meritse nbetkha
-Bihagos kneber mistom qdusanka (2)
-
-Loms bah iluni wludka mu’aney
-Eti zedliyeni kulu meli’uley
-Nbetkha meritse hqfokha Iyesusey
-Libey tehagusu amen asey asey (2)`
+    eng: ``
 },
     song42: {
     title: { tig: "ብኽብሪ ብግርማ ተገለጽ", eng: "Bikhibri Bigirma Tegelits Amlakhey" },
@@ -2388,30 +1345,7 @@ Libey tehagusu amen asey asey (2)`
   ናይ ዘልኣለም መንግስትኻ ክወርሳ 
   ንዘልኣለም ኣብ ቤትካ ክነብራ… 
   ብኽብሪ ተገለጽ ኣምላኸይ `,
-    eng: `
-Ainta na nka kriiya
-Aezana dmska ksemy’a
-Sefer libs’ka nezi bet kmelo
-Nweshitna bihagos kteserasro
-Bikhibri tegelits amlakhey
-Teda Bikhibri Bigirma Tegelits Amlakhey 4
-
-Hmumat kulom enkfwesu
-Kab maesretom dma kfthhu
-Sileti tgebrlom senay
-Na nka kbri khbbu
-Bikhibri tegelits amlakhey
-3. Nchinuqat fthi ktwtsalom
-Nhzunat kea kttsenan’
-Nsnufat hayli kthhbom
-Tesfa nzyqoretsu tesfom kthhds
-Bikhibri tegelits amlakhey
-
-Na nka zeyfeleta nefsat
-Bia nka aminen kdhhna
-Nay zelaalem mengstkha kwersa
-Nzelaalem ab betkha knebra
-Bikhibri tegelits amlakhey`
+    eng: ``
 },
     song43: {
     title: { tig: "ብለይቲ እናነቓሕኩ", eng: "Bileyti Enaneqahku" },
@@ -2446,33 +1380,7 @@ Bikhibri tegelits amlakhey`
              ዘማራይ ዘሚሩ ኣይውድኦን 
              ንፍቕርኻ ብቑዕ መግለጺ የልቦን 
              ዓሚቕ’ዩ ሓለፋ ኣእምሮይ `,
-    eng: `
-Fqrkha kab mear ytiem
-Senayka goyta aywdaen’yu
-Men koyne biaka kflth
-Bifqrkha nefseya ktbarkh
-Teda Bileyti Enaneqahku
-Fqrkha khasb klehku
-Kme bisbhn bnguw ynstgb
-Amlakhey nebseya twdska’la
-
-Bzuh’yu azyu bzuh’yu
-Goytaye nnesfseya zgbrkala
-Hade klta ile zeytsbtsbo
-Fqrkhas n’ayi abiy’yu abo
-3. Fqrkha mhuuz shito iyu
-Smka’wn zfses kbi’yu
-Dmska mesbertey ytsgn
-Fqrkha azyu fluy’yu
-
-Ab akheba n’aka kzmr
-Sileti nnesfseya zgbrkala
-Bmezmurey fqrkha kglts
-Msganakha wtru kzmr’yu
-5. Sebakayi sebiku aygltsun
-Zemaray zemiru aywdoon
-Nfqrkha bqu’ mgltchi ylbwn
-Amik’yu hlfa aemroy`
+    eng: ``
 },
     song44: {
     title: { tig: "ማርያም ዝያዳ መጎሳ", eng: "Maryam Ziyada Megosa" },
@@ -2504,30 +1412,7 @@ Amik’yu hlfa aemroy`
    ዝያዳ ኩሉ ፍጥረት መጎስ’ውን ረኺብኪ(2) 
                ማርያም(3)  
              ዝያዳ ካብ ኩሎም ፍጥረት ደቂ ኣዳም(2) `,
-    eng: `
-Kibrtu kmls eti hzun Adam
-Naaki ztewahbe mlkt kidan
-Medhani ktweldi ktzerlu hywet
-Hazenu kdabs kibrtu kmls
-Teda: Maryam Ziyada Megosa
-Seb knsa fetari tseyrato ab kersa
-
-Lbski dknet silmat thtna
-Amlak zmrtsa ftsmt ntsHna
-Bkllu wuhbtat shlmeki kibri
-Ngsti thtna Maryam lul bahr
-3. Kab ansti Israel Maryam tmrtsa
-Nfqad Egzi/r ab lb Hnitsa
-Mahsena nmshih Iyesus tfqidu
-Naana kdabs kab semay weridu
-
-Kab thtnaki thti…
-Kab ml’at tsega mlti…
-Fqd Egzi/r bmmlae …
-Akhlil awetki atirki …
-Ziyada klu ftrt mgos’wn rkhibki(2)
-Maryam(3)
-Ziyada kab klom ftrt dqi Adam(2)`
+    eng: ``
 },
     song45: {
     title: { tig: "ምላሽ ፍቕሪ", eng: "Milash Fiqri" },
@@ -2571,43 +1456,7 @@ Ziyada kab klom ftrt dqi Adam(2)`
                  ፍቱው ኢየሱሰይ እባርኸካ(2)                     
                  ኣንታ ፍትወይ እውድሰካ(2)                   
                  ፍቱው ኢየሱሰይ እውድሰካ(2)  `,
-    eng: `
-Aymelson a’laf msgana
-Hidet’yu mst nakka
-Gna lbey fetiyu zenkedo
-Maleteyi koynu yeqirbo
-Milash Fiqri kem tqum shto
-Meqdeska yi’ito(4) Zufanka yi’ito(4)
-Teda: Temesgen Temesgen Temesgen
-Tebarek Tebarek Tebarek
-L’ili bel L’ili bel L’ili bel
-
-Amlak Ikha kab zelalm
-Zmesleka hade ikwa yelen
-Nzelo tsbuq zgberka
-Goyta Iyesus beynkha Ikha
-Kab lbna infetweka
-Inka msgana(8)
-
-Akhbroteyi ygeltselka
-Bmenfes esgedelka
-Maleteyi iyu zzmrelka
-Qalat mdri aybeq’aka
-Bezi amro bkullu Ikha
-Yqdes smka(8)
-
-Kndey tqum iyu ab qdmi gtska
-Slu kulu bmsgana
-Zgotna enda regtsna
-Zgb’aka key gudelna
-Bmenfeska slu zikhonelna
-Nemaswelka(8)
-Anta ftwey amesgenka(2)
-Ftuw Iyesusi amesgenka(2)
-Anta ftwey ebarheka(2)
-Ftuw Iyesusi ebarheka(2)
-Anta ftwey iwdseka(2)
-Ftuw Iyesusi iwdseka(2)`
+    eng: ``
 },
     song46: {
     title: { tig: "ምስጋና", eng: "Meskana" },
@@ -2635,26 +1484,7 @@ Ftuw Iyesusi iwdseka(2)`
       ንድሕነትና ሕይወት ዝወፈኻልና ምስጋና ሆይ ምስጋና 
       መጓሴኻ ዝገበርካና ምስጋና ሆይ ምስጋና 
       ደቂ ብርሃን ክንከውን ዘብቃዕካና ምስጋና ሆይ ምስጋና `,
-    eng: `
-Mle’at lbi t’beb zelbeskana Meskana hoy Meskana
-BmenGedi haqi zmeraḥkana Meskana hoy Meskana
-Hiwet nk’nlebs b’rrhan zhabkana Meskana hoy Meskana
-Ab Qdus Betka fqirka megebkana Meskana hoy Meskana
-Teda: Meskana Meskana hoy Meskana(3)
-Meskana nl’ul Ftrari
-Meskana ke’ali kulu
-Meskana nl’ul Medhena
-Meskana abzi z’bṣahkana
-
-N’hmamna f’wsi z’konkana Meskana hoy Meskana
-Kab tsehayn nfasn ztsel’lka Meskana hoy Meskana
-N’dhamna ɨrefeti zhabkana Meskana hoy Meskana
-Kab megeshana bselam z’mleska Meskana hoy Meskana
-
-Tsnu’at lbi z’gberka Meskana hoy Meskana
-Ndhnatna hiwet z’wfḥalka Meskana hoy Meskana
-Megwaseka z’gberka Meskana hoy Meskana
-Dqi brrhan knk’wn z’bqa’kana Meskana hoy Meskana`
+    eng: ``
 },
     song47: {
     title: { tig: "ተሓጒስና ነመስግኖ", eng: "Tehagwsna Nmesgno" },
@@ -2680,23 +1510,7 @@ Dqi brrhan knk’wn z’bqa’kana Meskana hoy Meskana`
               ክወስደና እዩ ናብታ ሰማያዊት ቤቱ 
               ጎይታ ይሕሸና ሰላም ሓጎስ ዚህበና 
               ኣብቲ መጨረሽታ ኣብ መንግስቱ ከእትወና `,
-    eng: `
-Kristyan ayt’hzen beza nay za alem nabra
-Kulu gize alo d’ham shg’r wey mekera
-Silezi n’qdmti aQn’ayo menGedka
-Nay zelalem Goyta ayt’hzeno had’raka
-Teda: Tehagwsna Nmesgno neti tesfa zhabena
-Kwesd’na kimets’ey yu nabta semayawit betna
-
-D’ham hazen shg’r ent’kebebe ab zur’yaka
-B’emnet tseli’mo redi’etu khbeka
-Tselmat temesilu etr’eyo neger kulu
-Goyta aydrbyekan emun yu beti kalu
-
-Iyesus kimets’ey yu bmel’aekhtu te’ajibu
-Kwesd’na yu nabta semayawit betu
-Goyta yhshena selam h’agos zhbena
-Abti mechereshta ab mengestu k’itwena`
+    eng: ``
 },
     song48: {
     title: { tig: "እንታይ ይሰኣነካ", eng: "Entay Yseaneka" },
@@ -2725,26 +1539,7 @@ Abti mechereshta ab mengestu k’itwena`
                    ለውሃትካ ይበልጽ ካብ ሕይወት 
                    ድምጽኻ ኣለዎ ዕጋበት 
                    ብሳላኻ ‘ለኹ ብሕይወት(4)  `,
-    eng: `
-Ezi zeyk’al yu oromay
-Ztebahle zeysg’r abi qelay (2)
-Ane gna s’gireyo amlakhay si entay ychenqo
-Kulu (keto) ab idu ab idu yu
-Keto (kulu) ab idu ab idu yu (2)
-Teda: Entay yseaneka dyu Egziabher (4)
-Neger kulu ab qdmeka qelil (3) /4/
-
-Kab hawi mmnzae natka yu
-Kab mot mtr’af wun natka yu (2)
-Nefsey si r’eyatka gelekwa kem zeychenqeka
-Silezi ya tehkbreka (2)
-Silezi wun temlh’eka (2)
-
-Abti brtuh mnwats zleyo
-N’aemroy selamka geziwo (2)
-Lewhatka ybelts kab hywet
-Dmtska alo y’gabet
-Bsala’ka lehu bhywet (4)`
+    eng: ``
 },
     song49: {
     title: { tig: "ካብ ምሕረትካ ዝተላዕለ", eng: "Kab Mhretka Ztlaele" },
@@ -2768,20 +1563,7 @@ Bsala’ka lehu bhywet (4)`
    ፍቕርኻ ተዓንጊለ መከራይ ይርስዕ 
    ዉሉደይ ክትብለኒ ብኣባታዊ ፍቕርኻ 
    ምንባረይ ጸቢቑ ብሙዃነይ ናትካ /2/`,
-    eng: `
-Kab mhretka ztlaele yu dew ile zlekhu
-M’etawey mwts’ay b’akha tehalyu
-Maebel kgelabet knawets akhranat
-Qltsmka tet’erise alokhu bhd’at (ametat) /2/
-Teda: Mhretka yu… (4) Fq’rkha yu… (4)
-Abzi zbetshani kabay zkone neger yelen (2)
-B’akha yu uhuhu… kulu b’akha yu (2)
-B’akha yu tsebiquley b’akha koynuley (6)
-
-Ft’hay kab gtska ywets’e b’tr’itkha ets’egb
-Fq’rkha te’angile mk’ray yrs’
-Wludey ktbleni b’abatawi fq’rkha
-Mnbarey tsebiqu b’mu’ane natka /2/`
+    eng: ``
 },
     song50: {
     title: { tig: "ኦ ናይ ሰላም ኣምላኽ", eng: "O Nay Selam Amlak" },
@@ -2809,25 +1591,7 @@ Mnbarey tsebiqu b’mu’ane natka /2/`
               ኣጆኹም ደቀየ ጽንዑ 
               ክትብለና ብሃረርታ 
             ንጽበየካ ኦ ጐይታይ `,
-    eng: `
-Eti selamka nkhndelyo
-Nlbna anqhayo
-O goytay dkhumat ina
-Bmenfeska atsnaana
-Teda: O nay selam Amlak
-Selamka awrdelna
-Bbzihi mhretkha
-Demsis abesana
-
-Qedem znebere menfes
-Hijiwn abana yfses
-Habirna nlmnkha
-Smana goytay tsn ilka
-
-Lmenakhum tesemiu
-Ajokhum dekye tsniu
-Ktbelna bharerta
-Ntsbeyka o goytay`
+    eng: ``
 },
     song51: {
     title: { tig: "ክሳብ ሕጂ", eng: "Kisab hiji" },
@@ -2870,41 +1634,7 @@ Ntsbeyka o goytay`
               ኩነታት ኣሳጊርካያ 
               ታ’ሞት ዝተፈርደት ሕይወተይ  
             እንሆ ትዝምረልካ(8)`,
-    eng: `
-1.Maebel mot ayferhanen
-Nedri khran ayestemenen
-Bmaekel hawi halife
-Halhalta ayhamokhnen
-Reya zedenq sahlkha
-Kem tkereb kab tnifasa
-Salakha dew ila temesgen
-Kab seaty belitsa(4)
-
-Teda: Kisab hiji ztsorani brkhat aedawka
-Kisab hiji ztsekemani brkhat aedawka
-Aye titigstkha
-Eway mhret lewihatkha
-Enadenekhku
-Ebarikeka goyta amesgineka
-Nskhas msganay ika
-
-2.Bgwahi tekize ymetse
-Ab thti egrkha yewedq
-Dengatskha aytekhelkhelenen
-Btrit gegtskha etsageb
-Taharerta tihutat tesemio
-Nlbomwn tebertio
-Wludey ilka degifkani
-Mtsnnaeka kebibkani(4)
-
-3.Blel’lnakha rediety
-Ab semay ztewetsihka
-Tsebe’ba dine mot segire
-Tetseyre ab aedawka
-Azyu nmimanuel zeshegr
-Kunetat asagirkhaya
-Tahmot zteferdet heywetey
-Enho tizmerelka(8)`
+    eng: ``
 },
     song52: {
     title: { tig: "ይብጻሕኪ ምስጋናይ", eng: "Yibtsahki msganay" },
@@ -2934,28 +1664,7 @@ Enho tizmerelka(8)`
    ከምኡ’ውን  ጽላለይ ማህደር መንፈስ ቁዱስ 
    ስለዚ’ስ ማርያመይ ኣነ ብኣኺ ይሕጎስ  
    እኔኹ የመስግን ኣፈይ እኸፍት(2) `,
-    eng: `
-1.Bchura aedawki meliski lmenay
-Bteamr maeteb tsegakhi afsiskeley
-Btselot meqtserya nseyetan ksiir
-Welidkni adey yibtsahki msganay(2)
-Teda: Yibtsah hgosy msganay nabaki
-O ngsti selam wdasay naki(2)
-
-2.Fqerki t’ime bhagos eneb’e
-Hazenki zekire melise ebrti
-Degef tkhonkni ab emnetey ktsen’e
-Msganay yibtsahki adeye habeney(2)
-
-3.Leyti ms mealti bhaki yu hasabey
-Adeye endiki hlfy ethayleyley
-Adey ewo adey wetru etseliley
-Msganay yibtsahki bleyn ayni natey(2)
-
-4.Mengedi konkni kbts’h nab Iyesus
-Kem’uwn tslaley mahder menfes qudus
-Slezis Maryamey ane bhaki yhgos
-Eneku yemesgn afey ekheft(2)`
+    eng: ``
 },
     song53: {
     title: { tig: "ሓለፋ ኣለዎ", eng: "Halefa alewo" },
@@ -2984,26 +1693,7 @@ Eneku yemesgn afey ekheft(2)`
           ስለ ፍቕረይ ኢልካ ብዙሕ ተሳቐኻ 
           ክሳዕ ኣብ መስቀል’ውን ሕይወትካ ዘሕለፍካ 
           ሓለፋ’ለዎ ኣምላኸይ ፍቕርኻ `,
-    eng: `
-1.Khasb kchineq enaneba’ku
-Nb’atey yiderz bbereketu
-Sley yhalfeley ybjeweley
-Nay mfk’arusi halefa lewo
-Teda: Halefa alewo(2)
-Amlakhey fqerka halefa alewo
-Iyesusey fqerka(2) beyinu yu beyinu(2)
-Ab wush’ti lbey(2)
-Gwahri feti’ru yenideni lo(2)
-
-2.Sley nkhtbl mesqel zewa’alka
-M’ntay ilka wn demka zrehatska
-Amlakhey fqerka bhqi fluy yu
-Halefa lewo goytaye fqerka
-
-3.Nay nbaryaka afqirkani ika
-Sle fqrey ilka bzuh tesaqeka
-Ksa’e ab mesqel wn hywotka zehlefka
-Halefa lewo amlakhy fqerka`
+    eng: ``
 },
     song54: {
     title: { tig: "ኣንቅሓና ኣበርትዓና", eng: "Anqhana abertana" },
@@ -3038,33 +1728,7 @@ Halefa lewo amlakhy fqerka`
   ፍጹም ኣይጠቕመናን እዩ ሓጎስ ናይዛ ዓለም 
   ብሳህልን ምሕረትን ማሚቕና ክንነብር ኣብ ሕቕፎኻ 
   መወዳእታና ኣጸብቕ ጠምተና ብምሕረትካ `,
-    eng: `
-1.Egzih’r kemzi nabbele bneb’yat ndeku yimhtsen
-Ab dkas’kum keyttf’u nefs wekf yberaber
-Kemten lebamat denagel qen’delkum zeytmel’o
-Eti hyaw Amlak ms metsa berihkum teqebel’o
-Teda: Wo… Egzih’r anqhana abert’ana
-Felina kenel’elyo zlenayo zemena(2)
-Qotsli beles ms ambebe
-Kremti kem zifleth
-Kulu seb wn zhenteyo fri’u nkhmgheb
-Nhna wn fre dhnet nkhnerkeb
-Akh’elena wo Egzihaber
-
-2.Seytan zbelyo delyu kem zthhr anbesa
-Ab zurya’khum yigwazm alo nneb’skhum kirmesa
-Slez flet’o atokirkum toqamet’o
-Bhayli khunat nay Amlak atikh’kum tewag’e’o
-
-3.Me’alti kem seraqi koynu iyu zmets’e
-Tkhs’takhum atf’o hade kwa ayzeng’e
-Et’equ tedalewu atswar Amlak lb’su
-Lbkhat’khum atsriyo tsunu’ menfes tehadesu
-
-4.Dletna iyu harertana knrekeb hywot zelalem
-Ftsum aytqmenan iyu hgos nay za alem
-Bsahl’n mhrtn mamikna knneber ab hqfokha
-Meweda’atana atsebkq temt’na bmhretkha`
+    eng: ``
 },
     song55: {
     title: { tig: "ዘልኣለም", eng: "Zelalem" },
@@ -3097,41 +1761,7 @@ Meweda’atana atsebkq temt’na bmhretkha`
    ካብኣ ብምውጻአይ ይሕጎስ ደኣ እምበር ሓዚነ ኣይፈልጥን 
       እንታይ ከይተርፈኒ ንዓኣ ገዲፈ  
       እቲ ዝበለጸ ካባኻ `,
-    eng: `
-1.
-Zihayish alewo ab betka menbarey (2)
-Ab midri zeykone kwesen idley (2)
-Gize zeywusno abta hadas betka
-Yinafeq alekhu kri ngecka (2)
-Kiarf ab hekfokha
-Tedefo Zelalem ab betka wesine (meritse)
-Misakha menbar Iyesusey misakha menbar (2)
-
-2.
-Kab selmat nab berhan aseggagirkani
-Iyesus akhbirkani
-Mengestin kahenatin n'aka kkewen
-Nezi medibkani
-Ezi kibur icha kabakha koynuley
-Yihgos alekhu n'aka merkabey (2)
-Ab betka menbarey
-
-3.
-Zeytefe zeybers ab nebari risti
-Teserita nebsay
-Bhagos yiwetse bselam yisena
-Kulu meliu ley
-Kabzi halifeun nab nay kibri bota
-Ksegagerye nabti areftkha (2)
-Iyesusey misakha
-
-4.
-Alem mis fetwta degim ayimeneyan
-Kreya ayidelin
-Kaba bmuwtsaay yihgos dea
-Ember hazina ayfeltin
-Entay keyterfeni n'a gedife
-Eti zbelekse kaba`
+    eng: ``
 },
     song56: {
     title: { tig: "ኣሜን ኣሜን", eng: "Amen Amen" },
@@ -3163,35 +1793,7 @@ Eti zbelekse kaba`
   ኣብ ኣእዳውካ ተሓቚፈ 
   ስጋኻን ደምካን ተመጊበ
   ባህ ኢሉኒ እውን ዓጊበ `,
-    eng: `
-1.
-Sigakhan demkhan wefikhaley
-Nikhbelio nikhsetio
-Atsimkhan sigakhan keskiskhaley
-Nikhdehen nikhenetsih
-
-Tedefo Amen (3) Hale luya Amen
-Amen (3) Teawite Amen
-Amen (3) Hale luya Amen
-Amen (3) Tehaguse Amen
-
-2.
-Tiftaf'n rehats'n getska meliu
-Nikhenetsih (2)
-Sigakhan demkhan temegibe
-Nidhenetey (2)
-
-3.
-Bismur atsimkhaun tekhibibe
-Kab tslayetey iun dhine
-Ab tihti akhnafkha wun atsilile
-Bifekrkha iun mamuke
-
-4.
-Ab zara may fekrkha ansafife
-Ab eedawkha tehahpife
-Sigakhan demkhan temegibe
-bah eluni wn agibe`
+    eng: ``
 },
     
     song57: {
