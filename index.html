@@ -443,17 +443,28 @@ tagBtn.addEventListener('click', () => {
   
 
 
-// Language toggle
+// ===== SMART LANGUAGE TOGGLE (with auto Latin) =====
 langBtn.addEventListener('click', () => {
   if (!currentCard) return;
   const id = currentCard.dataset.id;
   currentLang = currentLang === 'tig' ? 'eng' : 'tig';
-  modalTitle.innerHTML = currentLang === 'eng'
-    ? `<span class="eng-text">${lyricsData[id].title.eng}</span>`
-    : lyricsData[id].title[currentLang];
-  modalContent.innerHTML = currentLang === 'eng'
-    ? `<span class="eng-text">${lyricsData[id].eng}</span>`
-    : lyricsData[id][currentLang];
+  
+  let displayTitle = "";
+  let displayLyrics = "";
+  
+  if (currentLang === 'eng') {
+    // Use existing English text if available, else auto-transliterate
+    displayTitle = lyricsData[id].title.eng || transliterateTigrinyaToLatin(lyricsData[id].title.tig);
+    displayLyrics = lyricsData[id].eng || transliterateTigrinyaToLatin(lyricsData[id].tig);
+    displayTitle = `<span class="eng-text">${displayTitle}</span>`;
+    displayLyrics = `<span class="eng-text">${displayLyrics}</span>`;
+  } else {
+    displayTitle = lyricsData[id].title.tig;
+    displayLyrics = lyricsData[id].tig;
+  }
+
+  modalTitle.innerHTML = displayTitle;
+  modalContent.innerHTML = displayLyrics;
   langBtn.textContent = currentLang === 'tig' ? 'English' : 'ትግርኛ';
 });
 
@@ -581,10 +592,42 @@ filterLinks.forEach(link => {
     updateSongCount();
   });
 });
+// ===== TRANSLITERATION HELPER =====
+function transliterateTigrinyaToLatin(text) {
+  if (!text) return "";
+  const map = {
+    "ሀ":"ha","ሁ":"hu","ሂ":"hi","ሃ":"ha","ሄ":"he","ህ":"h","ሆ":"ho",
+    "ለ":"le","ሉ":"lu","ሊ":"li","ላ":"la","ሌ":"le","ል":"l","ሎ":"lo",
+    "መ":"me","ሙ":"mu","ሚ":"mi","ማ":"ma","ሜ":"me","ም":"m","ሞ":"mo",
+    "ሠ":"se","ሡ":"su","ሢ":"si","ሣ":"sa","ሤ":"se","ሥ":"s","ሦ":"so",
+    "ረ":"re","ሩ":"ru","ሪ":"ri","ራ":"ra","ሬ":"re","ር":"r","ሮ":"ro",
+    "ሰ":"se","ሱ":"su","ሲ":"si","ሳ":"sa","ሴ":"se","ስ":"s","ሶ":"so",
+    "ሸ":"she","ሹ":"shu","ሺ":"shi","ሻ":"sha","ሼ":"she","ሽ":"sh","ሾ":"sho",
+    "ቀ":"qe","ቁ":"qu","ቂ":"qi","ቃ":"qa","ቄ":"qe","ቅ":"q","ቆ":"qo",
+    "በ":"be","ቡ":"bu","ቢ":"bi","ባ":"ba","ቤ":"be","ብ":"b","ቦ":"bo",
+    "ተ":"te","ቱ":"tu","ቲ":"ti","ታ":"ta","ቴ":"te","ት":"t","ቶ":"to",
+    "ነ":"ne","ኑ":"nu","ኒ":"ni","ና":"na","ኔ":"ne","ን":"n","ኖ":"no",
+    "አ":"a","ኡ":"u","ኢ":"i","ኣ":"a","ኤ":"e","እ":"e","ኦ":"o",
+    "ከ":"ke","ኩ":"ku","ኪ":"ki","ካ":"ka","ኬ":"ke","ክ":"k","ኮ":"ko",
+    "ወ":"we","ዉ":"wu","ዊ":"wi","ዋ":"wa","ዌ":"we","ው":"w","ዎ":"wo",
+    "ዐ":"a","ዑ":"u","ዒ":"i","ዓ":"a","ዔ":"e","ዕ":"e","ዖ":"o",
+    "ዘ":"ze","ዙ":"zu","ዚ":"zi","ዛ":"za","ዜ":"ze","ዝ":"z","ዞ":"zo",
+    "የ":"ye","ዩ":"yu","ዪ":"yi","ያ":"ya","ዬ":"ye","ይ":"y","ዮ":"yo",
+    "ደ":"de","ዱ":"du","ዲ":"di","ዳ":"da","ዴ":"de","ድ":"d","ዶ":"do",
+    "ጀ":"je","ጁ":"ju","ጂ":"ji","ጃ":"ja","ጄ":"je","ጅ":"j","ጆ":"jo",
+    "ገ":"ge","ጉ":"gu","ጊ":"gi","ጋ":"ga","ጌ":"ge","ግ":"g","ጎ":"go",
+    "ጠ":"ṭe","ጡ":"ṭu","ጢ":"ṭi","ጣ":"ṭa","ጤ":"ṭe","ጥ":"ṭ","ጦ":"ṭo",
+    "ጸ":"tse","ጹ":"tsu","ጺ":"tsi","ጻ":"tsa","ጼ":"tse","ጽ":"ts","ጾ":"tso",
+    "ፈ":"fe","ፉ":"fu","ፊ":"fi","ፋ":"fa","ፌ":"fe","ፍ":"f","ፎ":"fo",
+    "ፐ":"pe","ፑ":"pu","ፒ":"pi","ፓ":"pa","ፔ":"pe","ፕ":"p","ፖ":"po"
+  };
+  return text.split('').map(ch => map[ch] || ch).join('');
+}
 
 
 })();
 </script>
 </body>
 </html>
+
 
