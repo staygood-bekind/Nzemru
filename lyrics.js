@@ -3195,6 +3195,102 @@ bah eluni wn agibe`
 },
     
     song57: {
+    title: { tig: "ብዙሕ ምስጋና", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: ` 
+ተደ፦ዎ…… ብዙሕ (ኣሻሕ) (ኣእላፍ) ምስጋና 
+      ዎ…… ብዙሕ (ኣሻሕ) (ኣእላፍ) ኣምልኾ 
+      ዎ…… ብዙሕ (ኣሻሕ) (ኣእላፍ) ዝማሬ 
+      ኢየሱስ ይኹን ንዓኻ /3/ 
+            ምዝማረይ ንዓኻ እምበር  
+            ኢየሱስ ንመን ደኣ’ሞ(2) 
+            ደው ምባለይ ንዓኻ እምበር 
+            ኢየሱስ ንመን ደኣ’ሞ(2) 
+            ንእስነተይ ንዓኻ እምበር 
+            ኢየሱስ ንመን ደኣ’ሞ(2) 
+                 ይግብኣካ’ዩ ይግብኣካ(4) 
+1.ንሓይለይ ሓዲስካለይ ጸሎተይ መሊስካለይ 
+  ንንብዓተይ ደሪዝካዮ ውሽጠይ ሓጎስ መሊእካዮ(2) 
+        2.ውድቀተይ ዝምነዩ ሓፊሮም ድሕሪት ተመለሱ 
+          ኣምላኸይ ኣዕቊብካኒ ጸግዕን ዕርድን ኮይንካኒ(2) 
+3.ኣብ በረኽቲ እመላለስ ዝተባህለኒ መታን ክወርስ 
+  ዕርዲ ሰይጣን እንዳፍረስኩ ብኣምላኸይ ይሕበን ኣለኹ(2)`,
+    eng: `10 Song 10 lyrics ...`
+},    
+    song58: {
+    title: { tig: "ኣይሓደግካናን", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `  
+1.እቲ ሕሱም ሰይጣን ተጻራርየይ 
+ ከቶ ኣይዓርፍን ካብ ምፍታነይ 
+ እሙን ጐይታ ግን ኣይገደፍካንን 
+ ብኣይ ክትከብር ኣይነዓቕካንን 
+       ተደ፦ኣይሓደግካናን ሃሌ-ሉያ 
+             ኣይሓደግካናን ኣሜን 
+             ኣሕሊፍካ’ውን ንጸላኢ ኣይሃብካናን 
+2.ሰይጣን ክጓዝም ብርከይ ረዓደ 
+  ርእሰይ ኣድኒነ ተስፋ ቖሪጸ 
+  ንስኻ ግን ጐይታይ ምሳይ ነበርካ 
+  ብሰይጣን ክግዛእ ኣይሓደግካንን 
+           3.ወትሩ ብዘይ ፍርሓት ዕልል ክብል’የ 
+             ኣብ ኩሉ ናብራይ ከመስግነካ’የ 
+             ዕጹብ ክቡር’ዩ ጐይታ ኩሉ ትእዛዝ 
+             ኣብዛ ዕሸል ነፍሰይ ሓይልኻ ግለጽ 
+4.ወንጌል ናይ ጽድቂ ክትነብር እያ 
+  ደጌታት ሲኦል ኣይሕይልዋን 
+  ንስምካን ደምካን ኣጽዋርና ጌርና 
+  ክንኣቱ ኢና ክንኣን ሃገርና `,
+    eng: `10 Song 10 lyrics ...`
+},    
+    song57: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: `10 Song 10 lyrics ...`
+},    
+    song57: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: `10 Song 10 lyrics ...`
+},    
+    song57: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: `10 Song 10 lyrics ...`
+},    
+    song57: {
     title: { tig: "Okay", eng: "" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
