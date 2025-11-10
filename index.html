@@ -486,18 +486,85 @@ primaryAction.addEventListener('click', ()=>{
   });
 });
 
-// ===== SEARCH =====
-document.getElementById('searchInput').addEventListener('input', function(){
-  const q = this.value.toLowerCase();
-  cards.forEach(card=>{
+// ===== SEARCH (Tigrinya + Latin) =====
+const searchInput = document.getElementById('searchInput');
+
+const normalize = str => str.normalize("NFC").toLowerCase();
+
+// Transliteration mapping (Latin → Ge’ez)
+const translitMap = {
+    'ሀ':'he','ሁ':'hu','ሂ':'hi','ሃ':'ha','ሄ':'hie','ህ':'h','ሆ':'ho',
+    'ለ':'le','ሉ':'lu','ሊ':'li','ላ':'la','ሌ':'lie','ል':'l','ሎ':'lo',
+    'ሐ':'He','ሑ':'Hu','ሒ':'Hi','ሓ':'Ha','ሔ':'Hie','ሕ':'H','ሖ':'Ho',
+    'መ':'me','ሙ':'mu','ሚ':'mi','ማ':'ma','ሜ':'mie','ም':'m','ሞ':'mo',
+    'ሠ':'s2e','ሡ':'s2u','ሢ':'s2i','ሣ':'s2a','ሤ':'s2ie','ሥ':'s2','ሦ':'s2o',
+    'ረ':'re','ሩ':'ru','ሪ':'ri','ራ':'ra','ሬ':'rie','ር':'r','ሮ':'ro',
+    'ሰ':'se','ሱ':'su','ሲ':'si','ሳ':'sa','ሴ':'sie','ስ':'s','ሶ':'so',
+    'ሸ':'Se','ሹ':'Su','ሺ':'Si','ሻ':'Sa','ሼ':'Sie','ሽ':'S','ሾ':'So',
+    'ቀ':'qe','ቁ':'qu','ቂ':'qi','ቃ':'qa','ቄ':'qie','ቅ':'q','ቆ':'qo',
+    'ቈ':'que','ቊ':'qui','ቋ':'qua','ቌ':'quie','ቍ':'qW',
+    'ቐ':'Qe','ቑ':'Qu','ቒ':'Qi','ቓ':'Qa','ቔ':'Qie','ቕ':'Q','ቖ':'Qo',
+    'ቘ':'Que','ቚ':'Qui','ቛ':'Qua','ቜ':'Quie','ቝ':'QW',
+    'በ':'be','ቡ':'bu','ቢ':'bi','ባ':'ba','ቤ':'bie','ብ':'b','ቦ':'bo',
+    'ቨ':'ve','ቩ':'vu','ቪ':'vi','ቫ':'va','ቬ':'vie','ቭ':'v','ቮ':'vo',
+    'ተ':'te','ቱ':'tu','ቲ':'ti','ታ':'ta','ቴ':'tie','ት':'t','ቶ':'to',
+    'ቸ':'ce','ቹ':'cu','ቺ':'ci','ቻ':'ca','ቼ':'cie','ች':'c','ቾ':'co',
+    'ኀ':'h2e','ኁ':'h2u','ኂ':'h2i','ኃ':'h2a','ኄ':'h2ie','ኅ':'h2','ኆ':'h2o',
+    'ኈ':'hue','ኊ':'hui','ኋ':'hua','ኌ':'huie','ኍ':'hW',
+    'ነ':'ne','ኑ':'nu','ኒ':'ni','ና':'na','ኔ':'nie','ን':'n','ኖ':'no',
+    'ኘ':'Ne','ኙ':'Nu','ኚ':'Ni','ኛ':'Na','ኜ':'Nie','ኝ':'N','ኞ':'No',
+    'አ':'e','ኡ':'u','ኢ':'i','ኣ':'a','ኤ':'ie','እ':'A','ኦ':'o',
+    'ከ':'ke','ኩ':'ku','ኪ':'ki','ካ':'ka','ኬ':'kie','ክ':'k','ኮ':'ko',
+    'ኰ':'kue','ኲ':'kui','ኳ':'kua','ኴ':'kuie','ኵ':'kW',
+    'ኸ':'Ke','ኹ':'Ku','ኺ':'Ki','ኻ':'Ka','ኼ':'Kie','ኽ':'K','ኾ':'Ko',
+    'ዀ':'Kue','ዂ':'Kui','ዃ':'Kua','ዄ':'Kuie','ዅ':'KW',
+    'ወ':'we','ዉ':'wu','ዊ':'wi','ዋ':'wa','ዌ':'wie','ው':'w','ዎ':'wo',
+    'ዐ':'Oe','ዑ':'Ou','ዒ':'Oi','ዓ':'Oa','ዔ':'Oie','ዕ':'O','ዖ':'Oo',
+    'ዘ':'ze','ዙ':'zu','ዚ':'zi','ዛ':'za','ዜ':'zie','ዝ':'z','ዞ':'zo',
+    'ዠ':'Ze','ዡ':'Zu','ዢ':'Zi','ዣ':'Za','ዤ':'Zie','ዥ':'Z','ዦ':'Zo',
+    'የ':'ye','ዩ':'yu','ዪ':'yi','ያ':'ya','ዬ':'yie','ይ':'y','ዮ':'yo',
+    'ደ':'de','ዱ':'du','ዲ':'di','ዳ':'da','ዴ':'die','ድ':'d','ዶ':'do',
+    'ጀ':'je','ጁ':'ju','ጂ':'ji','ጃ':'ja','ጄ':'jie','ጅ':'j','ጆ':'jo',
+    'ገ':'ge','ጉ':'gu','ጊ':'gi','ጋ':'ga','ጌ':'gie','ግ':'g','ጎ':'go',
+    'ጐ':'gue','ጒ':'gui','ጓ':'gua','ጔ':'guie','ጕ':'gW',
+    'ጠ':'Te','ጡ':'Tu','ጢ':'Ti','ጣ':'Ta','ጤ':'Tie','ጥ':'T','ጦ':'To',
+    'ጨ':'Ce','ጩ':'Cu','ጪ':'Ci','ጫ':'Ca','ጬ':'Cie','ጭ':'C','ጮ':'Co',
+    'ጰ':'Pe','ጱ':'Pu','ጲ':'Pi','ጳ':'Pa','ጴ':'Pie','ጵ':'P','ጶ':'Po',
+    'ጸ':'xe','ጹ':'xu','ጺ':'xi','ጻ':'xa','ጼ':'xie','ጽ':'x','ጾ':'xo',
+    'ፀ':'x2e','ፁ':'x2u','ፂ':'x2i','ፃ':'x2a','ፄ':'x2ie','ፅ':'x2','ፆ':'x2o',
+    'ፈ':'fe','ፉ':'fu','ፊ':'fi','ፋ':'fa','ፌ':'fie','ፍ':'f','ፎ':'fo',
+    'ፐ':'pe','ፑ':'pu','ፒ':'pi','ፓ':'pa','ፔ':'pie','ፕ':'p','ፖ':'po',
+    '።':'.','፡':';','፣':',','፥':':','፤':'::','፦':';-','፧':'?','፨':'..'
+  };
+
+function latinToGeez(str) {
+  str = normalize(str);
+  const keys = Object.keys(translitMap).sort((a, b) => b.length - a.length);
+  for (const key of keys) {
+    str = str.replaceAll(key, translitMap[key]);
+  }
+  return str;
+}
+
+searchInput.addEventListener('input', () => {
+  const query = normalize(searchInput.value);
+  const translitQuery = latinToGeez(query);
+
+  cards.forEach(card => {
     const id = card.dataset.id;
     const song = lyricsData[id];
-    const text = (song.title.tig+song.title.eng+song.tig+song.eng+song.author.tig+song.author.eng).toLowerCase();
-    card.style.display = text.includes(q)?'block':'none';
+    const text = normalize(
+      song.title.tig + song.title.eng +
+      song.tig + song.eng +
+      song.author.tig + song.author.eng
+    );
+
+    card.style.display = (text.includes(query) || text.includes(translitQuery)) ? 'block' : 'none';
   });
 
   updateSongCount();
 });
+
   // ===== SONG COUNT =====
 function updateSongCount() {
   const visible = cards.filter(card => card.style.display !== 'none');
@@ -647,6 +714,7 @@ function transliterateTigrinyaToLatin(text) {
 </script>
 </body>
 </html>
+
 
 
 
