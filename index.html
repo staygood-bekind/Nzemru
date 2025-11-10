@@ -4,6 +4,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" /> 
 <title>Mezmur</title>
+<button id="latinToggleAll" class="latin-toggle-btn">Latin / Geez</button>
 <link rel="icon" type="image/png" href="Favicon.png">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Lora:wght@400;500;600&display=swap" rel="stylesheet">
 
@@ -197,8 +198,8 @@ box-shadow:0 6px 18px rgba(59,130,246,0.12);}
 
       <!-- NEW THEME TOGGLE -->
     <button class="theme-toggle" id="themeToggle">
-      <span class="icon sun">☀️</span>
-      <span class="icon moon">🌙</span>
+      <span class="icon sun">Light</span>
+      <span class="icon moon">Dark</span>
     </button>
   
   <div class="datetime">
@@ -609,6 +610,7 @@ filterLinks.forEach(link => {
     updateSongCount();
   });
 });
+  
 // ===== TRANSLITERATION HELPER =====
 function transliterateTigrinyaToLatin(text) {
   if (!text) return "";
@@ -661,9 +663,43 @@ function transliterateTigrinyaToLatin(text) {
 
 
 })();
+  <script>
+document.addEventListener("DOMContentLoaded", () => {
+  const latinToggleAllBtn = document.getElementById("latinToggleAll");
+  if (!latinToggleAllBtn) return;
+
+  let latinAllEnabled = false;
+
+  latinToggleAllBtn.addEventListener("click", () => {
+    latinAllEnabled = !latinAllEnabled;
+
+    // Find all lyric text containers (adjust if your class name differs)
+    const lyricBlocks = document.querySelectorAll(".lyric, .lyrics-text, [data-lyric-id]");
+
+    lyricBlocks.forEach(block => {
+      // Keep original Geez text
+      if (!block.dataset.original) {
+        block.dataset.original = block.innerText.trim();
+      }
+
+      const original = block.dataset.original;
+
+      // Use your existing mapping function from lyrics.js
+      const converted = latinAllEnabled
+        ? convertToLatin(original)
+        : original;
+
+      block.innerText = converted;
+    });
+
+    latinToggleAllBtn.textContent = latinAllEnabled ? "Show Geez" : "Show Latin";
+  });
+});
+
 </script>
 </body>
 </html>
+
 
 
 
