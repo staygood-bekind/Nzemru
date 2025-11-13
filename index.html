@@ -469,23 +469,20 @@ langBtn.addEventListener('click', () => {
 });
 
 
-// ===== SMART Main TRANSCRIPTION TOGGLE =====
+// ===== PRIMARY ACTION LANGUAGE TOGGLE =====
 const primaryAction = document.getElementById('primaryAction');
-let lang = localStorage.getItem('lang') || 'tig';
-
-function updateLang(l) {
-  document.querySelectorAll('[data-tig]').forEach(el => {
-    const t = el.dataset.tig?.trim() || "";
-    el.innerHTML = l === 'eng'
-      ? `<span class="eng-text">${transliterateTigrinyaToLatin(t)}</span>`
-      : t;
-  });
-  primaryAction.textContent = l === 'tig' ? 'English' : 'ትግርኛ';
-  localStorage.setItem('lang', l);
-}
-
-primaryAction.onclick = () => updateLang(lang = lang === 'tig' ? 'eng' : 'tig');
-updateLang(lang);
+let primaryLang = 'tig';
+primaryAction.addEventListener('click', ()=>{
+  primaryLang = primaryLang==='tig'?'eng':'tig';
+ primaryAction.textContent = primaryLang === 'tig' ? 'English' : 'ትግርኛ';
+  // Update all cards
+  cards.forEach(card=>{
+    const id = card.dataset.id;
+    const song = lyricsData[id];
+    card.querySelector('h3').innerHTML = primaryLang==='eng'?`<span class="eng-text">${song.title.eng}</span>`:song.title[primaryLang];
+    card.querySelector('p:nth-of-type(1)').innerHTML = primaryLang==='eng'?`Author: <span class="eng-text">${song.author.eng}</span>`:`Author: ${song.author.tig}`;
+    card.querySelector('p:nth-of-type(2)').innerHTML = primaryLang==='eng'?`Album: <span class="eng-text">${song.album.eng}</span>`:`Album: ${song.album.tig}`;
+    card.querySelector('p:nth-of-type(3)').innerHTML = primaryLang==='eng'?`Genre: <span class="eng-text">${song.genre.eng}</span>`:`Genre: ${song.genre.tig}`;
   });
 });
 
@@ -667,5 +664,3 @@ function transliterateTigrinyaToLatin(text) {
 </script>
 </body>
 </html>
-
-
