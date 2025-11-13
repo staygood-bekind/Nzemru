@@ -6414,6 +6414,339 @@ song23: {
 },
       
     song199: {
+    title: { tig: "ክርስትያን ተዓጠቕ", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `
+1.ክርስትያን ተዓጠቕ ንጐይታ ኣመስግን 
+ልብኻ ምስ ኢድካ ናብ ኣምላኽካ ኣልዕል 
+መድሕን ተወሊዱ ቃል ብስራት ንገር  
+ንእግዚር ኣምላኽካ ኣመስግን ብመዝሙር 
+ጥዑም ቃል ብስራት ኣብ ምድሪ ተሰሞዐ 
+ኣብ ቤትሊሔም ይሁዳ  
+ኣብ መብልዕ ማል ተወልደ 
+ጌና ይመስል ኔሩ ጊዜኡ ዘይበጽሐ 
+ብምዱብ ጊዜ ግን መድሕና ተወልደ 
+2.ኣስምዕ ድምጺ ኣዋጅ እተነግረ ብነብያት 
+ኢየሱስ ከምተወልደ ተራእዮን ንጓሶት 
+ተገልጸ ንዓለም ኮነ ድሕነት ነህዛብ 
+ዕልል በል ተሓጎስ ኣበስር ብስራት 
+3.እቲ ቀዳማይ ኣዳም ሞተ ብሓጢኣቱ 
+ኣምላኽ ጸገወና ነይዉዳእ ምሕረቱ 
+ናይ ይቕሬታ ኣምላኽ ሓደ ወዱ ሃበና 
+ዓለም ትተሓጎስ መድሕን ተወልደልና  
+4.ዕርዲ ናይ ጸላኢ ብስልጣን ሰባሪ  
+ብሩህ ኮኾብ ጽባሕ ንቓሉ መኽበሪ 
+እመን ንኽትድሕን ኢየሱስ ተወሊዱ 
+እዚ ጥራይ ኣይኮነን ምእንታና መይቱ `,
+    eng: ``
+},
+      
+    song200: {
+    title: { tig: "ተሓጎሲ ነብሰይ", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: ` 
+ተሓጎሲ ነብሰይ ደስ ይበልኪ 
+ናይ ትሕትና ጐይታ ዝረኸብኪ 
+ተወልደ ኣብ መብልዕ ማል ሕይወት ክህበኪ 
+1.ኣብ ጸልማት ኣብ ሓጢኣት ክነብር ከለኹ 
+መራሒ ስኢነ ክብል የማን ጸጋም 
+ተወልደለይ ኢየሱስ ካብ ርሕርሕቲ ማርያም 
+ክብረቱ ገዲፉ ንዓይ ንኸድሕን 
+ተወልደ ኣብ መብልዕ ማል እቲ ፈቃር መድሕን  
+2.ቁርን ኣስሓይታን ዛሕሊ ኣብ ዝባኑ 
+ማንም ኣይ ነበረን ክዳን ዘምጽኣሉ 
+ብዓለባ ጌራ ጠቕለለቶ ኣዲኡ 
+ብእስትንፋስ ናይ ከብቲ ሙቐት እናረኸበ 
+ጸጋ መሊእዎ ፈገግታኡ ሃበ 
+ምልክት ናይ ፍቕሪ ብእኡ ተጀመረ `,
+    eng: ``
+},
+          
+    song201: {
+    title: { tig: "ብደስታ ብታሕጓስ", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `  
+ብደስታ ብታሕጓስ ምእመናን ንዑናይ 
+ብደስታ ብታሕጓስ ንቤትልሔም ንዑናይ 
+ንዑናይ ንዑናይ /4/ ንዑናይ 
+ሕጻን ክንርኢ ንዑል ንጉስ ሰማይ /3/ 
+ንዑናይ ክስገደሉ  /2/ ንዑናይ 
+ንመድሕን ክንሰግደሉ ንዑናይ /2/ 
+ኣባጊዕ ገዲፎም ናብ ትሑት ብዓቲ 
+ጓሶት ጎዮም ከዱ በታ ፍርቂ ለይቲ 
+ንዑናይ ንዑናይ /4/ ንዑናይ 
+ብደስታ ብታሕጓስ ምእመናን ንዑናይ 
+ብደስታ ብታሕጓስ ንቤትልሔም ንዑናይ 
+ንዑናይ ንዑናይ /4/ ንዑናይ 
+ንኺድ ንሕና’ውን ብቕልጡፍስጉምቲ/3/ 
+ንዑናይ ክንሰግደሉ /2/ ንዑናይ 
+ንመድሕን ክንሰግደሉ ንዑናይ /2/ 
+ብደስታ ብታሕጓስ ምእመናን ንዑናይ 
+ብደስታ ብታሕጓስ ንቤትልሔም ንዑናይ 
+ንዑናይ ንዑናይ /4/ ንዑናይ `,
+    eng: ``
+},
+       
+    song202: {
+    title: { tig: "ኮኾብ ሰማይ", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: ` 
+ኮኾብ ሰማይ ህጻን ሰናይ 
+የዋህ በጊዕ መድሓኒየይ 
+1.ቀደም ነብያት ዝተነበዩኻ 
+ጭፍራ መላእኽቲ ዘበሰሩኻ 
+2.ነእምሮይ ይኹን ብርሃን  
+ንልብና ሃብ ሰላም 
+3.ወልድ ኣምላኽ ሕያው ዘልኣለም 
+ሰረጸ እምድንግል ጐይታ ዓለም 
+5 መድሓኒና ካብ ሰማይ ወረደ  
+መድሓኒና ካብ ሰማይ ወረደ 
+ምእንታና ካብ ድንግል ተወልደ ሃሌሉያ 
+ልዕሊ ሰማይ ዝነብር ዙፋኑ 
+ውሽጢ ቀላይ ዝርኢ ብዓይኑ,,,ሃሌ ሉያ 
+ክብሪ ኣዳም ስለእተደምሰሰ ብሓዲስ ስጋና ለበሰ,,, ሃሌሉያ 
+ኣብ መንበሩ ማንም ዘይቐርቦ 
+ፍቕሪ ኣዳም ን ኣምላኽ ሰሓቦ,,,ሃሌሉያ 
+ሰማያዊ ሰማይ ዝፈጠረ 
+ኣብ ቤትልሔም መብልዕ ማል ሓደረሃሌሉያ `,
+    eng: ``
+},
+       
+    song203: {
+    title: { tig: "ኣብ ቤተልሔም ሰማያት በርሀ", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `  
+ኣብ ቤተልሔም /2/ ሰማያት በርሀ 
+ነጸብራቕ’ዉን ንጓሶት’ዉን ደጉሐ /2/ 
+መልኣኽ በሎም /2/ ንብስራት  
+ተፈጺሙ ምስጢረ ድሕነት/2/ 
+መላእኽቲ /2/ ጭፍራ ዘመሩ 
+ብሰማያት ቃል ሰላም ነገሩ /2/ 
+ናብ በዓቲ /2/ ምኻድ መኸሩ  
+ምሕረት ኣምላኽ ጥዒሞም ኣንከሩ /2/ 
+ረኸብዎ /2/ ሕጻን ጥቕሉል 
+ፈጣሪ ዓለም ኣብ መብልዕ ማል /2/ 
+ኦ ዘደንቕ /2/ ፍቕሪ ፈጣሪ 
+ምእንታና ኣብ ክንድዚ ቁሪ /2/ 
+ተሓጎሱ /2/ ኣሕዛብ ዓለም  
+ተወለደ ንጉስ ሰላም /2/  
+ኣሰይ ኣሰይ /2/ ዕንዱ ሰናይ 
+መጺእካለይ ሎሚ ካብ ሰማይ /2/ `,
+    eng: ``
+},
+       
+    song204: {
+    title: { tig: "ንዓይ ክትስልም", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: ` 
+ንዓይ ክትስልም ብጸጋ ፍቕርኻ 
+ሕሱም ንብረተይ ሓጢኣተይ ርኢኻ 
+ኣነ እንክኹብልል ኣብ ዓለም በረኻ 
+ኣርኣያ ግዙእ ኣዳም ሓረኻ /3/ 
+ኢያቄም ሃና ጻድቃናት ወለዲ 
+ብርሃን ፈረየ ንሰማይ መንገዲ 
+ዕንባባ ገነት ንሰማይ ዘውዲ 
+ፈረየት ህይወት ናይ ወይኒ ጉንዲ /3/ 
+ህይወት ናዝሬት ዝመልኦ ትሕትና 
+ምስ ማርያም ዮሴፍ ሰብ ኪዳን ንጽሕና 
+ግሩም ኣብነት ዝኸዉን ንዓና 
+ክንክተለካ ሓይሊ ሃበና /3/ 
+ንዓይ ክትደሊ ዝጠፍአት በጊዕካ 
+ኣእላፍ መላእኽቲ ኣብ ሰማይ ሓዲግካ 
+ንጉስ ሰማያት ትሕትና ለቢስካ  
+ካብ ኩሉ ነገር ፍቕረይ መሪጽካ /3/ 
+ኩሎም ክብሉኻ ኣምላኽ ዝዓበደ 
+ፍቕረይ ከናዲ ካብ ላዕሊ ወረደ 
+ንዓይ ክትደሊ ኣብራኽካ ረዓደ 
+እንክፈትወካ ፍቕረይ ወሓደ /3/`,
+    eng: ``
+},
+       
+    song205: {
+    title: { tig: "ኣብ ልበይ ተወለድ ኢየሱስይ", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: ` 
+ኣብ ልበይ ተወለድ ‘የሱሰይ /2/ 
+ከም መብልዕ ማል ይኹንካ ልበይ /2/ 
+1.ካብ ኩለን ደናግል ኣብ ማርያም  
+ካብ ኩሉ ስፍራ ኣብ መብልዕ ማል 
+ዝሓደርካ ፈቃር ኢየሱሰይ 
+ሎሚ ድማ ሕደር ኣብ ልበይ 
+2.ለባማት ጭዋታት ዘይጸዋዕካ 
+ንኹሎም ድኻታት ዘፍቀርካ  
+ናይ ትሕትና ጐይታ ኢየሱሰይ 
+ምልኣዮ መንፈስካ ንልበይ 
+3.ብስራት ንጓሶት ዝሃብካ  
+ምስጋና ንህጻናት ዘዳሎኻ 
+ንትሑታት ዘፍቀርካ ‘የሱሰይ 
+ሎሚ ድማ ኣፍቅሮ ንልበይ `,
+    eng: ``
+},
+       
+    song206: {
+    title: { tig: "እንካብ ሰማይ ኮኾብ ወረደ", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: ` 
+እንካብ ሰማይ ኮኾብ ወረደ 
+ኣብ ማርያም ተኣንገደ 
+መድሕን ዓለም ተወለደ 
+ፈጣሪ ኮነ ከማና 
+ካብ ማርያም ተወሊዱልና 
+ኣማኑኤል ኣብ ማእከልና 
+ፍርቂ ለይቲ ኣብ ቤተልሔም 
+ዕንዱ መጸ ፈጣሪ ዓለም 
+ብርሃን ኮነ ናይ ሰላም 
+ተጠምቀ ኣብ ዮርዳኖስ 
+ተቐበለ መንፈስ ቅዱስ 
+ሰማይ ሃበ ቃል ሓጎስ `,
+    eng: ``
+},
+       
+    song207: {
+    title: { tig: "እንሆ ንኹሉ ሕዝቢ", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: ` 
+እንሆ ንኹሉ ሕዝቢ ዝኾን ዓቢ ሓጎስ 
+አበስረኩም ኣለኹ እሞ ኣይትፍርሑ 
+እሰየ ብስራት /2/ 
+ሕጻን ተወሊዱ ኣብ ቤተሊሔም ክኸዉን መድሕን ዓለም 
+ካብ ድንግል ተወሊዱልና እቲ ትንቢት ንኽፍጸም  
+እሰየ ብስራት /2/ 
+ግሩም እዩ ንድምጹ ምስማዕ 
+ንመድሕን ሕይወትና 
+ልብና ንሃቦ ሰላም ከዉርደልና 
+ንሱ ድማ ክርስቶስ’ዩ ካብ ዓዲ ዳዊት’ዩ 
+ወዲ ኣምላኽ ክነሱሲ ኣብ መብልዕ ማል ደቂሱ 
+ስብሓት ይኹን ንዕኡ /2/  
+ክብሪ ይኹን ንልዑል እግዚኣብሔር ኣብ ላዕሊ 
+ሰላም ከኣ ኣብ ምድሪ ይኹን ንሰብ ጽቡቕ ፍቓድ 
+ኣሜን ሃሌ ሉያ /2/ `,
+    eng: ``
+},
+       
+    song208: {
+    title: { tig: "ተዳልየ ኣለኹ ኢየሱሰይ", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: ` 
+1. ብሸለልትነተይ ጸጋኻ ክሓልፈኒ  
+ትርጉም ምንባረይ ከይተረዳኣኒ 
+እመላለስ ኔረ ብዝመሰለኒ (2) 
+ሕጂ ግን ኢየሱስ ይዕድመካ  
+ኣብ ውሽጢ ልበይ ይቕበለካ (2) 
+‘የሱስ ኳሕኩሓዮ ማዕጾ ልበይ 
+ተዳልየ’ለኹ ክኸፍተልካ ዉሽጠይ 
+ክትኣቱ ክትድረር’ውን ምሳይ 
+ኣብ ልበይ ክትውለድ ‘የሱሰይ 
+ብሓይሊ መንፈስካ ክትሰርሕ’ውን ኣባይ 
+እዚ’ዩ እዚ’ዩ ትርጉም ልደት ንዓይ (3) 
+2. ክቡር ወዲ ኣምላኽ እንክንስኻ 
+ኣብ መብልዕ ማል ክትውለድ ፈሪዶምኻ 
+ሓደ’ኳ ኣይነበረን ዝተገደሰልካ (2) 
+ኣነ ግን ነዚ ክደግሞ ኣይደልን’የ 
+ኣፍደገ ልበይ ክኸፍተልካየ (2) 
+3. ዝበቕዓካ ስፍራ ክንደይ ክይህበካ 
+ንልበይ ኣንጺሀ ክጽበየካ 
+ንዘልኣለም ኣለም ክነብር ምሳኻ 
+ንዘልኣለም ኣለም ክነብር ኣብ ቤትካ 
+ስለዚ ንዓ እቶ ‘የሱስ  
+ከም መብልዕ ማል ይኹንካ ልበይ (2)  
+‘የሱስ ኳሕኩሓዮ ,,, `,
+    eng: ``
+},
+       
+    song209: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `ተወሊዱ መድሕን 
+1. እዛ ሎሚ ለይቲ ብሓቂ ቅድስቲ 
+ኢየሱስ ተወሊዱ ኣብ መብልዕ ማል በዓቲ 
+ኣሕዋት ንተሓጎስ ሰዓብቱ ዝኾና 
+ሓጢኣትና ዝድምስስ ስለዝተወልደልና 
+ተወሊዱ ኢየኡስ ተወሊዱ 
+ተወሊዱ መድሕን ተወሊዱ 
+ንሕና’ ውን ልባትና ንኽፈት ኣባና ክውለድ 
+2. ጽድቂ ኣልቢሱና ኢየሱስ መድሓኒና 
+ካብ ጸልማት ናይ ሰይጣን መንዚዑ ‘ውጽኣና 
+በዚ ሎሚ ዕለት ልደት ናይ ጐይታና 
+ካብ ሓጢኣት ዘውጽኣና ነመስግኖ ኢና 
+3. ስለዝደለየ ትሕትና ክምህረና 
+ኢየሱስ ተወሊዱ ሓደረ ኣብ መንጎና 
+በዚ ሎሚ ዕለት ንግለጾ ፍቕርና 
+ብምሉእ ልባትና ነመስግኖ ሓቢርና 
+4. ኣዕዋፍ ሰማይ ሎሚ ብሓንሳብ ዘምራ  
+ምስ መዝሙር መላእኽቲ ድምጽኽን ጸምብራ 
+ጐይታ ኢየሱስ ጥራይ ናይ ሓጢኣት ኣባራሪ 
+ብዘይካኡ የልቦን ንሓጢኣት ዝሰሪ `,
+    eng: ``
+},
+       
+    song210: {
     title: { tig: "Okay", eng: "" },
     author: { tig: "", eng: "" },
     album: { tig: "", eng: "" },
@@ -6425,7 +6758,527 @@ song23: {
     tig: `10ናይ ሶንግ 10 ትርጉም ...`,
     eng: ``
 },
-      
+       
+    song211: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: ``
+},
+       
+    song212: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: ``
+},
+       
+    song213: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: ``
+},
+       
+    song214: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: ``
+},
+       
+    song215: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: ``
+},
+       
+    song216: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: ``
+},
+       
+    song217: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: ``
+},
+       
+    song218: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: ``
+},
+       
+    song219: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: ``
+},
+       
+    song220: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: ``
+},
+       
+    song221: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: ``
+},
+       
+    song222: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: ``
+},
+       
+    song223: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: ``
+},
+       
+    song224: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: ``
+},
+       
+    song225: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: ``
+},
+       
+    song226: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: ``
+},
+       
+    song227: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: ``
+},
+       
+    song228: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: ``
+},
+       
+    song229: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: ``
+},
+       
+    song230: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: ``
+},
+       
+    song231: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: ``
+},
+       
+    song232: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: ``
+},
+       
+    song233: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: ``
+},
+       
+    song234: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: ``
+},
+       
+    song235: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: ``
+},
+       
+    song236: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: ``
+},
+       
+    song237: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: ``
+},
+       
+    song238: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: ``
+},
+       
+    song239: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: ``
+},
+       
+    song240: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: ``
+},
+       
+    song241: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: ``
+},
+       
+    song242: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: ``
+},
+       
+    song243: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: ``
+},
+       
+    song244: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: ``
+},
+       
+    song245: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: ``
+},
+       
+    song246: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: ``
+},
+       
+    song247: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: ``
+},
+       
+    song248: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: ``
+},
+       
+    song249: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: ``
+},
+       
+    song250: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: ``
+},
+       
     song200: {
     title: { tig: "Okay", eng: "" },
     author: { tig: "", eng: "" },
@@ -6438,6 +7291,72 @@ song23: {
     tig: `10ናይ ሶንግ 10 ትርጉም ...`,
     eng: ``
 },
+       
+    song200: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: ``
+},
+       
+    song200: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: ``
+},
+       
+    song200: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: ``
+},
+       
+    song200: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: ``
+},
+       
+    song200: {
+    title: { tig: "Okay", eng: "" },
+    author: { tig: "", eng: "" },
+    album: { tig: "", eng: "" },
+    genre: { tig: "", eng: "" },
+    date: "",
+    youtube: "",
+    spotify: "",   
+    cover: "images/album1.jpg",
+    tig: `10ናይ ሶንግ 10 ትርጉም ...`,
+    eng: ``
+},
+ 
      
                                     
 // … continue incrementally up to song64
