@@ -465,6 +465,24 @@ langBtn.addEventListener('click', () => {
   langBtn.textContent = currentLang === 'tig' ? 'English' : 'ትግርኛ';
 });
 
+
+// ===== PRIMARY ACTION LANGUAGE TOGGLE =====
+const primaryAction = document.getElementById('primaryAction');
+let primaryLang = 'tig';
+primaryAction.addEventListener('click', ()=>{
+  primaryLang = primaryLang==='tig'?'eng':'tig';
+ primaryAction.textContent = primaryLang === 'tig' ? 'English' : 'ትግርኛ';
+  // Update all cards
+  cards.forEach(card=>{
+    const id = card.dataset.id;
+    const song = lyricsData[id];
+    card.querySelector('h3').innerHTML = primaryLang==='eng'?`<span class="eng-text">${song.title.eng}</span>`:song.title[primaryLang];
+    card.querySelector('p:nth-of-type(1)').innerHTML = primaryLang==='eng'?`Author: <span class="eng-text">${song.author.eng}</span>`:`Author: ${song.author.tig}`;
+    card.querySelector('p:nth-of-type(2)').innerHTML = primaryLang==='eng'?`Album: <span class="eng-text">${song.album.eng}</span>`:`Album: ${song.album.tig}`;
+    card.querySelector('p:nth-of-type(3)').innerHTML = primaryLang==='eng'?`Genre: <span class="eng-text">${song.genre.eng}</span>`:`Genre: ${song.genre.tig}`;
+  });
+});
+
 // ===== SEARCH (Tigrinya + Latin) =====
 const searchInput = document.getElementById('searchInput');
 const normalize = str => str.normalize("NFC").toLowerCase();
@@ -643,4 +661,6 @@ function transliterateTigrinyaToLatin(text) {
 </script>
 </body>
 </html>
+
+
 
