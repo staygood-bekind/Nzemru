@@ -175,9 +175,6 @@ box-shadow:0 6px 18px rgba(59,130,246,0.12);}
   <div class="brand">
     <button class="hamburger" id="hamburgerBtn"><span class="bars"><span></span><span></span><span></span></span></button>
   </div>
-  <div class="top-controls">
-    <button class="btn" id="primaryAction">ትግርኛ</button>
-  </div>
 </header>
 
 <aside id="siteSidebar" class="sidebar">
@@ -443,7 +440,7 @@ tagBtn.addEventListener('click', () => {
   
 
 
-// ===== SMART LANGUAGE TOGGLE (modal cards) =====
+// ===== SMART LANGUAGE TOGGLE (with auto Latin) =====
 langBtn.addEventListener('click', () => {
   if (!currentCard) return;
   const id = currentCard.dataset.id;
@@ -451,8 +448,9 @@ langBtn.addEventListener('click', () => {
   
   let displayTitle = "";
   let displayLyrics = "";
-
+  
   if (currentLang === 'eng') {
+    // Use existing English text if available, else auto-transliterate
     displayTitle = lyricsData[id].title.eng || transliterateTigrinyaToLatin(lyricsData[id].title.tig);
     displayLyrics = lyricsData[id].eng || transliterateTigrinyaToLatin(lyricsData[id].tig);
     displayTitle = `<span class="eng-text">${displayTitle}</span>`;
@@ -467,26 +465,6 @@ langBtn.addEventListener('click', () => {
   langBtn.textContent = currentLang === 'tig' ? 'English' : 'ትግርኛ';
 });
 
-
-// ===== SMART TRANSCRIPTION TOGGLE (global, outside cards) =====
-const primaryAction = document.getElementById('primaryAction');
-let lang = localStorage.getItem('lang') || 'tig';
-
-function updateLang(l) {
-  document.querySelectorAll('.transcribe[data-tig]').forEach(el => {
-    const t = el.dataset.tig?.trim() || el.textContent.trim();
-    el.innerHTML = l === 'eng'
-      ? `<span class="eng-text">${transliterateTigrinyaToLatin(t)}</span>`
-      : t;
-  });
-  primaryAction.textContent = l === 'tig' ? 'English' : 'ትግርኛ';
-  localStorage.setItem('lang', l);
-}
-
-primaryAction.onclick = () => updateLang(lang = lang === 'tig' ? 'eng' : 'tig');
-updateLang(lang);
-
-
 // ===== SEARCH (Tigrinya + Latin) =====
 const searchInput = document.getElementById('searchInput');
 const normalize = str => str.normalize("NFC").toLowerCase();
@@ -498,12 +476,17 @@ searchInput.addEventListener('input', () => {
     const id = card.dataset.id;
     const song = lyricsData[id];
 
+    // Combine all searchable text
     const textTig = (song.title.tig + song.tig + song.author.tig).toLowerCase();
     const textEng = (song.title.eng + song.eng + song.author.eng).toLowerCase();
     const textLatin = transliterateTigrinyaToLatin(song.title.tig + song.tig + song.author.tig).toLowerCase();
 
-    card.style.display = (textTig.includes(query) || textEng.includes(query) || textLatin.includes(query))
-      ? 'block' : 'none';
+    // Show card if any text contains query
+    if (textTig.includes(query) || textEng.includes(query) || textLatin.includes(query)) {
+      card.style.display = 'block';
+    } else {
+      card.style.display = 'none';
+    }
   });
 
   updateSongCount();
@@ -660,5 +643,3 @@ function transliterateTigrinyaToLatin(text) {
 </script>
 </body>
 </html>
-
-
