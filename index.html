@@ -40,21 +40,6 @@ box-shadow:0 6px 18px rgba(59,130,246,0.12);}
 .btn{border:1px solid rgba(0,0,0,0.06);background:var(--card);color:var(--text);padding:8px 12px;border-radius:8px;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;gap:8px;box-shadow:var(--shadow);}
 [data-theme="dark"] .btn{border:1px solid rgba(255,255,255,0.04);}
 
-  <button id="transcribeBtn" style="
-    position: fixed;
-    top: 15px;
-    right: 20px; 
-    z-index: 1000;
-    padding: 8px 12px;
-    border-radius: 8px;
-    border: none;
-    background-color: #4caf50;
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
-">Transcribe</button>
-
-
 /* NEW THEME TOGGLE BUTTON */
 .theme-toggle {
   display: inline-flex;
@@ -346,28 +331,6 @@ songsArray.forEach(({ id, song }) => {
   lyricsGrid.appendChild(card);
   cards.push(card);
 });
-
-  //transcription button JS//
-const transcribeBtn = document.getElementById('transcribeBtn');
-
-transcribeBtn.addEventListener('click', () => {
-  cards.forEach(card => {
-    const id = card.dataset.id;
-    const song = lyricsData[id];
-
-    const titleLatin = transliterateTigrinyaToLatin(song.title.tig);
-    const authorLatin = transliterateTigrinyaToLatin(song.author.tig);
-    const albumLatin = transliterateTigrinyaToLatin(song.album.tig);
-    const genreLatin = transliterateTigrinyaToLatin(song.genre.tig);
-
-    card.querySelector('h3').innerHTML = `${titleLatin} ${song.isDuplicate ? "⚠ (Duplicate)" : ""}`;
-    const pElements = card.querySelectorAll('p');
-    pElements[0].textContent = `Author: ${authorLatin}`;
-    pElements[1].textContent = `Album: ${albumLatin}`;
-    pElements[2].textContent = `Genre: ${genreLatin}`;
-  });
-});
-
   
   // ===== Load Saved Tags =====
 const savedTags = JSON.parse(localStorage.getItem('taggedSongs') || '[]');
@@ -666,6 +629,7 @@ function transliterateTigrinyaToLatin(text) {
 </script>
 </body>
 </html>
+
 
 
 
