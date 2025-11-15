@@ -542,7 +542,6 @@ filterLinks.forEach(link => {
     e.preventDefault();
     const filter = link.dataset.filter.toLowerCase();
 
-    // Highlight active link
     filterLinks.forEach(l => l.classList.remove('active'));
     link.classList.add('active');
 
@@ -550,33 +549,30 @@ filterLinks.forEach(link => {
     threeMonthsAgo.setMonth(threeMonthsAgo.getMonth() - 3);
 
     cards.forEach(card => {
-      const id = card.dataset.id;
-      const isTagged = card.classList.contains('taged');
-      const genre = card.dataset.genre || 'other';
+      const id = card.dataset.id;   // <--- THIS is the correct version
+
       const song = lyricsData[id];
-      const songDate = song?.date ? new Date(song.date) : null;
+      const songDate = new Date(song.date);
 
-      let show = false;
+      let show = true;
 
-      if (filter === 'all') show = true;
-      else if (filter === 'tagged') show = isTagged;
-      else if (filter === 'recent') {
-        // ✅ show only if song date is within 3 months
-        if (songDate && songDate >= threeMonthsAgo) show = true;
-      } else {
-        // genre filters like 'msgana', 'amlko', etc.
-        show = genre === filter;
+      if (filter === "tagged") {
+        show = card.classList.contains("taged");
+      }
+      else if (filter === "recent") {
+        show = songDate >= threeMonthsAgo;
+      }
+      else if (filter !== "all") {
+        show = song.genre.eng.toLowerCase() === filter;
       }
 
-      card.style.display = show ? 'block' : 'none';
+      card.style.display = show ? "block" : "none";
     });
-
-    sidebar.classList.remove('open');
-    hamburger.classList.remove('active');
 
     updateSongCount();
   });
 });
+
 // ===== TRANSLITERATION HELPER =====
 function transliterateTigrinyaToLatin(text) {
   if (!text) return "";
@@ -632,6 +628,7 @@ function transliterateTigrinyaToLatin(text) {
 </script>
 </body>
 </html>
+
 
 
 
