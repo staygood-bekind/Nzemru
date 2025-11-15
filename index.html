@@ -355,7 +355,7 @@ let currentLang = 'tig';
 cards.forEach(card => {
   card.addEventListener('click', () => {
     currentCard = card;
-    currentLang = primaryLang;
+    currentLang = 'tig'; // default language when opening a card
     langBtn.textContent = currentLang === 'tig' ? 'English' : 'ትግርኛ';
     const id = card.dataset.id;
 
@@ -628,6 +628,7 @@ function transliterateTigrinyaToLatin(text) {
 </script>
 </body>
 </html>
+
 
 
 
