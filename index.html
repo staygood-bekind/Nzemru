@@ -347,7 +347,6 @@ const modalContent = document.getElementById('modalContent');
 const closeModal = document.getElementById('closeModal');
 const tagBtn = document.getElementById('tagBtn');
 const langBtn = document.getElementById('langBtn');
-const songLinkBtn = document.getElementById('songLinkBtn');
 
 let currentCard = null;
 let currentLang = 'tig';
@@ -401,20 +400,6 @@ cards.forEach(card => {
 
     // Show modal
     lyricModal.style.display = 'flex';
-
-    // Corner link button
-    if (lyricsData[id].link && lyricsData[id].link.trim() !== "") {
-      songLinkBtn.href = lyricsData[id].link;
-      songLinkBtn.target = "_blank";
-      songLinkBtn.style.opacity = "1";
-      songLinkBtn.style.pointerEvents = "auto";
-      songLinkBtn.title = "Open Song";
-    } else {
-      songLinkBtn.href = "#";
-      songLinkBtn.style.opacity = "0.5";
-      songLinkBtn.style.pointerEvents = "none";
-      songLinkBtn.title = "No Link";
-    }
 
     // Tag button text
     tagBtn.textContent = card.classList.contains('taged') ? 'Untag' : 'Tag';
@@ -647,6 +632,7 @@ function transliterateTigrinyaToLatin(text) {
 </script>
 </body>
 </html>
+
 
 
 
