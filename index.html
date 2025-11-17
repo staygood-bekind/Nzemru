@@ -627,8 +627,27 @@ function transliterateTigrinyaToLatin(text) {
 
 })();
 </script>
+  <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-analytics.js";
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyDR4EsYS3gRNx9zcGzCzTzTA1o_4wJfFI4",
+    authDomain: "nzemr-aa9cb.firebaseapp.com",
+    projectId: "nzemr-aa9cb",
+    storageBucket: "nzemr-aa9cb.firebasestorage.app",
+    messagingSenderId: "840050001910",
+    appId: "1:840050001910:web:086d45ad9100857ccce9d7",
+    measurementId: "G-W2YT7V1PSG",
+  };
+
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
 </body>
 </html>
+
 
 
 
